@@ -1,0 +1,72 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centeravatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+
+.right {
+  float: right;
+  font-size: 1.25rem;
+}
+
+.pubtitle{
+    color: #000080
+}
+
+.pubwraper{
+    left: 0;
+    right: 0;
+    overflow:auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.avatar{
+    left: 0;
+    width: 33%;
+    float: left;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-right: 3%;
+    padding-bottom: 4rem;
+}
+
+.pubentry{
+    float: left;
+    width: 58.5%;
+    margin-left: 3%;
+}
+
+.pubimg{
+    float: left;
+    width: 38.5%;
+    max-width: 12rem;
+    min-height: 8rem;
+}
+
+.pubmedia{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 1rem;
+    margin-left: 0.5em;
+}
+
+.pubmediacontainer {
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}

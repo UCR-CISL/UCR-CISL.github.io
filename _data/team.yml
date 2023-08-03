@@ -1,0 +1,32 @@
+- name: Hang Qiu
+  type: PI
+  web: https://hangqiu.github.io
+  avatar: HangQ.jpg
+- name: Yanyu Zhang
+  type: PHD
+  avatar: yanyu.jpg
+  department: ECE
+  coadvisor: Dr. Wei Ren
+- name: Haishan Liu
+  type: PHD
+  avatar: haishan.jpg
+  department: ECE
+  coadvisor: Dr. Matt Barth
+- name: Zhengwei Bai
+  web: https://zwbai.github.io/
+  type: PHD
+  avatar: zhengwei.jpg
+  department: ECE
+  coadvisor: Dr. Matt Barth
+- name: Haoge Liu
+  type: Grad
+  avatar: haoge.jpg
+  department: ECE
+- name: Joseph Spracklen
+  type: Undergrad
+  avatar: joseph.jpg
+  department: ECE
+- name: Jerry Li
+  type: Undergrad
+  avatar: jerry.jpg
+  department: CS

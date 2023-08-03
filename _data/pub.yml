@@ -1,0 +1,365 @@
+- ENTRYTYPE: misc
+  ID: womdlidar
+  archiveprefix: arXiv
+  author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
+    Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
+    Weiyue Wang, Mingxing Tan, Dragomir Anguelov
+  conf: arXiv
+  eprint: '2304.03834'
+  img: womdlidar.png
+  mediaa: waymo-logo.svg
+  mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open.html
+  primaryclass: cs.CV
+  title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
+  url: https://arxiv.org/abs/2304.03834
+  web: https://waymo.com/open/challenges/2023/motion-prediction/
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: mcal
+  author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
+  booktitle: Proceedings of the Eleventh International Conference on Learning Representations
+  code: https://github.com/hangqiu/MCAL
+  conf: ICLR
+  img: mcal.jpg
+  series: ICLR '23
+  talk: https://iclr.cc/virtual/2023/poster/12195
+  title: 'MCAL: Minimum Cost Human-Machine Active Labeling'
+  url: https://openreview.net/forum?id=1FxRPKrH8bw
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: qiu2021mlexray
+  author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
+    Chinchali, Zain Asgar, Sachin Katti
+  booktitle: Proceedings of Machine Learning and Systems
+  code: https://github.com/hangqiu/ML-EXray
+  conf: MLSys
+  img: mlexray.png
+  mediaa: embeddedcomputing.png
+  mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
+  note: Outstanding Paper Award
+  series: MLSys '22
+  title: 'ML-EXray: Visibility into ML Deployment on the Edge'
+  url: https://arxiv.org/abs/2111.04779
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: coopernaut
+  author: Hang Qiu*, Jiaxun Cui*, Dian Chen, Peter Stone, Yuke Zhu
+  booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+    Recognition
+  code: https://github.com/UT-Austin-RPL/Coopernaut
+  conf: CVPR
+  demo: https://youtu.be/rwR8Q5nuKkc
+  img: coopernaut.png
+  month: June
+  series: CVPR '22
+  title: 'Coopernaut: End-to-End Driving with Cooperative Perception for Networked
+    Vehicles'
+  url: https://arxiv.org/abs/2205.02222
+  web: https://ut-austin-rpl.github.io/Coopernaut/
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: autocast
+  author: Hang Qiu, Pohan Huang, Namo Asavisanu, Xiaochen Liu, Konstantinos Psounis,
+    Ramesh Govindan
+  booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
+    Applications, and Services
+  code: https://github.com/hangqiu/AutoCast
+  conf: ACM MobiSys
+  demo: https://www.youtube.com/watch?v=uBmdCRmZNIo
+  img: autocast.png
+  series: ACM MobiSys '22
+  talk: https://www.youtube.com/watch?v=EZ8t9eaddyM
+  title: 'AutoCast: Scalable Infrastructure-less Cooperative Perception for Distributed
+    Collaborative Driving'
+  url: https://arxiv.org/abs/2112.14947
+  web: https://hangqiu.github.io/AutoCast/
+  year: '2022'
+- ENTRYTYPE: article
+  ID: CamLoc
+  address: New York, NY, USA
+  articleno: '28'
+  author: Pradipta Ghosh, Xiaochen Liu, Hang Qiu, Marcos A. M. Vieira, Gaurav S. Sukhatme,
+    Ramesh Govindan
+  conf: TOSN
+  doi: 10.1145/3508393
+  img: CamLoc.png
+  issn: 1550-4859
+  issue_date: May 2022
+  journal: ACM Transactions on Sensor Networks
+  keywords: neural network, Localization, camera, mechanical turk, vanishing point
+  month: feb
+  number: '2'
+  numpages: '26'
+  publisher: Association for Computing Machinery
+  series: TOSN '22
+  title: 'Sensing the Sensor: Estimating Camera Properties with Minimal Information'
+  url: https://doi.org/10.1145/3508393
+  volume: '18'
+  year: '2022'
+- ENTRYTYPE: techreport
+  ID: ghosh2020localizing
+  author: Pradipta Ghosh, Xiaochen Liu, Hang Qiu, Marcos AM Vieira, Gaurav S Sukhatme,
+    Ramesh Govindan
+  conf: ''
+  institution: ArXiv
+  title: On Localizing a Camera from a Single Image
+  url: https://arxiv.org/abs/2003.10664
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: carmap
+  address: Santa Clara, CA
+  author: Fawad Ahmad, Hang Qiu, Ray Eells, Fan Bai, Ramesh Govindan
+  booktitle: Proceedings of the 17th Symposium on Networked Systems Design and Implementation
+  code: https://github.com/USC-NSL/CarMap
+  conf: USENIX NSDI
+  demo: https://youtu.be/SlG4QGq5ypk
+  img: carmap.png
+  isbn: 978-1-939133-13-7
+  month: Feb
+  pages: 1063--1081
+  publisher: '{USENIX} Association'
+  series: USENIX NSDI '20
+  title: 'CarMap: Fast 3D Feature Map Updates for Automobiles '
+  url: https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: he2020fedml
+  author: Chaoyang He, Songze Li, Jinhyun So, Mi Zhang, Hongyi Wang, Xiaoyang Wang,
+    Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen,  others
+  booktitle: Proceedings of the 34th Conference on Neural Information Processing Systems
+    (NeurIPS '20), Workshop on Scalability, Privacy, and Security in Federated Learning
+  code: https://github.com/FedML-AI
+  conf: NeurIPS, SpicyFL
+  img: fedml.png
+  note: Best Paper Award
+  series: NeurIPS, SpicyFL '20
+  title: 'FedML: A Research Library and Benchmark for Federated Machine Learning'
+  url: https://arxiv.org/abs/2007.13518
+  web: https://fedml.ai/
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: wheatman2020optimal
+  author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin Chan,
+    Thomas La Porta
+  booktitle: Proceedings of the 17th Annual IEEE International Conference on Sensing,
+    Communication, and Networking
+  conf: IEEE SECON
+  img: secon20.png
+  organization: IEEE
+  pages: 1--9
+  series: IEEE SECON '20
+  title: Optimal Resource Allocation for Crowdsourced Image Processing
+  url: https://ieeexplore.ieee.org/abstract/document/9158417
+  year: '2020'
+- ENTRYTYPE: inbook
+  ID: avr_getmobile
+  address: New York, NY, USA
+  author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
+  booktitle: 'GetMobile: Mobile Comp. and Comm.'
+  conf: 'GetMobile: Mobile Comp. and Comm.'
+  doi: 10.1145/3325867.3325880
+  issn: 2375-0529
+  issue_date: December 2018
+  month: may
+  note: "Invited article (Best Paper runner-up of Mobisys\u201918)"
+  number: '4'
+  numpages: '5'
+  pages: "30\u201334"
+  publisher: Association for Computing Machinery
+  title: 'Augmented Vehicular Reality: Enabling Extended Vision for Future Automobiles'
+  url: https://doi.org/10.1145/3325867.3325880
+  volume: '22'
+  year: '2019'
+- ENTRYTYPE: inbook
+  ID: ahmad2018quicksketch
+  author: Fawad Ahmad, Hang Qiu, Xiaochen Liu, Fan Bai, Ramesh Govindan
+  booktitle: 21st International Conference on Information Fusion (Fusion '18)
+  conf: 21st International Conference on Information Fusion (Fusion
+  organization: IEEE
+  pages: 2314--2321
+  title: 'QuickSketch: Building 3D Representations in Unknown Environments using Crowdsourcing'
+  url: https://ieeexplore.ieee.org/abstract/document/8455437/
+  year: '2018'
+- ENTRYTYPE: inproceedings
+  ID: avr
+  address: New York, NY, USA
+  author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
+  booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
+    Applications, and Services
+  code: https://github.com/hangqiu/AVR16
+  conf: ACM MobiSys
+  demo: https://www.youtube.com/watch?v=9rOtH3hDcw8&t
+  doi: 10.1145/3210240.3210319
+  img: avr.png
+  isbn: '9781450357203'
+  keywords: Collaborative Sensing, Autonomous Cars, Extended Vision
+  location: Munich, Germany
+  note: Best Paper Runner-up Award
+  numpages: '15'
+  pages: "81\u201395"
+  publisher: Association for Computing Machinery
+  series: ACM MobiSys '18
+  talk: https://youtu.be/QWrEl1-m0ho
+  title: 'AVR: Augmented Vehicular Reality'
+  url: https://doi.org/10.1145/3210240.3210319
+  year: '2018'
+- ENTRYTYPE: inproceedings
+  ID: qiu2018kestrel
+  author: Hang Qiu, Xiaochen Liu, Swati Rallapalli, Archith J Bency, Kevin Chan, Rahul
+    Urgaonkar, BS Manjunath, Ramesh Govindan
+  booktitle: Proceedings of the 3rd IEEE/ACM International Conference on Internet-of-Things
+    Design and Implementation
+  conf: IEEE/ACM IoTDI
+  data: https://drive.google.com/file/d/0Bz3GHg4Beq4Xd1ZjUzk2dG1ycEMyZ3FGaXNLV2FLN0RPeGNR/view?usp=sharing
+  demo: https://youtu.be/vSO7mYUpEhs
+  img: kestrel.png
+  organization: IEEE
+  pages: 48--59
+  series: IEEE/ACM IoTDI '18
+  title: 'Kestrel: Video analytics for augmented multi-camera vehicle tracking'
+  url: https://ieeexplore.ieee.org/abstract/document/8366976
+  year: '2018'
+- ENTRYTYPE: inproceedings
+  ID: avr_hotmobile
+  abstract: Like today's autonomous vehicle prototypes, vehicles in the future will
+    have rich sensors to map and identify objects in the environment. For example,
+    many autonomous vehicle prototypes today come with line-of-sight depth perception
+    sensors like 3D cameras. These cameras are used for improving vehicular safety
+    in autonomous driving, but have fundamentally limited visibility due to occlusions,
+    sensing range, and extreme weather and lighting conditions. To improve visibility
+    and performance, not just for autonomous vehicles but for other Advanced Driving
+    Assistance Systems (ADAS), we explore a capability called Augmented Vehicular
+    Reality (AVR). AVR broadens the vehicle's visual horizon by enabling it to share
+    visual information with other nearby vehicles, but requires careful techniques
+    to align coordinate frames of reference, and to detect dynamic objects. Preliminary
+    evaluations hint at the feasibility of AVR and also highlight research challenges
+    in achieving AVR's potential to improve autonomous vehicles and ADAS.
+  address: New York, NY, USA
+  author: Hang Qiu, Fawad Ahmad, Ramesh Govindan, Marco Gruteser, Fan Bai, Gorkem
+    Kar
+  booktitle: Proceedings of the 18th International Workshop on Mobile Computing Systems
+    and Applications
+  conf: ACM HotMobile
+  doi: 10.1145/3032970.3032976
+  img: avr_hotmobile.png
+  isbn: '9781450349079'
+  keywords: Extended Vision, Collaborative Sensing, Autonomous Cars, ADAS
+  location: Sonoma, CA, USA
+  numpages: '6'
+  pages: "67\u201372"
+  publisher: Association for Computing Machinery
+  series: ACM HotMobile '17
+  title: 'Augmented Vehicular Reality: Enabling Extended Vision for Future Vehicles'
+  url: https://doi.org/10.1145/3032970.3032976
+  year: '2017'
+- ENTRYTYPE: article
+  ID: qiu2017towards
+  author: Hang Qiu, Jinzhu Chen, Shubham Jain, Yurong Jiang, Matt McCartney, Gorkem
+    Kar, Fan Bai, Donald K Grimm, Marco Gruteser, Ramesh Govindan
+  conf: IEEE TVT
+  data: https://drive.google.com/file/d/16V731K8WYizVcZPywPjKLlGPhsJkW-l4/view?usp=sharing
+  img: towards_tvt.png
+  journal: IEEE Transactions on Vehicular Technology
+  number: '3'
+  pages: 1909--1922
+  publisher: IEEE
+  series: IEEE TVT
+  title: Towards Robust Vehicular Context Sensing
+  url: https://ieeexplore.ieee.org/abstract/document/8100990
+  volume: '67'
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: 10.1145/2942358.2942372
+  address: New York, NY, USA
+  author: Hang Qiu, Konstantinos Psounis, Giuseppe Caire, Keith M. Chugg, Kaidong
+    Wang
+  booktitle: Proceedings of the 17th ACM International Symposium on Mobile Ad Hoc
+    Networking and Computing
+  conf: ACM MobiHoc
+  doi: 10.1145/2942358.2942372
+  img: cobcast.png
+  isbn: '9781450341844'
+  keywords: 802.11, cooperative transmission, access point coordination, WiFi access
+    in crowded scenarios
+  location: Paderborn, Germany
+  numpages: '10'
+  pages: "301\u2013310"
+  publisher: Association for Computing Machinery
+  series: ACM MobiHoc '16
+  slides: https://nsl.usc.edu/wp-content/uploads/2017/09/co-bcast_mobihoc16.pptx
+  talk: https://youtu.be/G_F1DkKam3Q
+  title: High-Rate WiFi Broadcasting in Crowded Scenarios via Lightweight Coordination
+    of Multiple Access Points
+  url: https://doi.org/10.1145/2942358.2942372
+  year: '2016'
+- ENTRYTYPE: inproceedings
+  ID: 10.1145/2809695.2809725
+  abstract: 'Precise positioning of an automobile to within lane-level precision can
+    enable better navigation and context-awareness. However, GPS by itself cannot
+    provide such precision in obstructed urban environments. In this paper, we present
+    a system called CARLOC for lane-level positioning of automobiles. CARLOC uses
+    three key ideas in concert to improve positioning accuracy: it uses digital maps
+    to match the vehicle to known road segments; it uses vehicular sensors to obtain
+    odometry and bearing information; and it uses crowd-sourced location of estimates
+    of roadway landmarks that can be detected by sensors available in modern vehicles.
+    CARLOC unifies these ideas in a probabilistic position estimation framework, widely
+    used in robotics, called the sequential Monte Carlo method. Through extensive
+    experiments on a real vehicle, we show that CARLOC achieves sub-meter positioning
+    accuracy in an obstructed urban setting, an order-of-magnitude improvement over
+    a high-end GPS device.'
+  address: New York, NY, USA
+  author: Yurong Jiang, Hang Qiu, Matthew McCartney, Gaurav Sukhatme, Marco Gruteser,
+    Fan Bai, Donald Grimm, Ramesh Govindan
+  booktitle: Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems
+  conf: ACM SenSys
+  doi: 10.1145/2809695.2809725
+  img: carloc.png
+  isbn: '9781450336314'
+  keywords: map, GPS, accuracy
+  location: Seoul, South Korea
+  numpages: '13'
+  pages: "253\u2013265"
+  publisher: Association for Computing Machinery
+  series: ACM SenSys '15
+  title: 'CARLOC: Precise Positioning of Automobiles'
+  url: https://doi.org/10.1145/2809695.2809725
+  year: '2015'
+- ENTRYTYPE: inproceedings
+  ID: 10.1145/2668332.2668350
+  address: New York, NY, USA
+  author: Yurong Jiang, Hang Qiu, Matthew McCartney, William G. J. Halfond, Fan Bai,
+    Donald Grimm, Ramesh Govindan
+  booktitle: Proceedings of the 12th ACM Conference on Embedded Network Sensor Systems
+  conf: ACM SenSys
+  doi: 10.1145/2668332.2668350
+  img: carlog.png
+  isbn: '9781450331432'
+  keywords: datalog, automotive, predicate acquisition, latency
+  location: Memphis, Tennessee
+  numpages: '15'
+  pages: "221\u2013235"
+  publisher: Association for Computing Machinery
+  series: ACM SenSys '14
+  title: 'CARLOG: A Platform for Flexible and Efficient Automotive Sensing'
+  url: https://doi.org/10.1145/2668332.2668350
+  year: '2014'
+- ENTRYTYPE: techreport
+  ID: jiang2013flexible
+  author: Yurong Jiang, Hang Qiu, Matthew McCartney, William GJ Halfond, Fan Bai,
+    Donald Grimm, Ramesh Govindan
+  conf: ''
+  institution: Citeseer
+  title: Flexible and Efficient Sensor Fusion for Automotive Apps
+  url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.723.5267&rep=rep1&type=pdf
+  year: '2013'
+- ENTRYTYPE: inbook
+  ID: icm
+  author: Xilun Chen, Hang Qiu, Chunzhi Yang
+  booktitle: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM
+    \/ ICM Contest Edition
+  conf: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM \/ ICM
+    Contest Edition
+  note: "Invited article (Outstanding Winner of ICM\u201912)"
+  title: My Story with ICM
+  url: https://www.comap.com/undergraduate/contests/stories/My_Story_with_ICM.pdf
+  year: '2013'

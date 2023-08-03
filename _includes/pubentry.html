@@ -1,0 +1,70 @@
+<div class="pubwraper">
+    {% if pub.img %}
+        <div class="pubimg">
+            <img class="center" src="{{ site.baseurl }}/assets/imgs/{{pub.img}}">
+        </div>
+    {% endif %}
+    <div class = "spacer"></div>
+    <div class="pubentry">
+        <div>
+            <strong><span style="color:#000080;">{{ pub.title }}</span></strong>
+            <br>
+            {{ pub.author }}
+            <br>
+            <em>{{pub.conf}}, {{pub.year}}{% if pub.note %}, <span style="color:#ff0000;">{{pub.note}}</span>{% endif %}</em>
+            <br>
+            {% if pub.url %}
+            <a href={{pub.url}} target="_blank" role="button">
+            [Paper]
+            </a>
+            {% endif%}
+            {% if pub.talk %}
+            <a href={{pub.talk}} target="_blank" role="button">
+            [Talk]
+            </a>
+            {% endif%}
+            {% if pub.demo %}
+            <a href={{pub.demo}} target="_blank" role="button">
+            [Demo]
+            </a>
+            {% endif%}
+            {% if pub.data %}
+            <a href={{pub.data}} target="_blank" role="button">
+            [Data]
+            </a>
+            {% endif%}
+            {% if pub.code %}
+            <a href={{pub.code}} target="_blank" role="button">
+            [Code]
+            </a>
+            {% endif%}
+            {% if pub.web %}
+            <a href={{pub.web}} target="_blank" role="button">
+            [Project]
+            </a>
+            {% endif%}
+        </div>
+        <div class="pubmediacontainer">
+            {% if pub.mediaa %}
+                <div><span style="color:#FF6F61;"><em>Media: </em></span></div>
+                <div class="pubmedia">
+                 <a href={{pub.mediaaurl}} target="_blank" role="button">
+                <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediaa}}" height="110%"></a>
+                </div>
+                {% if pub.mediab %}
+                    <div class="pubmedia">
+                     <a href={{pub.mediaburl}} target="_blank" role="button">
+                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediab}}" height="110%"></a>
+                    </div>
+                {% endif %}
+                {% if pub.mediac %}
+                    <div class="pubmedia">
+                     <a href={{pub.mediacurl}} target="_blank" role="button">
+                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediac}}" height="110%"></a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+<br>

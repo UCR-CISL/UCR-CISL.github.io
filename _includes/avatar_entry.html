@@ -1,0 +1,21 @@
+<div class="avatar">
+    <img src="{{ site.baseurl }}/assets/Avatar/{{people.avatar}}" alt="Avatar" class="centeravatar">
+        <a href="{{people.web}}">{{people.name}}</a>
+        <br>
+        {% if people.type == "PI" %}
+        <em>Principal Investigator</em>
+        {% endif %}
+        {% if people.type == "PHD" %}
+        <em>PhD Student, {{people.department}}</em>
+        {% endif %}
+        {% if people.type == "Grad" %}
+        <em>MS Student, {{people.department}}</em>
+        {% endif %}
+        {% if people.type == "Undergrad" %}
+        <em>Undergraduate Student, {{people.department}}</em>
+        {% endif %}
+        <br>
+        {% if people.coadvisor %}
+        <em>(Co-advisor: {{people.coadvisor}})</em>
+        {% endif %}
+</div>

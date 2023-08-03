@@ -1,0 +1,24 @@
+---
+layout: page
+title: Publication
+---
+
+<h1> Publication </h1>
+
+<div>
+
+{% for pub in site.data.pub %}
+    {% if pub.ENTRYTYPE == "misc" %}
+        {% include pubentry.html %}
+    {% endif %}
+{% endfor %}
+</div>
+
+<div>
+{% for pub in site.data.pub %}
+    {% if pub.ENTRYTYPE == "inproceedings" or pub.ENTRYTYPE == "article" %}
+        {% include pubentry.html %}
+    {% endif %}
+{% endfor %}
+<p>* Equal contribution</p>
+</div>
