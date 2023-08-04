@@ -7,6 +7,7 @@ Welcome to Collaborative Intelligence Systems Lab at the University of Californi
 
 *We are always looking for motivated talents to [join us](joinus).*
 
+<hr>
 Recent News:
 * [MCAL](https://openreview.net/pdf?id=1FxRPKrH8bw) accepted by [ICLR' 23](https://iclr.cc/Conferences/2023)
 * [ML-EXray](https://arxiv.org/abs/2111.04779) received the [Outstanding Paper Award](https://mlsys.org/virtual/2022/oral/2155) from [MLSys'22](https://mlsys.org/Conferences/2022)

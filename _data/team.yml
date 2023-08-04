@@ -4,9 +4,17 @@
   avatar: HangQ.jpg
 - name: Yanyu Zhang
   type: PHD
-  avatar: yanyu.jpg
+  web: https://zhangyanyu0722.github.io/
+  avatar: yanyu.png
   department: ECE
   coadvisor: Dr. Wei Ren
+- name: Bo Wu
+  type: PHD
+  avatar: Bo.jpg
+  department: ECE
+- name: Janice Nguyen
+  type: PHD
+  department: ECE
 - name: Haishan Liu
   type: PHD
   avatar: haishan.jpg
@@ -18,9 +26,10 @@
   avatar: zhengwei.jpg
   department: ECE
   coadvisor: Dr. Matt Barth
-- name: Haoge Liu
+- name: Haoge Zhou
   type: Grad
-  avatar: haoge.jpg
+  web: https://github.com/hankge
+  avatar: haoge.png
   department: ECE
 - name: Joseph Spracklen
   type: Undergrad
