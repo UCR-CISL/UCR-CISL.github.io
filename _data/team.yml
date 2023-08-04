@@ -17,7 +17,6 @@
   department: ECE
 - name: Haishan Liu
   type: PHD
-  avatar: haishan.jpg
   department: ECE
   coadvisor: Dr. Matt Barth
 - name: Zhengwei Bai
@@ -33,9 +32,7 @@
   department: ECE
 - name: Joseph Spracklen
   type: Undergrad
-  avatar: joseph.jpg
   department: ECE
 - name: Jerry Li
   type: Undergrad
-  avatar: jerry.jpg
   department: CS

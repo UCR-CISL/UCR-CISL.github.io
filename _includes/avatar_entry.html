@@ -1,5 +1,6 @@
+{% if people.avatar %}
 <div class="avatar">
-    <img src="{{ site.baseurl }}/assets/Avatar/{{people.avatar}}" alt="Avatar" class="centeravatar">
+    <img src="{{ site.baseurl }}/assets/avatar/{{people.avatar}}" alt="Avatar" class="centeravatar">
         <a href="{{people.web}}">{{people.name}}</a>
         <br>
         {% if people.type == "PI" %}
@@ -19,3 +20,4 @@
         <em>(Co-advisor: {{people.coadvisor}})</em>
         {% endif %}
 </div>
+{% endif %}
