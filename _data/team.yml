@@ -7,7 +7,7 @@
   web: https://zhangyanyu0722.github.io/
   avatar: yanyu.png
   department: ECE
-  coadvisor: Dr. Wei Ren
+  coadvisor: Dr. Ren
 - name: Bo Wu
   type: PHD
   avatar: Bo.jpg
@@ -17,14 +17,15 @@
   department: ECE
 - name: Haishan Liu
   type: PHD
+  avatar: haishan.jpg
   department: ECE
-  coadvisor: Dr. Matt Barth
+  coadvisor: Dr. Barth, Dr. Hao
 - name: Zhengwei Bai
   web: https://zwbai.github.io/
   type: PHD
   avatar: zhengwei.jpg
   department: ECE
-  coadvisor: Dr. Matt Barth
+  coadvisor: Dr. Barth, Dr. Wu
 - name: Haoge Zhou
   type: Grad
   web: https://github.com/hankge
