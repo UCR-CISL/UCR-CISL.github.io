@@ -34,6 +34,8 @@
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
+  avatar: Joseph.jpg
 - name: Jerry Li
   type: Undergrad
-  department: CS
+  department: BCOE
+  avatar: jerry.png
