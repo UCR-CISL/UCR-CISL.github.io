@@ -15,9 +15,15 @@
         {% if people.type == "Undergrad" %}
         <em>Undergraduate Student, {{people.department}}</em>
         {% endif %}
-        <br>
         {% if people.coadvisor %}
-        <em>(Co-advisor: {{people.coadvisor}})</em>
+        <br><em>(Co-advisor: {{people.coadvisor}})</em>
         {% endif %}
+        {% if people.email %}<br><a class="fa fa-envelope" href="mailto:{{people.email}}"></a>
+              {% if people.gscholar %} <a class="ai ai-google-scholar" href="{{people.gscholar}}"></a>{% endif %}
+              {% if people.github %}<a class="fa fa-github" href="{{people.github}}"></a>{% endif %}
+              {% if people.linkedin %}<a class="fa fa-linkedin" href="{{people.linkedin}}"></a>{% endif %}
+              {% if people.twitter %}<a class="fa fa-twitter" href="{{people.twitter}}"></a>{% endif %}
+              {% if people.facebook %}<a class="fa fa-facebook" href="{{people.facebook}}"></a>{% endif %}
+          {% endif %}
 </div>
 {% endif %}
