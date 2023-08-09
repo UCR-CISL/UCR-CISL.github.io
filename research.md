@@ -3,8 +3,8 @@ layout: page
 title: Research
 ---
 
-<hr>
-<h4>Research Highlights:</h4>
+
+<h2>Research Highlights:</h2>
 
 {% include research_highlight.html %}
 <hr>

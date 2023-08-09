@@ -26,6 +26,7 @@
     left: 0;
     right: 0;
     overflow:auto;
+    padding-bottom:1rem;
 }
 
 .clearfix::after {
@@ -37,6 +38,7 @@
 .avatar{
     left: 0;
     width: 33%;
+    max-width:16rem;
     height: 16rem;
     float: left;
     text-align: center;
@@ -48,15 +50,14 @@
 
 .pubentry{
     float: left;
-    width: 58.5%;
+    width: 60%;
     margin-left: 3%;
 }
 
 .pubimg{
     float: left;
-    width: 38.5%;
-    max-width: 12rem;
-    min-height: 8rem;
+    width: 35%;
+    max-width: 14rem;
 }
 
 .pubmedia{
@@ -71,4 +72,11 @@
   height: 100%;
   width: 100%;
   display: flex;
+}
+
+.labtitle {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #186DB6;
+  margin-bottom: 2rem;
 }

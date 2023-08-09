@@ -3,10 +3,13 @@ layout: page
 title: Publication
 ---
 
-<h1> Publication </h1>
+
+<h2>Publication</h2>
+
+<p> Please visit <a href="https://scholar.google.com/citations?user=9i_MgykAAAAJ&hl=en">Google Scholar</a> for a full publication list.</p>
+<p>* Equal contribution</p>
 
 <div>
-
 {% for pub in site.data.pub %}
     {% if pub.ENTRYTYPE == "misc" %}
         {% include pubentry.html %}
@@ -20,5 +23,4 @@ title: Publication
         {% include pubentry.html %}
     {% endif %}
 {% endfor %}
-<p>* Equal contribution</p>
 </div>

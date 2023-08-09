@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 ---
 
-# Teaching
+## Teaching
 
 * Spring 2024:  ECE 260D: Introduction to the Self-driving Stack
 * Winter 2023:  ECE/CS 131: Edge Computing 
