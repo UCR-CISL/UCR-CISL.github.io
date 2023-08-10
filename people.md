@@ -7,7 +7,7 @@ title: People
 
 <div class="clearfix">
 
-<h2>Principal Investigator</h2>
+<h2>Faculty</h2>
 <br>
 {% for people in team %} 
     {% if people.type == "PI" %} 
