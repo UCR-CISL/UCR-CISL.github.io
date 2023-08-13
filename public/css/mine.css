@@ -80,3 +80,10 @@
   color: #186DB6;
   margin-bottom: 2rem;
 }
+
+.researchimg{
+    float: right;
+    width: 35%;
+    max-width: 14rem;
+    margin-left: 1rem;
+}
