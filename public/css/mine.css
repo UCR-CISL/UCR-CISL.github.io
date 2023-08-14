@@ -82,8 +82,16 @@
 }
 
 .researchimg{
-    float: right;
-    width: 40%;
-    max-width: 14rem;
-    margin-left: 1rem;
+    width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 54em) and (min-height: 36em){
+    .researchimg{
+        float: right;
+        width: 40%;
+        max-width: 20rem;
+        margin-left: 1rem;
+    }
 }
