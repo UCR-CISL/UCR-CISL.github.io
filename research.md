@@ -39,7 +39,7 @@ and creates a lightweight map change representation for fast broadcasting, while
 <div class="clearfix"></div>
 
 <div class="researchimg">
-<video width="100%" loop>
+<video muted autoplay loop width="100%">
 <source src="{{ site.baseurl }}/assets/videos/CoopernautDemo.mp4" type="video/mp4">
 </video>
 </div>
