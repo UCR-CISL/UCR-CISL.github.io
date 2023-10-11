@@ -23,7 +23,7 @@ title: Platform
 <div class="clearfix">
 <br>
 {% for p in platform %}
-{% if p.type == "software" %} 
+{% if p.type == "device" %} 
     <div class="avatar">
     <img src="{{ site.baseurl }}/assets/platform/{{p.avatar}}" alt="Avatar" class="rectavatar">
         <a href="{{p.web}}">{{p.name}}</a>
