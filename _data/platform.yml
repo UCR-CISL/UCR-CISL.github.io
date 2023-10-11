@@ -1,0 +1,16 @@
+- name: KIA Niro EV
+  avatar: KIA_Niro.png
+  type: vehicle
+  note: Shared and hosted in CE-CERT
+- name: Caddilac Lyriq
+  avatar: caddilac_lyriq.png
+  type: vehicle
+  note: Shared and hosted in CE-CERT
+- name: Nissan Leaf
+  avatar: nissan_leaf.png
+  type: vehicle
+  note: Shared and hosted in CE-CERT
+- name: AVL Mapping
+  avatar: AVL.png
+  type: software
+  note: Shared and hosted in CE-CERT

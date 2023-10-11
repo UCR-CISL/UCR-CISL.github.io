@@ -12,6 +12,12 @@
   border-radius: 50%;
 }
 
+.rectavatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5rem;
+}
 
 .right {
   float: right;

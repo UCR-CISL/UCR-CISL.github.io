@@ -3,7 +3,7 @@
     <img src="{{ site.baseurl }}/assets/avatar/{{people.avatar}}" alt="Avatar" class="centeravatar">
         <a href="{{people.web}}">{{people.name}}</a>
         {% if people.type == "PI" %}
-        <br><em>Principal Investigator</em>
+        <br><em>PI, {{people.department}}</em>
         {% endif %}
         {% if people.type == "PHD" %}
         <br><em>PhD Student, {{people.department}}</em>
