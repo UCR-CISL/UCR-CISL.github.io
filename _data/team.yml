@@ -57,6 +57,13 @@
   department: BCOE
   email: diwakar.ravichandran@email.ucr.edu
   github: https://github.com/bundle-adjuster
+- name: Harish Kulasekaran
+  type: Grad
+  avatar: Harish.jpg
+  department: CSE
+  email: harish.kulasekaran@email.ucr.edu
+  github: https://github.com/haikux
+  linkedin: https://www.linkedin.com/in/harish-kulasekaran/
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
