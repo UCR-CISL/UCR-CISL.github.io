@@ -51,6 +51,12 @@
   department: ECE
   email: hzhou083@ucr.edu
   github: https://github.com/hankge
+  - name: Diwakar Ravichandran
+  type: Grad
+  avatar: Diwakar.png
+  department: BCOE
+  email: diwakar.ravichandran@email.ucr.edu
+  github: https://github.com/bundle-adjuster
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
