@@ -81,8 +81,17 @@
   department: BCOE
   avatar: jerry.png
   email: jli793@ucr.edu
+  linkedin: https://www.linkedin.com/in/jerryli2025/
+  github: https://github.com/Jeli04
 - name: Minjun Song
   type: Undergrad
   department: BCOE
   avatar: Minjun.jpg
   email: minjun.song@email.ucr.edu
+- name: Adhith Karthikeyan
+  type: Undergrad
+  department: CSE
+  avatar: ak.jpg
+  email: akart006@ucr.edu
+  github: https://github.com/kkadhith
+  web: https://kkadhith.com/
