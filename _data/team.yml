@@ -71,6 +71,13 @@
   department: ECE
   email: zhaoze.sun@email.ucr.edu
   github: https://github.com/zsun114
+- name: Rakshith Mahishi
+  type: Grad
+  avatar: rakshith.jpeg
+  department: BCOE
+  email: rmahi001@ucr.edu
+  github: https://github.com/rakshith911
+  linkedin: https://www.linkedin.com/in/rakshith-mahishi-423442182/
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
