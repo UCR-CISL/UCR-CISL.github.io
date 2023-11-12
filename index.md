@@ -14,6 +14,14 @@ Our interdisciplinary innovation addresses the system challenges in networking, 
 *We are always looking for motivated talents to [join us](joinus).*
 
 <hr>
+#### Hiring for Fall 2024:
+
+We are hiring *three* PhDs this cycle in the following areas. Knowledge across areas is a plus.
+* Autonomous Driving
+* ML Systems, Systems for ML
+* Wireless/Vehicular Networking 
+
+<hr>
 #### Recent News:
 
 * Sep 2023: *New [OASIS IFA Award](https://mcusercontent.com/16b960a15758a2e9f6cc8140d/files/10cd5110-9bf7-972e-94e4-7655e311e16a/OASIS_IFA_2nd_Round_Large_and_Small_Awards_compressed.pdf) to support our research*
