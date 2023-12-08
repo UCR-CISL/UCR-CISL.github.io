@@ -11,15 +11,15 @@ We build and deploy end-to-end cooperative autonomy that bridges robot/edge/clou
 Our enthusiasm lies in tackling real-world problems across various domains ranging from autonomous vehicles, drones, home robots, AR/VR/XR devices, to generic edge ML systems, intelligent infrastructure.
 Our interdisciplinary innovation addresses the system challenges in networking, vision, robotics, machine learning, and edge computing. 
 
-*We are always looking for motivated talents to [join us](joinus).*
+*We are always looking for motivated talents to [join us](joinus).* 
 
 <hr>
 #### Hiring for Fall 2024:
 
-We are hiring *three* PhDs this cycle in the following areas. Knowledge across areas is a plus.
-* Autonomous Driving
-* ML Systems, Systems for ML
-* Wireless/Vehicular Networking 
+We are hiring *three* PhDs this cycle, from both *ECE* and *CSE* department, in the following areas. Knowledge across areas is a plus.
+* Autonomous Driving (CS/EE)
+* ML Systems, Systems for ML (EE/CS)
+* Wireless/Vehicular Networking (EE)
 
 <hr>
 #### Recent News:
