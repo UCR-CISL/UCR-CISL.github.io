@@ -85,14 +85,14 @@
   email: jspra006@ucr.edu
 - name: Jerry Li
   type: Undergrad
-  department: BCOE
+  department: CSE
   avatar: jerry.png
   email: jli793@ucr.edu
   linkedin: https://www.linkedin.com/in/jerryli2025/
   github: https://github.com/Jeli04
 - name: Minjun Song
   type: Undergrad
-  department: BCOE
+  department: ECE
   avatar: Minjun.jpg
   email: minjun.song@email.ucr.edu
 - name: Adhith Karthikeyan
@@ -102,3 +102,17 @@
   email: akart006@ucr.edu
   github: https://github.com/kkadhith
   web: https://kkadhith.com/
+- name: Purab Balani
+  type: Undergrad
+  department: ECE
+  avatar: purab.jpeg
+  email: pbala011@ucr.edu
+  github: https://www.github.com/PurabB
+  linkedin: https://www.linkedin.com/in/purab-balani
+- name: Alex Totah
+  type: Undergrad
+  department: ECE
+  avatar: alex.jpeg
+  email: alex.totah@email.ucr.edu
+  github: https://github.com/nander100
+  linkedin: https://www.linkedin.com/in/alexander-totah-2137b4247/
