@@ -3,7 +3,7 @@ layout: page
 title: Join Us
 ---
 
-Thanks for your interesting in joining us! We are actively seeking motivated researchers with expertise of diverse backgrounds, including systems, edge computing, networking, ML, and robotics.
+Thanks for your interest in joining us! We are actively seeking motivated researchers with expertise of diverse backgrounds, including systems, edge computing, networking, ML, and robotics.
 
 * **Prospective graduate students**: we admit students from both **ECE** and **CSE** department. 
 Please [apply](https://graduate.ucr.edu/apply) and mention Dr. Qiu as a preferred reader of your application.
