@@ -24,6 +24,11 @@
   avatar: Bo.jpg
   department: ECE
   email: bo.wu@email.ucr.edu
+- name: Chad Davies
+  type: PHD
+  avatar: chad.png
+  department: CSE
+  email: cdavi041@ucr.edu
 - name: Janice Nguyen
   type: PHD
   department: ECE
