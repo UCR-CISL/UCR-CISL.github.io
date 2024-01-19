@@ -79,10 +79,17 @@
 - name: Rakshith Mahishi
   type: Grad
   avatar: rakshith.jpeg
-  department: BCOE
+  department: CSE
   email: rmahi001@ucr.edu
   github: https://github.com/rakshith911
   linkedin: https://www.linkedin.com/in/rakshith-mahishi-423442182/
+- name: Kiran Kumar
+  type: Grad
+  avatar: Kiran.jpeg
+  department: CSE
+  email: khire001@ucr.edu
+  github: https://github.com/hk-kiran
+  linkedin: http://www.linkedin.com/in/hkkiran
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
