@@ -4,7 +4,9 @@
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
   booktitle: Proceedings of 2024 IEEE International Conference on Robotics and Automation
+  code: https://github.com/waymo-research/waymo-open-dataset/blob/master/tutorial/tutorial_womd_lidar.ipynb
   conf: ICRA
+  data: https://waymo.com/open/data/motion/
   img: womdlidar.png
   mediaa: waymo-logo.svg
   mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open.html
