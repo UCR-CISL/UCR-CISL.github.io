@@ -13,7 +13,7 @@ Please add a bibtex entry to [/assets/pubication.bib](https://github.com/UCR-CIS
 
 Run compilation script to update [/_data/pub.yml](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/_data/pub.yml). (Run ```pip install bibtexparser``` if not already)
 ```python
-python3 ./assets/bib2yml.py --bibtex_fp ./assets/publication.bib
+python3 ./assets/bib2yml.py --bibtex_fp ./assets/publications.bib
 ```
 *Note: Do not edit pub.yml directly as the compilation script will overwrite it.*
 

@@ -1,13 +1,14 @@
-- ENTRYTYPE: inproceedings
+- ENTRYTYPE: misc
   ID: womdlidar
   author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
   booktitle: Proceedings of 2024 IEEE International Conference on Robotics and Automation
-  series: ICRA '24
+  conf: ICRA
   img: womdlidar.png
   mediaa: waymo-logo.svg
   mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open.html
+  series: ICRA '24
   title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
   url: https://arxiv.org/abs/2304.03834
   web: https://waymo.com/open/challenges/2023/motion-prediction/
