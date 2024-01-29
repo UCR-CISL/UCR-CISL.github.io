@@ -24,6 +24,7 @@ We are hiring *three* PhDs this cycle, from both **ECE** and **CSE** department,
 <hr>
 #### Recent News:
 
+* Jan 2024: *[WOMD-Lidar](https://arxiv.org/abs/2304.03834) accepted by [ICRA'24](https://2024.ieee-icra.org/)*
 * Jan 2024: *ARPA-I [Intesrection Safety Challenge Award](https://www.transportation.gov/briefing-room/us-dot-announces-winners-intersection-safety-challenge)*
 * Sep 2023: *New [OASIS IFA Award](https://mcusercontent.com/16b960a15758a2e9f6cc8140d/files/10cd5110-9bf7-972e-94e4-7655e311e16a/OASIS_IFA_2nd_Round_Large_and_Small_Awards_compressed.pdf) to support our research*
 * Jan 2023: [MCAL](https://openreview.net/pdf?id=1FxRPKrH8bw) accepted by [ICLR' 23](https://iclr.cc/Conferences/2023)
