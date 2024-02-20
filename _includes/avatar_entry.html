@@ -14,6 +14,9 @@
         {% if people.type == "Undergrad" %}
         <br><em>Undergraduate Student, {{people.department}}</em>
         {% endif %}
+        {% if people.type == "Visitor" %}
+        <br><em>Visitor, {{people.department}}</em>
+        {% endif %}
         {% if people.coadvisor %}
         <br><em>(Co-advisor: {{people.coadvisor}})</em>
         {% endif %}
