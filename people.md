@@ -46,7 +46,7 @@ title: People
 </div>
 
 <div class="clearfix">
-<h2>Visitors</h2>
+<h2>Visiting Students</h2>
 <br>
 {% for people in team %}
     {% if people.type == "Visitor" %}

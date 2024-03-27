@@ -29,22 +29,22 @@
   department: ECE
   avatar: cisl.png
   email: jnguy172@ucr.edu
-- name: Haishan Liu
-  type: PHD
-  avatar: haishan.jpg
-  department: ECE
-  coadvisor: Dr. Barth, Dr. Hao
-  email: hliu240@ucr.edu
-  github: https://haishanliu.github.io/
-  linkedin: https://www.linkedin.com/in/haishan-liu-363651236/
-- name: Zhengwei Bai
-  web: https://zwbai.github.io/
-  type: PHD
-  avatar: zhengwei.jpg
-  department: ECE
-  coadvisor: Dr. Barth, Dr. Wu
-  email: zbai012@ucr.edu
-  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
+#- name: Haishan Liu
+#  type: PHD
+#  avatar: haishan.jpg
+#  department: ECE
+#  coadvisor: Dr. Barth, Dr. Hao
+#  email: hliu240@ucr.edu
+#  github: https://haishanliu.github.io/
+#  linkedin: https://www.linkedin.com/in/haishan-liu-363651236/
+#- name: Zhengwei Bai
+#  web: https://zwbai.github.io/
+#  type: PHD
+#  avatar: zhengwei.jpg
+#  department: ECE
+#  coadvisor: Dr. Barth, Dr. Wu
+#  email: zbai012@ucr.edu
+#  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
 - name: Haoge Zhou
   type: Grad
   avatar: haoge.png
@@ -140,11 +140,11 @@
   department: MS Student, UCI
   avatar: Jiapeng.jpeg
   email: jiapez2@uci.edu
-- name: Chad Davies
-  type: Visitor
-  avatar: chad.png
-  department: PHD Student, UCR
-  email: cdavi041@ucr.edu
+#- name: Chad Davies
+#  type: Visitor
+#  avatar: chad.png
+#  department: PHD Student, UCR
+#  email: cdavi041@ucr.edu
 - name: Yi-Zhen Tsai
   type: Visitor
   avatar: yizhen.jpg
