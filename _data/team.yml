@@ -45,12 +45,12 @@
 #  coadvisor: Dr. Barth, Dr. Wu
 #  email: zbai012@ucr.edu
 #  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
-- name: Haoge Zhou
-  type: Grad
-  avatar: haoge.png
-  department: ECE
-  email: hzhou083@ucr.edu
-  github: https://github.com/hankge
+#- name: Haoge Zhou
+#  type: Grad
+#  avatar: haoge.png
+#  department: ECE
+#  email: hzhou083@ucr.edu
+#  github: https://github.com/hankge
 - name: Diwakar Ravichandran
   type: Grad
   avatar: Diwakar.jpeg
