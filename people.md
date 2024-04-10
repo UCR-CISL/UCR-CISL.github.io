@@ -44,3 +44,13 @@ title: People
     {% endif %}
 {% endfor %}
 </div>
+
+<div class="clearfix">
+<h2>Visiting Students</h2>
+<br>
+{% for people in team %}
+    {% if people.type == "Visitor" %}
+        {% include avatar_entry.html %}        
+    {% endif %}
+{% endfor %}
+</div>

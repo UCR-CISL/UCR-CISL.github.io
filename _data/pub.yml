@@ -1,19 +1,20 @@
 - ENTRYTYPE: misc
   ID: womdlidar
-  archiveprefix: arXiv
   author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
-  conf: arXiv
-  eprint: '2304.03834'
+  booktitle: Proceedings of 2024 IEEE International Conference on Robotics and Automation
+  code: https://github.com/waymo-research/waymo-open-dataset/blob/master/tutorial/tutorial_womd_lidar.ipynb
+  conf: ICRA
+  data: https://waymo.com/open/data/motion/
   img: womdlidar.png
   mediaa: waymo-logo.svg
   mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open.html
-  primaryclass: cs.CV
+  series: ICRA '24
   title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
   url: https://arxiv.org/abs/2304.03834
   web: https://waymo.com/open/challenges/2023/motion-prediction/
-  year: '2023'
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: mcal
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan

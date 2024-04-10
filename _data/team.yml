@@ -29,28 +29,36 @@
   department: ECE
   avatar: cisl.png
   email: jnguy172@ucr.edu
-- name: Haishan Liu
+- name: Justin Yue
   type: PHD
-  avatar: haishan.jpg
-  department: ECE
-  coadvisor: Dr. Barth, Dr. Hao
-  email: hliu240@ucr.edu
-  github: https://haishanliu.github.io/
-  linkedin: https://www.linkedin.com/in/haishan-liu-363651236/
-- name: Zhengwei Bai
-  web: https://zwbai.github.io/
-  type: PHD
-  avatar: zhengwei.jpg
-  department: ECE
-  coadvisor: Dr. Barth, Dr. Wu
-  email: zbai012@ucr.edu
-  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
-- name: Haoge Zhou
-  type: Grad
-  avatar: haoge.png
-  department: ECE
-  email: hzhou083@ucr.edu
-  github: https://github.com/hankge
+  department: CSE
+  avatar: justin.jpg
+  email: jyue009@ucr.edu
+  github: https://github.com/jyue86
+  linkedin: https://www.linkedin.com/in/jyue86
+  web: https://jyue86.github.io/
+#- name: Haishan Liu
+#  type: PHD
+#  avatar: haishan.jpg
+#  department: ECE
+#  coadvisor: Dr. Barth, Dr. Hao
+#  email: hliu240@ucr.edu
+#  github: https://haishanliu.github.io/
+#  linkedin: https://www.linkedin.com/in/haishan-liu-363651236/
+#- name: Zhengwei Bai
+#  web: https://zwbai.github.io/
+#  type: PHD
+#  avatar: zhengwei.jpg
+#  department: ECE
+#  coadvisor: Dr. Barth, Dr. Wu
+#  email: zbai012@ucr.edu
+#  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
+#- name: Haoge Zhou
+#  type: Grad
+#  avatar: haoge.png
+#  department: ECE
+#  email: hzhou083@ucr.edu
+#  github: https://github.com/hankge
 - name: Diwakar Ravichandran
   type: Grad
   avatar: Diwakar.jpeg
@@ -74,10 +82,17 @@
 - name: Rakshith Mahishi
   type: Grad
   avatar: rakshith.jpeg
-  department: BCOE
+  department: CSE
   email: rmahi001@ucr.edu
   github: https://github.com/rakshith911
   linkedin: https://www.linkedin.com/in/rakshith-mahishi-423442182/
+- name: Kiran Kumar
+  type: Grad
+  avatar: Kiran.jpeg
+  department: CSE
+  email: khire001@ucr.edu
+  github: https://github.com/hk-kiran
+  linkedin: http://www.linkedin.com/in/hkkiran
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
@@ -116,3 +131,42 @@
   email: alex.totah@email.ucr.edu
   github: https://github.com/nander100
   linkedin: https://www.linkedin.com/in/alexander-totah-2137b4247/
+- name: Amber Lin
+  type: Undergrad
+  department: Robotics
+  avatar: amber.jpg
+  email: alin157@ucr.edu
+  github: https://github.com/pilafnoodle
+  linkedin: https://www.linkedin.com/in/amber-lin-632583264/
+- name: Holland Pleskac
+  type: Undergrad
+  department: CSE
+  avatar: holland.jpg
+  email: hples001@ucr.edu
+  github: https://github.com/HollandPleskac
+  linkedin: https://www.linkedin.com/in/holland-pleskac-54a090199/
+- name: Jinjie Liu
+  type: Visitor
+  department: MS Student, USC
+  avatar: Jinjie.jpg
+  email: jinjie.liu@usc.edu 
+- name: Jiapeng Zhao
+  type: Visitor
+  department: MS Student, UCI
+  avatar: Jiapeng.jpeg
+  email: jiapez2@uci.edu
+#- name: Chad Davies
+#  type: Visitor
+#  avatar: chad.png
+#  department: PHD Student, UCR
+#  email: cdavi041@ucr.edu
+- name: Yi-Zhen Tsai
+  type: Visitor
+  avatar: yizhen.jpg
+  department: PHD Student, UCR
+  email: yizhen.tsai@email.ucr.edu
+- name: Rijul Garg
+  type: Visitor
+  avatar: rijul.jpg
+  department: High School Student, Arcadia High School
+  email: rijulg06@gmail.com
