@@ -13,7 +13,7 @@
   series: ICRA '24
   title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
   url: https://arxiv.org/abs/2304.03834
-  web: https://waymo.com/open/challenges/2023/motion-prediction/
+  web: https://waymo.com/research/womd-lidar/
   year: '2024'
 - ENTRYTYPE: inproceedings
   ID: mcal
