@@ -13,13 +13,13 @@ Our interdisciplinary innovation addresses the system challenges in networking, 
 
 *We are always looking for motivated talents to [join us](joinus).* 
 
-<hr>
+<!-- <hr>
 #### Hiring for Fall 2024:
 
 We are hiring *three* PhDs this cycle, from both **ECE** and **CSE** department, in the following areas. Knowledge across areas is a plus.
 * Autonomous Driving (CS/EE)
 * ML Systems, Systems for ML (EE/CS)
-* Wireless/Vehicular Networking (EE)
+* Wireless/Vehicular Networking (EE) -->
 
 <hr>
 #### Recent News:

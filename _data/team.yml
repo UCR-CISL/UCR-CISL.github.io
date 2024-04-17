@@ -29,6 +29,14 @@
   department: ECE
   avatar: cisl.png
   email: jnguy172@ucr.edu
+- name: Justin Yue
+  type: PHD
+  department: CSE
+  avatar: justin.jpg
+  email: jyue009@ucr.edu
+  github: https://github.com/jyue86
+  linkedin: https://www.linkedin.com/in/jyue86
+  web: https://jyue86.github.io/
 #- name: Haishan Liu
 #  type: PHD
 #  avatar: haishan.jpg
@@ -156,9 +164,15 @@
   type: Visitor
   avatar: yizhen.jpg
   department: PHD Student, UCR
-  email: yizhen.tsai@email.ucr.edu
+  email: ytsai036@ucr.edu
 - name: Rijul Garg
   type: Visitor
   avatar: rijul.jpg
   department: High School Student, Arcadia High School
   email: rijulg06@gmail.com
+- name: Ayoub Elazami Elidrissi
+  type: Visitor
+  avatar: ayoub.jpg
+  department: MS Student, France
+  email: ayoube@ucr.edu
+  linkedin: https://www.linkedin.com/in/ayoub-el-azami-el-idrissi/
