@@ -166,11 +166,11 @@
   department: MS Student, USC
   avatar: Jinjie.jpg
   email: jinjie.liu@usc.edu 
-- name: Jiapeng Zhao
-  type: Visitor
-  department: MS Student, UCI
-  avatar: Jiapeng.jpeg
-  email: jiapez2@uci.edu
+#- name: Jiapeng Zhao
+#  type: Visitor
+#  department: MS Student, UCI
+#  avatar: Jiapeng.jpeg
+#  email: jiapez2@uci.edu
 #- name: Chad Davies
 #  type: Visitor
 #  avatar: chad.png
