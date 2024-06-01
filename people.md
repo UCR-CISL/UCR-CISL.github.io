@@ -3,6 +3,8 @@ layout: page
 title: People
 ---
 
+![Lab Outing 2024](assets/imgs/outing24.jpeg)
+
 {% assign team = site.data.team | sort : "name" %}
 
 <div class="clearfix">
