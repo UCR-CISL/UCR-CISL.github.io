@@ -37,6 +37,14 @@
   github: https://github.com/jyue86
   linkedin: https://www.linkedin.com/in/jyue86
   web: https://jyue86.github.io/
+- name: Ruoshen Mo
+  type: PHD
+  department: CSE
+  avatar: ruoshen.jpg
+  coadvisor: Dr. Tan
+  email: rmo008@ucr.edu
+  github: https://github.com/MorrisHohoho
+  web: https://morrishohoho.github.io/
 #- name: Haishan Liu
 #  type: PHD
 #  avatar: haishan.jpg
@@ -93,6 +101,14 @@
   email: khire001@ucr.edu
   github: https://github.com/hk-kiran
   linkedin: http://www.linkedin.com/in/hkkiran
+- name: Ashik Mysore Padmanabha
+  type: Grad
+  avatar: ashik.jpg
+  department: CSE
+  email: amyso001@ucr.edu
+  github: https://www.github.com/ashvegeta
+  linkedin: https://www.linkedin.com/in/ashik-mp-a7a0ab178/
+  web: https://ashvegeta.github.io/
 - name: Joseph Spracklen
   type: Undergrad
   department: ECE
