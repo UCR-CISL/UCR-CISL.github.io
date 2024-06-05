@@ -166,6 +166,13 @@
   department: MS Student, USC
   avatar: Jinjie.jpg
   email: jinjie.liu@usc.edu 
+- name: Allen Biju
+  type: Undergrad
+  department: CSE
+  avatar: allen.jpg
+  email: allen.biju@email.ucr.edu
+  linkedin: https://www.linkedin.com/in/allen-biju-54098b256/
+  github: https://github.com/allenbiju30301
 #- name: Jiapeng Zhao
 #  type: Visitor
 #  department: MS Student, UCI
