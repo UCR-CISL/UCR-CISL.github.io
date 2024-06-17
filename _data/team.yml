@@ -97,6 +97,13 @@
   github: https://www.github.com/ashvegeta
   linkedin: https://www.linkedin.com/in/ashik-mp-a7a0ab178/
   web: https://ashvegeta.github.io/
+- name: Adhith Karthikeyan
+  type: Grad
+  department: CSE
+  avatar: ak.jpg
+  email: akart006@ucr.edu
+  github: https://github.com/kkadhith
+  web: https://kkadhith.com/
 - name: Joseph Spracklen
   type: Alumni
   role: Undergraduate
@@ -177,7 +184,7 @@
   email: ytsai036@ucr.edu
 - name: Rijul Garg
   type: Visitor
-  avatar: rijul.jpg
+  avatar: cisl.png
   department: High School Student, Arcadia High School
   email: rijulg06@gmail.com
 - name: Ayoub Elazami Elidrissi
@@ -186,3 +193,7 @@
   department: MS Student, France
   email: ayoube@ucr.edu
   linkedin: https://www.linkedin.com/in/ayoub-el-azami-el-idrissi/
+- name: Anthony Zhou 
+  type: Visitor
+  avatar: cisl.png
+  department: High School Student, American High School
