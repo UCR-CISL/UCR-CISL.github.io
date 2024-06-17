@@ -45,28 +45,14 @@
   email: rmo008@ucr.edu
   github: https://github.com/MorrisHohoho
   web: https://morrishohoho.github.io/
-#- name: Haishan Liu
-#  type: PHD
-#  avatar: haishan.jpg
-#  department: ECE
-#  coadvisor: Dr. Barth, Dr. Hao
-#  email: hliu240@ucr.edu
-#  github: https://haishanliu.github.io/
-#  linkedin: https://www.linkedin.com/in/haishan-liu-363651236/
-#- name: Zhengwei Bai
-#  web: https://zwbai.github.io/
-#  type: PHD
-#  avatar: zhengwei.jpg
-#  department: ECE
-#  coadvisor: Dr. Barth, Dr. Wu
-#  email: zbai012@ucr.edu
-#  gscholar: https://scholar.google.com/citations?user=taeMxxgAAAAJ&hl=zh-en
-#- name: Haoge Zhou
-#  type: Grad
-#  avatar: haoge.png
-#  department: ECE
-#  email: hzhou083@ucr.edu
-#  github: https://github.com/hankge
+- name: Haoge Zhou
+  type: Alumni
+  role: MS
+  avatar: haoge.png
+  department: ECE
+  year: 2024
+  email: hzhou083@ucr.edu
+  github: https://github.com/hankge
 - name: Diwakar Ravichandran
   type: Grad
   avatar: Diwakar.jpeg
@@ -82,9 +68,11 @@
   github: https://github.com/haikux
   linkedin: https://www.linkedin.com/in/harish-kulasekaran/
 - name: Zhaoze Sun
-  type: Grad
+  type: Alumni
   avatar: Zhaoze.jpg
   department: ECE
+  role: MS
+  year: 2024
   email: zhaoze.sun@email.ucr.edu
   github: https://github.com/zsun114
 - name: Rakshith Mahishi
@@ -110,7 +98,9 @@
   linkedin: https://www.linkedin.com/in/ashik-mp-a7a0ab178/
   web: https://ashvegeta.github.io/
 - name: Joseph Spracklen
-  type: Undergrad
+  type: Alumni
+  role: Undergraduate
+  year: 2024
   department: ECE
   avatar: Joseph.jpg
   email: jspra006@ucr.edu
@@ -127,7 +117,7 @@
   avatar: Minjun.jpg
   email: minjun.song@email.ucr.edu
 - name: Adhith Karthikeyan
-  type: Undergrad
+  type: Grad
   department: CSE
   avatar: ak.jpg
   email: akart006@ucr.edu
@@ -173,16 +163,13 @@
   email: allen.biju@email.ucr.edu
   linkedin: https://www.linkedin.com/in/allen-biju-54098b256/
   github: https://github.com/allenbiju30301
-#- name: Jiapeng Zhao
-#  type: Visitor
-#  department: MS Student, UCI
-#  avatar: Jiapeng.jpeg
-#  email: jiapez2@uci.edu
-#- name: Chad Davies
-#  type: Visitor
-#  avatar: chad.png
-#  department: PHD Student, UCR
-#  email: cdavi041@ucr.edu
+- name: Jiapeng Zhao
+  type: Alumni
+  role: Visiting Researcher
+  department: CSE
+  year: 2024
+  avatar: Jiapeng.jpeg
+  email: jiapez2@uci.edu
 - name: Yi-Zhen Tsai
   type: Visitor
   avatar: yizhen.jpg

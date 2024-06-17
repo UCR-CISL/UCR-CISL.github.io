@@ -56,3 +56,16 @@ title: People
     {% endif %}
 {% endfor %}
 </div>
+
+
+{% assign alum = site.data.team | sort : "year" %}
+
+<div class="clearfix">
+<h2>Alumni</h2>
+<br>
+{% for people in alum %}
+    {% if people.type == "Alumni" %}
+        {% include alumni_entry.html %}        
+    {% endif %}
+{% endfor %}
+</div>

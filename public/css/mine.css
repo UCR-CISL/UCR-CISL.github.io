@@ -54,6 +54,13 @@
     padding-top: 1rem;
 }
 
+.alumni{
+    text-align: left;
+    font-size: 0.9rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
 .pubentry{
     float: left;
     width: 60%;
