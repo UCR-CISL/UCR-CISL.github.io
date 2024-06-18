@@ -23,7 +23,7 @@
   type: PHD
   avatar: Bo.jpg
   department: ECE
-  email: bo.wu@email.ucr.edu
+  email: bwu109@ucr.edu
 - name: Janice Nguyen
   type: PHD
   department: ECE
@@ -37,6 +37,11 @@
   github: https://github.com/jyue86
   linkedin: https://www.linkedin.com/in/jyue86
   web: https://jyue86.github.io/
+- name: Neda S. Farahmandi 
+  type: PHD
+  avatar: neda.png
+  department: ECE
+  email: nfara011@ucr.edu
 - name: Ruoshen Mo
   type: PHD
   department: CSE
