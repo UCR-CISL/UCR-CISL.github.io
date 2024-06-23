@@ -13,13 +13,12 @@ Our interdisciplinary innovation addresses the system challenges in networking, 
 
 *We are always looking for motivated talents to [join us](joinus).* 
 
-<!-- <hr>
-#### Hiring for Fall 2024:
+<hr>
+#### Hiring for Fall 2025:
 
-We are hiring *three* PhDs this cycle, from both **ECE** and **CSE** department, in the following areas. Knowledge across areas is a plus.
-* Autonomous Driving (CS/EE)
-* ML Systems, Systems for ML (EE/CS)
-* Wireless/Vehicular Networking (EE) -->
+We are hiring from both **ECE** and **CSE** department, in the following areas.
+* Networked Systems, CPS, IoT
+* ML Systems, Systems for ML
 
 <hr>
 #### Recent News:
