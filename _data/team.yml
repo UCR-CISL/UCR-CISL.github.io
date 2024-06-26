@@ -196,3 +196,9 @@
   type: Visitor
   avatar: cisl.png
   department: High School Student, American High School
+- name: Tereck Johnson
+  type: Visitor
+  department: CSE Undergrad, UCR 
+  avatar: terek.png
+  email: tjohn108@ucr.edu
+  linkedin:  https://linkedin.com/in/terekjohnson
