@@ -51,6 +51,15 @@
   email: rmo008@ucr.edu
   github: https://github.com/MorrisHohoho
   web: https://morrishohoho.github.io/
+- name: Shilpa Mukhopadhyay
+  type: PHD
+  department: CSE
+  avatar: shilpa.jpg
+  coadvisor: Dr. Roy Chowdhury
+  email: shilpa.mukhopadhyay@email.ucr.edu
+  github: https://github.com/shilpa2301
+  linkedin: https://www.linkedin.com/in/shilpa-mukhopadhyay-a87967102/
+  web: https://sites.google.com/view/shilpamukhopadhyay/home/
 - name: Haoge Zhou
   type: Alumni
   role: MS
@@ -196,7 +205,7 @@
   type: Visitor
   avatar: cisl.png
   department: High School Student, American High School
-- name: Tereck Johnson
+- name: Terek Johnson
   type: Visitor
   department: CSE Undergrad, UCR 
   avatar: terek.png
