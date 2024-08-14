@@ -27,8 +27,10 @@
 - name: Janice Nguyen
   type: PHD
   department: ECE
-  avatar: cisl.png
+  avatar: janice.jpg
   email: jnguy172@ucr.edu
+  github: https://github.com/janguyen86
+  linkedin: https://www.linkedin.com/in/janice-nguyen-7b4911167/
 - name: Justin Yue
   type: PHD
   department: CSE
