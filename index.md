@@ -23,7 +23,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 <hr>
 #### Recent News:
 * Sep 2024: *[Harbor]() accepted by [Sensys '24](https://sensys.acm.org/2024/)*
-* Jul 2024: *Joined USDOT ([CARNATIONS](https://www.iitcarnations.org/)) Center*
+* Jul 2024: *Joined USDOT [CARNATIONS](https://www.iitcarnations.org/) Center*
 * Jul 2024: *[ELM](https://arxiv.org/abs/2403.04593) accepted by [ECCV' 24](https://eccv.ecva.net/Conferences/2024)*
 * Jan 2024: *[WOMD-Lidar](https://arxiv.org/abs/2304.03834) accepted by [ICRA'24](https://2024.ieee-icra.org/)*
 * Jan 2024: *ARPA-I [Intesrection Safety Challenge Award](https://www.transportation.gov/briefing-room/us-dot-announces-winners-intersection-safety-challenge)*
