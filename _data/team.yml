@@ -201,6 +201,7 @@
   type: Alumni
   avatar: ayoub.jpg
   department: MS Student, France
+  year: 2024
   email: ayoube@ucr.edu
   linkedin: https://www.linkedin.com/in/ayoub-el-azami-el-idrissi/
 - name: Anthony Zhou 
@@ -209,9 +210,10 @@
   department: High School Student, American High School
 - name: Terek Johnson
   type: Alumni
-  department: CSE Undergrad, UCR 
+  department:CSE Undergrad, UCR 
   avatar: terek.png
   email: tjohn108@ucr.edu
+  year: 2024
   linkedin:  https://linkedin.com/in/terekjohnson
 - name: Joong Ho Kim
   type: Vistor 
