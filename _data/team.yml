@@ -197,6 +197,13 @@
   avatar: cisl.png
   department: High School Student, Arcadia High School
   email: rijulg06@gmail.com
+- name: Joong Ho Kim
+  type: Visitor 
+  department: MS Student, CSUSB
+  avatar: joong.png
+  email: joonghk574@gmail.com
+  github: https://github.com/jkim574
+  linkedin: https://www.linkedin.com/in/joonghokim/
 - name: Ayoub Elazami Elidrissi
   type: Alumni
   avatar: ayoub.jpg
@@ -215,10 +222,3 @@
   email: tjohn108@ucr.edu
   year: 2024
   linkedin:  https://linkedin.com/in/terekjohnson
-- name: Joong Ho Kim
-  type: Vistor 
-  department: MS Student, CSUSB
-  avatar: joong.png
-  email: joonghk574@gmail.com
-  github: https://github.com/jkim574
-  linkedin: https://www.linkedin.com/in/joonghokim/
