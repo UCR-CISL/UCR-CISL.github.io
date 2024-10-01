@@ -4,7 +4,7 @@ title: Teaching
 ---
 
 ## Teaching
-
+* Fall 2024:  [EE 260B: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/fall24/)
 * Spring 2024:  [EE 260C: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/spring24/)
 * Winter 2023:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter23/) 
 
