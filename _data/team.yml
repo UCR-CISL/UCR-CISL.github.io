@@ -173,7 +173,14 @@
   department: CSE 
   avatar: terek.png
   email: tjohn108@ucr.edu
-  linkedin:  https://linkedin.com/in/terekjohnson
+  linkedin: https://linkedin.com/in/terekjohnson
+- name: James Liu
+  type: Undergrad
+  department: CSE
+  avatar: james.jpg
+  email: james.liu001@email.ucr.edu
+  github: https://github.com/jliu0411
+  linkedin: https://www.linkedin.com/in/jliu0411/
 - name: Jinjie Liu
   type: Visitor
   department: MS Student, USC
