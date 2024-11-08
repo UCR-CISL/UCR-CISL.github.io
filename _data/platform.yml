@@ -1,24 +1,23 @@
 - name: KIA Niro EV
   avatar: KIA_Niro.png
   type: vehicle
-  note: Shared and hosted in CE-CERT
   web: https://www.kia.com/us/en/niro-ev
 - name: Cadillac Lyriq
   avatar: cadillac_lyriq.png
   type: vehicle
-  note: Shared and hosted in CE-CERT
   web: https://www.cadillac.com/electric/lyriq
 - name: Nissan Leaf
   avatar: nissan_leaf.png
   type: vehicle
-  note: Shared and hosted in CE-CERT
+- name: NO-PUSH
+  avatar: nopush.jpeg
+  type: device
+  web: https://cisl.ucr.edu/NO-PUSH/
 - name: AVL DGT
   avatar: avl_dgt.png
   type: device
-  note: Shared and hosted in CE-CERT
   web: https://www.avl.com/en/testing-solutions/automated-and-connected-mobility-testing/avl-dynamic-ground-truth-system
 - name: Cohda MK6
   avatar: cohda_mk6.png
   type: device
-  note: Shared and hosted in CE-CERT
   web: https://www.cohdawireless.com/solutions/mk6/
