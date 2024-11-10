@@ -1,3 +1,52 @@
+- ENTRYTYPE: inproceedings
+  ID: harbor
+  abstract: 'Collaborative Vehicular Perception (CVP) enables connected and autonomous
+    vehicles (CAVs) to cooperatively extend their views through wirelessly sharing
+    their sensor data. Existing CVP systems employ either a vehicle-to-vehicle (V2V)
+    or vehicle-to-infrastructure (V2I) view exchange paradigm. In this paper, we advocate
+    a hybrid CVP design: our developed system, Harbor, employs V2I as its fundamental
+    underlying framework, and opportunistically employs V2V to boost the performance.
+    In Harbor, vehicles (helpers) may serve as relays to assist other vehicles (helpees)
+    in reaching an edge node, which performs sensor data merging to produce the extended
+    view. We judiciously partition the workload between the edge and vehicles, develop
+    a robust helper-helpee assignment model, and solve it efficiently at runtime.
+    We conduct both real-world tests and large-scale emulation experiments using two
+    prevailing CAV applications: drivable space detection and object detection. Our
+    real-world evaluation conducted at one of the world''s first purpose-built autonomous
+    driving testbeds demonstrates that Harbor outperforms state-of-the-art V2V- or
+    V2I-only CVP schemes by up to 36\% in detection accuracy, resulting in significantly
+    fewer collisions under dangerous driving scenarios.'
+  address: New York, NY, USA
+  author: Ruiyang Zhu, Xiao Zhu, Anlan Zhang, Xumiao Zhang, Jiachen Sun, Feng Qian,
+    Hang Qiu, Z. Morley Mao, Myungjin Lee
+  booktitle: Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems
+  conf: SenSys
+  doi: 10.1145/3666025.3699328
+  img: harbor.png
+  isbn: '9798400706974'
+  keywords: cooperative vehicular sensing, vehicular networks, autonomous cars, LiDAR
+  location: Hangzhou, China
+  numpages: '14'
+  pages: "141\u2013154"
+  publisher: Association for Computing Machinery
+  series: SenSys '24
+  title: Boosting Collaborative Vehicular Perception on the Edge with Vehicle-to-Vehicle
+    Communication
+  url: https://doi.org/10.1145/3666025.3699328
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: elm
+  author: Yunsong Zhou, Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi
+    Zhu, Minyi Guo, Yu Qiao, Hongyang Li
+  booktitle: Proceedings of The 18th European Conference on Computer Vision (ECCV)
+  code: https://github.com/OpenDriveLab/ELM
+  conf: ECCV
+  data: https://drive.google.com/drive/folders/1n4S0A4k8_9yDFIPIPWH_JLTUQ6yFc8ME?usp=sharing
+  img: elm.png
+  series: ECCV '24
+  title: Embodied Understanding of Driving Scenarios
+  url: https://arxiv.org/abs/2403.04593
+  year: '2024'
 - ENTRYTYPE: misc
   ID: womdlidar
   author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
