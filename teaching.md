@@ -4,9 +4,10 @@ title: Teaching
 ---
 
 ## Teaching
+* Winter 2025:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter25/) 
 * Fall 2024:  [EE 260B: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/fall24/)
 * Spring 2024:  [EE 260C: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/spring24/)
-* Winter 2023:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter23/) 
+* Winter 2024:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter24/) 
 
 Before UCR
 * Fall 2021:    Co-Instructor, [ML on Embedded Systems (Stanford EE 292D)](https://ee292d.github.io/), Co-Instructor: Sachin Katti, Zain Asgar, Pete Warden
