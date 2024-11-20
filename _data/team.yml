@@ -131,6 +131,12 @@
   department: ECE
   avatar: Joseph.jpg
   email: jspra006@ucr.edu
+- name: Marcus Hsieh
+  type: Undergrad
+  department: Robotics
+  avatar: marcus.png
+  linkedin: https://linkedin.com/in/marcusjhsieh/
+  github: https://github.com/MarcusHsieh
 - name: Jerry Li
   type: Undergrad
   department: CSE
