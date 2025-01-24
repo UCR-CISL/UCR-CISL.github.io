@@ -1,4 +1,37 @@
 - ENTRYTYPE: inproceedings
+  ID: see_v2x
+  author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
+  booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
+  conf: ACM SenSys
+  img: see-v2x.png
+  note: (Conditionally Accepted)
+  publisher: Association for Computing Machinery
+  series: ACM SenSys '25
+  title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
+  year: '2025'
+- ENTRYTYPE: inproceedings
+  ID: replayar
+  address: New York, NY, USA
+  author: Zijian Huang, Cary Shu, Hang Qiu, Jiasi Chen
+  booktitle: Proceedings of the 30th Annual International Conference on Mobile Computing
+    and Networking
+  code: https://github.com/mavens-lab/replayAR
+  conf: ACM MobiCom
+  doi: 10.1145/3636534.3696213
+  img: replayar.png
+  isbn: '9798400704895'
+  keywords: augemented reality, evaluation tools, visualization
+  location: Washington D.C., DC, USA
+  note: ImmerCom Workshop
+  numpages: '7'
+  pages: "2106\u20132112"
+  publisher: Association for Computing Machinery
+  series: ACM MobiCom '24
+  slide: https://docs.google.com/presentation/d/1nlbcWakgK95wAiTLNMA8KBuDyriHCRjJeXleHAyhk9E/edit?usp=sharing
+  title: 'ReplayAR: A Tool for Visual Evaluation of Mixed Reality'
+  url: https://doi.org/10.1145/3636534.3696213
+  year: '2024'
+- ENTRYTYPE: inproceedings
   ID: harbor
   abstract: 'Collaborative Vehicular Perception (CVP) enables connected and autonomous
     vehicles (CAVs) to cooperatively extend their views through wirelessly sharing
@@ -20,7 +53,7 @@
   author: Ruiyang Zhu, Xiao Zhu, Anlan Zhang, Xumiao Zhang, Jiachen Sun, Feng Qian,
     Hang Qiu, Z. Morley Mao, Myungjin Lee
   booktitle: Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems
-  conf: SenSys
+  conf: ACM SenSys
   doi: 10.1145/3666025.3699328
   img: harbor.png
   isbn: '9798400706974'
@@ -29,7 +62,7 @@
   numpages: '14'
   pages: "141\u2013154"
   publisher: Association for Computing Machinery
-  series: SenSys '24
+  series: ACM SenSys '24
   title: Boosting Collaborative Vehicular Perception on the Edge with Vehicle-to-Vehicle
     Communication
   url: https://doi.org/10.1145/3666025.3699328
@@ -47,7 +80,7 @@
   title: Embodied Understanding of Driving Scenarios
   url: https://arxiv.org/abs/2403.04593
   year: '2024'
-- ENTRYTYPE: misc
+- ENTRYTYPE: inproceedings
   ID: womdlidar
   author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
@@ -80,13 +113,13 @@
   ID: qiu2021mlexray
   author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
     Chinchali, Zain Asgar, Sachin Katti
+  award: Outstanding Paper Award
   booktitle: Proceedings of Machine Learning and Systems
   code: https://github.com/hangqiu/ML-EXray
   conf: MLSys
   img: mlexray.png
   mediaa: embeddedcomputing.png
   mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
-  note: Outstanding Paper Award
   series: MLSys '22
   title: 'ML-EXray: Visibility into ML Deployment on the Edge'
   url: https://arxiv.org/abs/2111.04779
@@ -176,12 +209,12 @@
   ID: he2020fedml
   author: Chaoyang He, Songze Li, Jinhyun So, Mi Zhang, Hongyi Wang, Xiaoyang Wang,
     Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen,  others
+  award: Best Paper Award
   booktitle: Proceedings of the 34th Conference on Neural Information Processing Systems
     (NeurIPS '20), Workshop on Scalability, Privacy, and Security in Federated Learning
   code: https://github.com/FedML-AI
   conf: NeurIPS, SpicyFL
   img: fedml.png
-  note: Best Paper Award
   series: NeurIPS, SpicyFL '20
   title: 'FedML: A Research Library and Benchmark for Federated Machine Learning'
   url: https://arxiv.org/abs/2007.13518
@@ -205,13 +238,13 @@
   ID: avr_getmobile
   address: New York, NY, USA
   author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
+  award: "Invited article (Best Paper runner-up of Mobisys\u201918)"
   booktitle: 'GetMobile: Mobile Comp. and Comm.'
   conf: 'GetMobile: Mobile Comp. and Comm.'
   doi: 10.1145/3325867.3325880
   issn: 2375-0529
   issue_date: December 2018
   month: may
-  note: "Invited article (Best Paper runner-up of Mobisys\u201918)"
   number: '4'
   numpages: '5'
   pages: "30\u201334"
@@ -234,6 +267,7 @@
   ID: avr
   address: New York, NY, USA
   author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
+  award: Best Paper Runner-up Award
   booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
     Applications, and Services
   code: https://github.com/hangqiu/AVR16
@@ -244,7 +278,6 @@
   isbn: '9781450357203'
   keywords: Collaborative Sensing, Autonomous Cars, Extended Vision
   location: Munich, Germany
-  note: Best Paper Runner-up Award
   numpages: '15'
   pages: "81\u201395"
   publisher: Association for Computing Machinery
@@ -405,11 +438,11 @@
 - ENTRYTYPE: inbook
   ID: icm
   author: Xilun Chen, Hang Qiu, Chunzhi Yang
+  award: "Invited article (Outstanding Winner of ICM\u201912)"
   booktitle: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM
     \/ ICM Contest Edition
   conf: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM \/ ICM
     Contest Edition
-  note: "Invited article (Outstanding Winner of ICM\u201912)"
   title: My Story with ICM
   url: https://www.comap.com/undergraduate/contests/stories/My_Story_with_ICM.pdf
   year: '2013'
