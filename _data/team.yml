@@ -159,10 +159,12 @@
   email: anels048@email.ucr.edu
   github: https://github.com/thena-ay
 - name: Minjun Song
-  type: Undergrad
+  type: Alumni
   department: ECE
   avatar: Minjun.jpg
   email: minjun.song@email.ucr.edu
+  role: Undergrad
+  year: 2024
 - name: Adhith Karthikeyan
   type: Grad
   department: CSE
@@ -171,12 +173,14 @@
   github: https://github.com/kkadhith
   web: https://kkadhith.com/
 - name: Purab Balani
-  type: Undergrad
+  type: Alumni
   department: ECE
   avatar: purab.jpeg
   email: pbala011@ucr.edu
   github: https://www.github.com/PurabB
   linkedin: https://www.linkedin.com/in/purab-balani
+  role: Undergrad
+  year: 2024
 - name: Alex Totah
   type: Undergrad
   department: ECE
@@ -224,22 +228,19 @@
   linkedin: https://www.linkedin.com/in/allen-biju-54098b256/
   github: https://github.com/allenbiju30301
 - name: Jiapeng Zhao
-  type: Alumni
+  type: PastVisitor
   role: Visiting Researcher
   department: CSE
   year: 2024
   avatar: Jiapeng.jpeg
   email: jiapez2@uci.edu
 - name: Yi-Zhen Tsai
-  type: Visitor
+  type: PastVisitor
   avatar: yizhen.jpg
-  department: PHD Student, UCR
+  department: ECE
   email: ytsai036@ucr.edu
-- name: Rijul Garg
-  type: Visitor
-  avatar: cisl.png
-  department: High School Student, Arcadia High School
-  email: rijulg06@gmail.com
+  year: 2024
+  role: PhD
 - name: Joong Ho Kim
   type: Visitor 
   department: MS Student, CSUSB

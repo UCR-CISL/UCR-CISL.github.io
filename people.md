@@ -69,3 +69,13 @@ title: People
     {% endif %}
 {% endfor %}
 </div>
+
+<div class="clearfix">
+<h2>Past Visitors</h2>
+<br>
+{% for people in alum %}
+    {% if people.type == "PastVisitor" %}
+        {% include alumni_entry.html %}        
+    {% endif %}
+{% endfor %}
+</div>
