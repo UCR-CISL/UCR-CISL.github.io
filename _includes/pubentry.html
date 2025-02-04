@@ -11,7 +11,7 @@
             <br>
             {{ pub.author }}
             <br>
-            <em>{{pub.conf}}, {{pub.year}}{% if pub.note %}, <span style="color:#ff0000;">{{pub.note}}</span>{% endif %}</em>
+            <em>{{pub.conf}}, {{pub.year}}{% if pub.award %}, <span style="color:#ff0000;">{{pub.award}}</span>{% endif %}{% if pub.note %}, {{pub.note}}{% endif %}</em>
             <br>
             {% if pub.url %}
             <a href={{pub.url}} target="_blank" role="button">
