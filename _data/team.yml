@@ -72,7 +72,9 @@
   email: hzhou083@ucr.edu
   github: https://github.com/hankge
 - name: Diwakar Ravichandran
-  type: Grad
+  type: Alumni
+  role: MS
+  year: 2025
   avatar: Diwakar.jpeg
   department: BCOE
   coadvisor: Dr. Ren
@@ -118,7 +120,9 @@
   email: zhaoze.sun@email.ucr.edu
   github: https://github.com/zsun114
 - name: Rakshith Mahishi
-  type: Grad
+  type: Alumni
+  role: MS
+  year: 2025
   avatar: rakshith.jpeg
   department: CSE
   email: rmahi001@ucr.edu
@@ -132,7 +136,9 @@
   github: https://github.com/hk-kiran
   linkedin: http://www.linkedin.com/in/hkkiran
 - name: Ashik Mysore Padmanabha
-  type: Grad
+  type: Alumni
+  role: MS
+  year: 2025
   avatar: ashik.jpg
   department: CSE
   email: amyso001@ucr.edu
@@ -180,7 +186,9 @@
   role: Undergrad
   year: 2024
 - name: Adhith Karthikeyan
-  type: Grad
+  type: Alumni
+  role: MS
+  year: 2025
   department: CSE
   avatar: ak.jpg
   email: akart006@ucr.edu
@@ -195,13 +203,6 @@
   linkedin: https://www.linkedin.com/in/purab-balani
   role: Undergrad
   year: 2024
-- name: Alex Totah
-  type: Undergrad
-  department: ECE
-  avatar: alex.jpeg
-  email: alex.totah@email.ucr.edu
-  github: https://github.com/nander100
-  linkedin: https://www.linkedin.com/in/alexander-totah-2137b4247/
 - name: Alex Totah
   type: Undergrad
   department: ECE
@@ -270,8 +271,8 @@
   github: https://github.com/jkim574
   linkedin: https://www.linkedin.com/in/joonghokim/
 - name: Ayoub Elazami Elidrissi
-  type: Alumni
-  role: MS
+  type: PastVisitor
+  role: Research Intern
   department: CSE (France)
   year: 2024
   email: ayoube@ucr.edu

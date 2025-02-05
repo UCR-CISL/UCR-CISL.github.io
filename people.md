@@ -58,7 +58,7 @@ title: People
 </div>
 
 
-{% assign alum = site.data.team | sort : "year" %}
+{% assign alum = site.data.team | sort : "year" | reverse %}
 
 <div class="clearfix">
 <h2>Alumni</h2>
