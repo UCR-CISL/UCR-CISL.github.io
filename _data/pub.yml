@@ -1,3 +1,16 @@
+- ENTRYTYPE: article
+  ID: cmp
+  author: Zehao Wang, Yuping Wang, Zhuoyuan Wu, Hengbo Ma, Zhaowei Li, Hang Qiu, Jiachen
+    Li
+  conf: IEEE Robotics and Automation Letters
+  demo: https://www.youtube.com/watch?v=9y3ybSUqmO4
+  img: cmp.png
+  journal: IEEE Robotics and Automation Letters
+  publisher: IEEE
+  title: 'CMP: Cooperative Motion Prediction with Multi-Agent Communication'
+  url: https://arxiv.org/pdf/2403.17916
+  web: https://cmp-cooperative-prediction.github.io/
+  year: '2025'
 - ENTRYTYPE: inproceedings
   ID: see_v2x
   author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
@@ -27,7 +40,7 @@
   pages: "2106\u20132112"
   publisher: Association for Computing Machinery
   series: ACM MobiCom '24
-  slide: https://docs.google.com/presentation/d/1nlbcWakgK95wAiTLNMA8KBuDyriHCRjJeXleHAyhk9E/edit?usp=sharing
+  slides: https://docs.google.com/presentation/d/1nlbcWakgK95wAiTLNMA8KBuDyriHCRjJeXleHAyhk9E/edit?usp=sharing
   title: 'ReplayAR: A Tool for Visual Evaluation of Mixed Reality'
   url: https://doi.org/10.1145/3636534.3696213
   year: '2024'
