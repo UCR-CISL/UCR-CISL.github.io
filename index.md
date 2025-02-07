@@ -22,6 +22,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 
 <hr>
 #### Recent News:
+* Jan 2025: *[CMP](https://cmp-cooperative-prediction.github.io/) accepted by RA-L*
 * Jan 2025: *New [OASIS IFA Award](https://oasis.ucr.edu/) to support our research*
 * Jan 2025: *SEE-V2X conditionally accepted by [Sensys '25]((https://sensys.acm.org/2025/))*
 * Jan 2025: *US DOT [Intesrection Safety Challenge Award](https://www.transportation.gov/briefing-room/us-dot-announces-winners-intersection-safety-challenge-stage-1b-system-assessment-and) Stage 1B*
