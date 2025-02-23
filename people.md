@@ -58,13 +58,23 @@ title: People
 </div>
 
 
-{% assign alum = site.data.team | sort : "year" %}
+{% assign alum = site.data.team | sort : "year" | reverse %}
 
 <div class="clearfix">
 <h2>Alumni</h2>
 <br>
 {% for people in alum %}
     {% if people.type == "Alumni" %}
+        {% include alumni_entry.html %}        
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="clearfix">
+<h2>Past Visitors</h2>
+<br>
+{% for people in alum %}
+    {% if people.type == "PastVisitor" %}
         {% include alumni_entry.html %}        
     {% endif %}
 {% endfor %}
