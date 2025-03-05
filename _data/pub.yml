@@ -1,26 +1,49 @@
 - ENTRYTYPE: article
+  ID: cats
+  author: Namo Asavisanu, Tina Khezresmaeilzadeh, Rohan Sequeira, Hang Qiu, Fawad
+    Ahmad, Konstantinos Psounis, Ramesh Govindan
+  conf: IEEE TVT
+  img: cats.png
+  journal: IEEE Transactions on Vehicular Technology
+  publisher: IEEE
+  series: IEEE TVT
+  title: 'CATS: A Framework for Cooperative Autonomy Trust & Security'
+  url: https://arxiv.org/abs/2503.00659
+  year: '2025'
+- ENTRYTYPE: article
   ID: cmp
   author: Zehao Wang, Yuping Wang, Zhuoyuan Wu, Hengbo Ma, Zhaowei Li, Hang Qiu, Jiachen
     Li
-  conf: IEEE Robotics and Automation Letters
+  conf: IEEE RA-L
   demo: https://www.youtube.com/watch?v=9y3ybSUqmO4
+  doi: 10.1109/LRA.2025.3546862
   img: cmp.png
   journal: IEEE Robotics and Automation Letters
+  keywords: Trajectory;Feature extraction;Three-dimensional displays;Robot sensing
+    systems;Tracking;Predictive models;Laser radar;Transformers;Point cloud compression;Pipelines;Intelligent
+    transportation systems;multi-robot systems;cooperating robots;cooperative prediction;connected
+    and automated vehicles
+  number: ''
+  pages: 1-8
   publisher: IEEE
+  series: IEEE RA-L
   title: 'CMP: Cooperative Motion Prediction with Multi-Agent Communication'
   url: https://arxiv.org/pdf/2403.17916
+  volume: ''
   web: https://cmp-cooperative-prediction.github.io/
   year: '2025'
 - ENTRYTYPE: inproceedings
   ID: see_v2x
   author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
   booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
+  code: https://github.com/UCR-CISL/SEE-V2X/
   conf: ACM SenSys
+  data: https://drive.google.com/drive/u/1/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL
   img: see-v2x.png
-  note: (Conditionally Accepted)
   publisher: Association for Computing Machinery
   series: ACM SenSys '25
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
+  web: https://cisl.ucr.edu/SEE-V2X/
   year: '2025'
 - ENTRYTYPE: inproceedings
   ID: replayar
