@@ -9,10 +9,10 @@
 - name: Nissan Leaf
   avatar: nissan_leaf.png
   type: vehicle
-- name: NO-PUSH
+- name: Sensing Platform (CMS)
   avatar: nopush.jpeg
   type: device
-  web: https://cisl.ucr.edu/NO-PUSH/
+  web: https://cisl.ucr.edu/CMS/
 - name: AVL DGT
   avatar: avl_dgt.png
   type: device
@@ -21,3 +21,14 @@
   avatar: cohda_mk6.png
   type: device
   web: https://www.cohdawireless.com/solutions/mk6/
+- name: Innovation Corridor
+  avatar: corridor.png
+  type: env
+  web: https://www.cert.ucr.edu/riverside-innovation-corridor
+- name: Motion Capture
+  avatar: mocap.png
+  type: env
+  web: https://www.optitrack.com/
+- name: Remote Operation Center
+  avatar: remoteops.jpeg
+  type: env
