@@ -198,6 +198,12 @@
   avatar: anatulya.jpg
   email: anand023@ucr.edu
   linkedin: https://www.linkedin.com/in/anatulya/
+- name: Dylan Wong
+  type: Undergrad
+  department: CSE
+  avatar: dylan.png
+  email: dwong133@ucr.edu
+  linkedin: https://www.linkedin.com/in/dylan-wong-09472428a
 - name: Minjun Song
   type: Alumni
   department: ECE
