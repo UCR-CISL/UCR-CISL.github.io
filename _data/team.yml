@@ -204,6 +204,13 @@
   avatar: dylan.png
   email: dwong133@ucr.edu
   linkedin: https://www.linkedin.com/in/dylan-wong-09472428a
+- name: Joshua Ha
+  type: Undergrad
+  department: CSE
+  avatar: joshua.jpg
+  email: jha066@ucr.edu
+  linkedin: https://www.linkedin.com/in/joshua-ha-805879280/
+  github: https://joshuaha.vercel.app/index.html
 - name: Minjun Song
   type: Alumni
   department: ECE
