@@ -192,6 +192,25 @@
   email: atham011@ucr.edu
   linkedin: https://www.linkedin.com/in/arya-thammanna/
   github: https://github.com/atham011
+- name: Anatulya Nandi
+  type: Undergrad
+  department: ECE
+  avatar: anatulya.jpg
+  email: anand023@ucr.edu
+  linkedin: https://www.linkedin.com/in/anatulya/
+- name: Dylan Wong
+  type: Undergrad
+  department: CSE
+  avatar: dylan.png
+  email: dwong133@ucr.edu
+  linkedin: https://www.linkedin.com/in/dylan-wong-09472428a
+- name: Joshua Ha
+  type: Undergrad
+  department: CSE
+  avatar: joshua.jpg
+  email: jha066@ucr.edu
+  linkedin: https://www.linkedin.com/in/joshua-ha-805879280/
+  github: https://joshuaha.vercel.app/index.html
 - name: Minjun Song
   type: Alumni
   department: ECE
