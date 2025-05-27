@@ -1,0 +1,26 @@
+{% assign sponsor = site.data.sponsor | sort : "name" %}
+
+
+<div class="sponsor-grid">
+  {% for p in sponsor %}
+    {% if p.type == "gov" %}
+      <div class="sponsor-box">
+        <img src="{{ site.baseurl }}/assets/sponsor/{{p.avatar}}" alt="Avatar" class="sponsor-logo">
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% for p in sponsor %}
+    {% if p.type == "com" %}
+      <div class="sponsor-box">
+        <img src="{{ site.baseurl }}/assets/sponsor/{{p.avatar}}" alt="Avatar" class="sponsor-logo">
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% for p in sponsor %}
+    {% if p.type == "mil" %}
+      <div class="sponsor-box">
+        <img src="{{ site.baseurl }}/assets/sponsor/{{p.avatar}}" alt="Avatar" class="sponsor-logo">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,3 +1,19 @@
+- ENTRYTYPE: misc
+  ID: talkingvehicles
+  archiveprefix: arXiv
+  author: Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi,
+    Hang Qiu, Peter Stone
+  code: https://github.com/cuijiaxun/talking-vehicles
+  conf: arXiv
+  demo: https://utexas.app.box.com/s/5pn2rfcprqv9p992m9lzyeaurq8irrhd
+  eprint: '2505.18334'
+  img: talkingvehicles.png
+  primaryclass: cs.RO
+  title: Towards Natural Language Communication for Cooperative Autonomous Driving
+    via Self-Play
+  url: https://arxiv.org/abs/2505.18334
+  web: https://talking-vehicles.github.io/
+  year: '2025'
 - ENTRYTYPE: article
   ID: cats
   author: Namo Asavisanu, Tina Khezresmaeilzadeh, Rohan Sequeira, Hang Qiu, Fawad

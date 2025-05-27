@@ -19,6 +19,29 @@
   height: 7rem;
 }
 
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.sponsor-box {
+  height: 5rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.sponsor-logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .right {
   float: right;
   font-size: 1.25rem;

@@ -14,14 +14,16 @@ Our interdisciplinary innovation addresses the system challenges in networking, 
 *We are always looking for motivated talents to [join us](joinus).* 
 
 <hr>
-#### Hiring for Fall 2025:
+#### Hiring for Fall 2026:
 
 We are hiring from both **ECE** and **CSE** department, in the following areas.
-* Cyber-Physical Systems, IoT
+* Vehicular/Robotic Networks, Edge Computing
 * ML Systems, Systems for ML
+
 
 <hr>
 #### Recent News:
+* May 2025: *Invited article [Cloud is Closer Than It Appears]() accepted by [ICCCN'25](http://icccn.org/icccn25/)*
 * Mar 2025: *[SEE-V2X](https://cisl.ucr.edu/SEE-V2X/) accepted by [Sensys '25]((https://sensys.acm.org/2025/))*
 * Feb 2025: *[CATS](https://arxiv.org/abs/2503.00659) accepted by TVT*
 * Jan 2025: *[CMP](https://cmp-cooperative-prediction.github.io/) accepted by RA-L*
@@ -39,3 +41,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 * Mar 2022: *[AutoCast](https://arxiv.org/abs/2112.14947) accepted by [Mobisys' 22](https://www.sigmobile.org/mobisys/2022/)*
 * Mar 2022: *[Coopernaut](https://arxiv.org/abs/2112.14947) accepted by [CVPR' 22](https://cvpr2022.thecvf.com/)*
 * Jan 2022: *[ML-EXray](https://arxiv.org/abs/2111.04779) accepted by [MLSys' 22](https://mlsys.org/Conferences/2022)*
+
+
+<hr>
+{% include sponsor.html %}
