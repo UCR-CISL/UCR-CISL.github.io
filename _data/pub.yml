@@ -1,4 +1,19 @@
 - ENTRYTYPE: misc
+  ID: bevcalib
+  archiveprefix: arXiv
+  author: Weiduo Yuan, Jerry Li, Justin Yue, Divyank Shah, Konstantinos Karydis, Hang
+    Qiu
+  code: https://github.com/UCR-CISL/BEVCalib
+  conf: arXiv
+  eprint: '2506.02587'
+  img: bevcalib.png
+  primaryclass: cs.CV
+  title: 'BEVCALIB: LiDAR-Camera Calibration via Geometry-Guided Bird''s-Eye View
+    Representations'
+  url: https://arxiv.org/abs/2506.02587
+  web: https://cisl.ucr.edu/BEVCalib/
+  year: '2025'
+- ENTRYTYPE: misc
   ID: talkingvehicles
   archiveprefix: arXiv
   author: Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi,
@@ -60,7 +75,6 @@
   series: ACM SenSys '25
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
   web: https://cisl.ucr.edu/SEE-V2X/
-  url: https://dl.acm.org/doi/10.1145/3715014.3722077
   year: '2025'
 - ENTRYTYPE: inproceedings
   ID: replayar
