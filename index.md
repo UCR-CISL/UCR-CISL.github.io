@@ -23,6 +23,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 
 <hr>
 #### Recent News:
+* Jun 2025: *[CMP](https://cmp-cooperative-prediction.github.io/) accepted for presentation by [IROS '25](https://www.iros25.org/)*
 * May 2025: *Invited article [Cloud is Closer Than It Appears]() accepted by [ICCCN'25](http://icccn.org/icccn25/)*
 * Mar 2025: *[SEE-V2X](https://cisl.ucr.edu/SEE-V2X/) accepted by [Sensys '25]((https://sensys.acm.org/2025/))*
 * Feb 2025: *[CATS](https://arxiv.org/abs/2503.00659) accepted by TVT*
