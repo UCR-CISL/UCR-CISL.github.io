@@ -77,6 +77,7 @@
   publisher: Association for Computing Machinery
   series: ACM SenSys '25
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
+  url: https://dl.acm.org/doi/10.1145/3715014.3722077
   web: https://cisl.ucr.edu/SEE-V2X/
   year: '2025'
 - ENTRYTYPE: inproceedings
