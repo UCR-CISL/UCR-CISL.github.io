@@ -13,36 +13,43 @@
             <br>
             <em>{{pub.conf}}, {{pub.year}}{% if pub.award %}, <span style="color:#ff0000;">{{pub.award}}</span>{% endif %}{% if pub.note %}, {{pub.note}}{% endif %}</em>
             <br>
-            {% if pub.url %}
-            <a href={{pub.url}} target="_blank" role="button">
-            [Paper]
-            </a>
-            {% endif%}
-            {% if pub.talk %}
-            <a href={{pub.talk}} target="_blank" role="button">
-            [Talk]
-            </a>
-            {% endif%}
-            {% if pub.demo %}
-            <a href={{pub.demo}} target="_blank" role="button">
-            [Demo]
-            </a>
-            {% endif%}
-            {% if pub.data %}
-            <a href={{pub.data}} target="_blank" role="button">
-            [Data]
-            </a>
-            {% endif%}
-            {% if pub.code %}
-            <a href={{pub.code}} target="_blank" role="button">
-            [Code]
-            </a>
-            {% endif%}
-            {% if pub.web %}
-            <a href={{pub.web}} target="_blank" role="button">
-            [Project]
-            </a>
-            {% endif%}
+            <div style="display: flex; align-items: center;">
+                {% if pub.url %}
+                <a href={{pub.url}} target="_blank" role="button">
+                [Paper]
+                </a>
+                {% endif%}
+                {% if pub.talk %}
+                <a href={{pub.talk}} target="_blank" role="button">
+                [Talk]
+                </a>
+                {% endif%}
+                {% if pub.demo %}
+                <a href={{pub.demo}} target="_blank" role="button">
+                [Demo]
+                </a>
+                {% endif%}
+                {% if pub.data %}
+                <a href={{pub.data}} target="_blank" role="button">
+                [Data]
+                </a>
+                {% endif%}
+                {% if pub.web %}
+                <a href={{pub.web}} target="_blank" role="button">
+                [Project]
+                </a>
+                {% endif%}
+                {% if pub.code %}
+                <a href={{pub.code}} target="_blank" role="button">
+                [Code]
+                </a>
+                {% endif%}
+                {% if pub.star %}
+                <div style="position: relative; top: 0.2rem;">
+                <a class="github-button" href={{pub.star}} data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true">Star</a>
+                </div>  
+                {% endif%}
+            </div>
         </div>
         <div class="pubmediacontainer">
             {% if pub.mediaa %}

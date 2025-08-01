@@ -1,0 +1,40 @@
+<!-- In <head> -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- In <body> -->
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/assets/outings/outing24.jpeg" /></div>
+    <div class="swiper-slide"><img src="/assets/outings/outing25_1.jpeg" /></div>
+    <div class="swiper-slide"><img src="/assets/outings/outing25_2.jpeg" /></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+<!-- At the bottom -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  new Swiper('.swiper', {
+    autoplay: {
+      delay: 3000,
+    },
+    loop: true,
+    effect: 'fade',
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+<style>
+.swiper-pagination {
+  bottom: 1rem !important;
+}
+</style>

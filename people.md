@@ -3,7 +3,7 @@ layout: page
 title: People
 ---
 
-![Lab Outing 2024](assets/imgs/outing24.jpeg)
+{% include lab_pic.html %}
 
 {% assign team = site.data.team | sort : "name" %}
 
