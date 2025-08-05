@@ -4,10 +4,11 @@ title: Teaching
 ---
 
 ## Teaching
+* Fall 2025:  [EE 267: Introduction to Autonomous Driving Systems](https://ucr-cisl.github.io/EE267/fall25/) 
 * Spring 2025:  [CS 135: Virtual Reality](https://ucr-cisl.github.io/CS135/spring25/) 
 * Winter 2025:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter25/) 
-* Fall 2024:  [EE 260B: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/fall24/)
-* Spring 2024:  [EE 260C: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE260/spring24/)
+* Fall 2024:  [EE 260B: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE267/fall24/)
+* Spring 2024:  [EE 260C: Introduction to the Self-driving Stack](https://ucr-cisl.github.io/EE267/spring24/)
 * Winter 2024:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter24/) 
 
 Before UCR
