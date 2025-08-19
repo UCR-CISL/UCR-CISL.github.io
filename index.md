@@ -22,27 +22,17 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 
 
 <hr>
+
+
+
 #### Recent News:
-* Aug 2025: *[BEVCalib](https://cisl.ucr.edu/BEVCalib/) accepted by [CoRL '25](https://www.corl.org/)*
-* Jun 2025: *[CMP](https://cmp-cooperative-prediction.github.io/) accepted for presentation by [IROS '25](https://www.iros25.org/)*
-* May 2025: *Invited article [Cloud is Closer Than It Appears]() accepted by [ICCCN'25](http://icccn.org/icccn25/)*
-* Mar 2025: *[SEE-V2X](https://cisl.ucr.edu/SEE-V2X/) accepted by [Sensys '25]((https://sensys.acm.org/2025/))*
-* Feb 2025: *[CATS](https://arxiv.org/abs/2503.00659) accepted by TVT*
-* Jan 2025: *[CMP](https://cmp-cooperative-prediction.github.io/) accepted by RA-L*
-* Jan 2025: *New [OASIS IFA Award](https://oasis.ucr.edu/) to support our research*
-* Jan 2025: *US DOT [Intesrection Safety Challenge Award](https://www.transportation.gov/briefing-room/us-dot-announces-winners-intersection-safety-challenge-stage-1b-system-assessment-and) Stage 1B*
-* Sep 2024: *[Harbor]() accepted by [Sensys '24](https://sensys.acm.org/2024/)*
-* Jul 2024: *Joined USDOT [CARNATIONS](https://www.iitcarnations.org/) Center*
-* Jul 2024: *[ELM](https://arxiv.org/abs/2403.04593) accepted by [ECCV' 24](https://eccv.ecva.net/Conferences/2024)*
-* Jan 2024: *[WOMD-Lidar](https://arxiv.org/abs/2304.03834) accepted by [ICRA'24](https://2024.ieee-icra.org/)*
-* Jan 2024: *ARPA-I [Intesrection Safety Challenge Award](https://www.transportation.gov/briefing-room/us-dot-announces-winners-intersection-safety-challenge)*
-* Sep 2023: *New [OASIS IFA Award](https://mcusercontent.com/16b960a15758a2e9f6cc8140d/files/10cd5110-9bf7-972e-94e4-7655e311e16a/OASIS_IFA_2nd_Round_Large_and_Small_Awards_compressed.pdf) to support our research*
-* Jan 2023: *[MCAL](https://openreview.net/pdf?id=1FxRPKrH8bw) accepted by [ICLR' 23](https://iclr.cc/Conferences/2023)*
-* Aug 2022: *[ML-EXray](https://arxiv.org/abs/2111.04779) received the [Outstanding Paper Award](https://mlsys.org/virtual/2022/oral/2155) from [MLSys'22](https://mlsys.org/Conferences/2022)*
-* Mar 2022: *[ML-EXray](https://arxiv.org/abs/2111.04779) accepted as a talk at [Kubernetes on Edge Day Europe 2022](https://kubernetesonedgedayeu22.sched.com/event/zsA2/mlexray-observability-for-machine-learning-on-the-edge-michelle-nguyen-stanford)*
-* Mar 2022: *[AutoCast](https://arxiv.org/abs/2112.14947) accepted by [Mobisys' 22](https://www.sigmobile.org/mobisys/2022/)*
-* Mar 2022: *[Coopernaut](https://arxiv.org/abs/2112.14947) accepted by [CVPR' 22](https://cvpr2022.thecvf.com/)*
-* Jan 2022: *[ML-EXray](https://arxiv.org/abs/2111.04779) accepted by [MLSys' 22](https://mlsys.org/Conferences/2022)*
+
+{% assign news = site.data.news | sort : "date" | reverse %}
+<ul>
+{% for item in news %}
+    <li> {{ item.date | date: "%b %Y"}}: <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em></li>
+{% endfor %}
+</ul>
 
 
 <hr>

@@ -34,12 +34,18 @@
   author: Namo Asavisanu, Tina Khezresmaeilzadeh, Rohan Sequeira, Hang Qiu, Fawad
     Ahmad, Konstantinos Psounis, Ramesh Govindan
   conf: IEEE TVT
+  doi: 10.1109/TVT.2025.3546194
   img: cats.png
   journal: IEEE Transactions on Vehicular Technology
-  publisher: IEEE
+  keywords: Vehicle-to-everything;Tides;Privacy;Phantoms;Electronic mail;Denial-of-service
+    attack;Delays;Training;Time factors;Scalability;Autonomous vehicles;connected
+    vehicles;Internet of Vehicles;vehicle safety
+  number: '7'
+  pages: 10092-10108
   series: IEEE TVT
-  title: 'CATS: A Framework for Cooperative Autonomy Trust & Security'
-  url: https://arxiv.org/abs/2503.00659
+  title: 'CATS: A Framework for Cooperative Autonomy Trust and Security'
+  url: https://ieeexplore.ieee.org/document/10919219
+  volume: '74'
   year: '2025'
 - ENTRYTYPE: article
   ID: cmp
