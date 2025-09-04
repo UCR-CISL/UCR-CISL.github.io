@@ -284,6 +284,13 @@
   email: alin157@ucr.edu
   github: https://github.com/pilafnoodle
   linkedin: https://www.linkedin.com/in/amber-lin-632583264/
+- name: Cristian Roberts
+  type: Undergrad
+  department: CSE
+  avatar: cristian.png
+  email: crobe042@ucr.edu
+  github: https://github.com/crisapi
+  linkedin: https://www.linkedin.com/in/cristian-roberts/
 # - name: Holland Pleskac
 #   type: Undergrad
 #   department: CSE
@@ -309,6 +316,11 @@
   department: MS Student, USC
   avatar: Jinjie.jpg
   email: jinjie.liu@usc.edu 
+- name: Feiyang Ma
+  type: Visitor
+  department: MS Student, UCSD
+  avatar: feiyang.jpeg
+  email: f4ma@ucsd.edu
 - name: Allen Biju
   type: Undergrad
   department: CSE
