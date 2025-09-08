@@ -14,7 +14,9 @@ title: Publication
 <div>
 {% for pub in site.data.pub %}
     {% if pub.ENTRYTYPE == "misc" %}
-        {% include pubentry.html %}
+        {% if pub.img %}
+            {% include pubentry.html %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 </div>
@@ -22,7 +24,9 @@ title: Publication
 <div>
 {% for pub in site.data.pub %}
     {% if pub.ENTRYTYPE == "inproceedings" or pub.ENTRYTYPE == "article" %}
-        {% include pubentry.html %}
+        {% if pub.img %}
+            {% include pubentry.html %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 </div>

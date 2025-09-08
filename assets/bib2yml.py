@@ -51,7 +51,7 @@ def add_new_articles(bibdbs):
                 conf = booktitle_series_map[conf_name]
 
         # conf = conf.split(' ')[0]
-        conf = conf.split('\'')[0].strip()
+        # conf = conf.split('\'')[0].strip()
 
         bibdb['conf'] = conf
 

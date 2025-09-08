@@ -1,9 +1,7 @@
 <div class="pubwraper">
-    {% if pub.img %}
-        <div class="pubimg">
-            <img class="center" src="{{ site.baseurl }}/assets/imgs/{{pub.img}}">
-        </div>
-    {% endif %}
+    <div class="pubimg">
+        <img class="center" src="{{ site.baseurl }}/assets/imgs/{{pub.img}}">
+    </div>
     <div class = "spacer"></div>
     <div class="pubentry">
         <div>
@@ -11,7 +9,7 @@
             <br>
             {{ pub.author }}
             <br>
-            <em>{{pub.conf}}, {{pub.year}}{% if pub.award %}, <span style="color:#ff0000;">{{pub.award}}</span>{% endif %}{% if pub.note %}, {{pub.note}}{% endif %}</em>
+            <em>{{pub.conf}}, {{pub.year}}{% if pub.note %}, <span style="color:#ff0000;">{{pub.note}}</span>{% endif %}</em>
             <br>
             <div style="display: flex; align-items: center;">
                 {% if pub.url %}
