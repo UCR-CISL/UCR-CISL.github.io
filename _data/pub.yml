@@ -225,36 +225,6 @@
   volume: '18'
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: qiu2021mlexray
-  author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
-    Chinchali, Zain Asgar, Sachin Katti
-  booktitle: Proceedings of Machine Learning and Systems
-  code: https://github.com/hangqiu/ML-EXray
-  conf: MLSys '22
-  img: mlexray.png
-  mediaa: embeddedcomputing.png
-  mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
-  note: Outstanding Paper Award
-  series: MLSys '22
-  star: https://github.com/hangqiu/ML-EXray
-  title: 'ML-EXray: Visibility into ML Deployment on the Edge'
-  url: https://arxiv.org/abs/2111.04779
-  year: '2022'
-- ENTRYTYPE: article
-  ID: TMC
-  author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin S.
-    Chan, Thomas F. La Porta
-  conf: TMC '22
-  doi: 10.1109/TMC.2022.3182317
-  journal: IEEE Transactions on Mobile Computing
-  number: ''
-  pages: 1-15
-  series: TMC '22
-  title: Optimal Resource Allocation for Crowdsourced Image Processing
-  url: https://ieeexplore.ieee.org/abstract/document/9795060
-  volume: ''
-  year: '2022'
-- ENTRYTYPE: inproceedings
   ID: coopernaut
   author: Hang Qiu*, Jiaxun Cui*, Dian Chen, Peter Stone, Yuke Zhu
   booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
@@ -288,6 +258,36 @@
     Collaborative Driving'
   url: https://arxiv.org/abs/2112.14947
   web: https://hangqiu.github.io/AutoCast/
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: qiu2021mlexray
+  author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
+    Chinchali, Zain Asgar, Sachin Katti
+  booktitle: Proceedings of Machine Learning and Systems
+  code: https://github.com/hangqiu/ML-EXray
+  conf: MLSys '22
+  img: mlexray.png
+  mediaa: embeddedcomputing.png
+  mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
+  note: Outstanding Paper Award
+  series: MLSys '22
+  star: https://github.com/hangqiu/ML-EXray
+  title: 'ML-EXray: Visibility into ML Deployment on the Edge'
+  url: https://arxiv.org/abs/2111.04779
+  year: '2022'
+- ENTRYTYPE: article
+  ID: TMC
+  author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin S.
+    Chan, Thomas F. La Porta
+  conf: TMC '22
+  doi: 10.1109/TMC.2022.3182317
+  journal: IEEE Transactions on Mobile Computing
+  number: ''
+  pages: 1-15
+  series: TMC '22
+  title: Optimal Resource Allocation for Crowdsourced Image Processing
+  url: https://ieeexplore.ieee.org/abstract/document/9795060
+  volume: ''
   year: '2022'
 - ENTRYTYPE: techreport
   ID: ghosh2020localizing
