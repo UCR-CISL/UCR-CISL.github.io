@@ -145,7 +145,7 @@
   ID: elm
   author: Yunsong Zhou, Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi
     Zhu, Minyi Guo, Yu Qiao, Hongyang Li
-  booktitle: Proceedings of The 18th European Conference on Computer Vision (ECCV)
+  booktitle: Proceedings of The 18th European Conference on Computer Vision
   code: https://github.com/OpenDriveLab/ELM
   conf: ECCV '24
   data: https://drive.google.com/drive/folders/1n4S0A4k8_9yDFIPIPWH_JLTUQ6yFc8ME?usp=sharing
@@ -279,12 +279,13 @@
   ID: TMC
   author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin S.
     Chan, Thomas F. La Porta
-  conf: TMC '22
+  conf: IEEE TMC
   doi: 10.1109/TMC.2022.3182317
+  img: secon20.png
   journal: IEEE Transactions on Mobile Computing
   number: ''
   pages: 1-15
-  series: TMC '22
+  series: IEEE TMC
   title: Optimal Resource Allocation for Crowdsourced Image Processing
   url: https://ieeexplore.ieee.org/abstract/document/9795060
   volume: ''
@@ -339,7 +340,6 @@
   booktitle: Proceedings of the 17th Annual IEEE International Conference on Sensing,
     Communication, and Networking
   conf: IEEE SECON '20
-  img: secon20.png
   organization: IEEE
   pages: 1--9
   series: IEEE SECON '20
