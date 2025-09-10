@@ -1,3 +1,18 @@
+.video-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 0.5rem;
+}
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+}
+.caption {
+  text-align: center;
+  font-size: 0.85em;
+  margin-top: 0.3em;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -110,6 +125,32 @@
   display: flex;
 }
 
+
+.media-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.media-content {
+    font-size: 0.9rem;  /* smaller text */
+    color: #858585;  
+    margin-top: 0.5rem;
+}
+
+.medialogo{
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+}
+@media (min-width: 54em) and (min-height: 36em){
+    .medialogo{
+        float: right;
+        width: 25%;
+        max-width: 20rem;
+        margin-left: 1rem;
+    }
+}
+
 .labtitle {
   font-size: 1.7rem;
   text-align: center;
@@ -119,8 +160,9 @@
 
 .researchimg{
     width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
 }
 
 @media (min-width: 54em) and (min-height: 36em){

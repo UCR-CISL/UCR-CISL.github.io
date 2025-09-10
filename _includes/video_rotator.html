@@ -1,0 +1,20 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = {{ site.data.videos | jsonify }};
+  const cards = document.querySelectorAll(".video-card");
+
+  let offset = 0;
+  setInterval(() => {
+    cards.forEach((card, i) => {
+      const vid = videos[(offset + i) % videos.length];
+      card.innerHTML = `
+        <video autoplay loop muted playsinline>
+          <source src="${vid.file}" type="video/mp4">
+        </video>
+        <p class="caption">${vid.caption}</p>
+      `;
+    });
+    offset++;
+  }, 30000); // rotate every 10s
+});
+</script>

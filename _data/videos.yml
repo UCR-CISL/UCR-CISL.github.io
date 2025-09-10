@@ -1,0 +1,8 @@
+- file: /assets/videos/CoopernautDemo.mp4
+  caption: "Coopernaut: Cooperative Driving via V2V Communications"
+- file: /assets/videos/dbw.mp4
+  caption: "Autonomous Vehicle Drive-by-Wire Systems"
+- file: /assets/videos/see-v2x.mp4
+  caption: "SEE-V2X: C-V2X Communication Dataset"
+- file: /assets/videos/scene.mp4
+  caption: "Cooperative Multi-Modal Perception"
