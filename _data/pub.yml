@@ -415,6 +415,17 @@
   title: 'Kestrel: Video analytics for augmented multi-camera vehicle tracking'
   url: https://ieeexplore.ieee.org/abstract/document/8366976
   year: '2018'
+- ENTRYTYPE: inproceedings
+  ID: lee2018tracking
+  author: Jongdeog Lee, Tarek Abdelzaher, Hang Qiu, Ramesh Govindan, Kelvin Marcus,
+    Reginald Hobbs, Niranjan Suri, Will Dron
+  booktitle: Proceedings of the 37th Military Communications Conference
+  conf: MILCOM '18
+  series: MILCOM '18
+  title: On Tracking Realistic Targets in a Megacity with Contested Air and Spectrum
+    Access
+  url: https://ieeexplore.ieee.org/abstract/document/8599773
+  year: '2018'
 - ENTRYTYPE: techreport
   ID: Satyam_arxiv
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
