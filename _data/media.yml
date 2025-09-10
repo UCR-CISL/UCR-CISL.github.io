@@ -6,13 +6,13 @@
   month: 08
   source: "National Science Foundation, August 25, 2025"
 
-- title: "Wrong-way driver dies in crash on I-294 in north Chicago suburb"
-  url: "https://www.cbsnews.com/amp/chicago/news/wrong-way-crash-i-294/"
-  logo: "/assets/media/cbs.png"
-  content: "The CARNATIONS team is working on technology that could help address wrong way crashes, and prevent them moving forward. One of those projects is a system that could use vehicle data and sensors to alert drivers and surrounding drivers about risks on the road, in real time. It would focus on real-time detection of abnormal driving, as seen in wrong-way crashes."
-  year: 2025
-  month: 06
-  source: "CBS News Chicago, June 25, 2025"
+# - title: "Wrong-way driver dies in crash on I-294 in north Chicago suburb"
+#   url: "https://www.cbsnews.com/amp/chicago/news/wrong-way-crash-i-294/"
+#   logo: "/assets/media/cbs.png"
+#   content: "The CARNATIONS team is working on technology that could help address wrong way crashes, and prevent them moving forward. One of those projects is a system that could use vehicle data and sensors to alert drivers and surrounding drivers about risks on the road, in real time. It would focus on real-time detection of abnormal driving, as seen in wrong-way crashes."
+#   year: 2025
+#   month: 06
+#   source: "CBS News Chicago, June 25, 2025"
 
 - title: "Driving Research Forward: The Waymo Open Dataset Updates and 2023 Challenges"
   url: "https://waymo.com/blog/2023/03/driving-research-forward-waymo-open"
