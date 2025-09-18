@@ -10,7 +10,7 @@
   avatar: Nissan_Leaf.png
   type: vehicle
 - name: Sensing Platform (CMS)
-  avatar: Sensing_Platform.jpeg
+  avatar: Sensing_Platform.png
   type: device
   web: https://cisl.ucr.edu/CMS/
 - name: AVL DGT
