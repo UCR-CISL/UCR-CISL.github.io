@@ -3,11 +3,47 @@ layout: page
 title: Research
 ---
 
+{% include video_rotator.html %}
 
-<h2>Research Highlights:</h2>
+{% assign videos = site.data.videos | sort: 'caption' %}
+<div class="video-wall">
+  {% for vid in videos  limit:2 %}
+  <div class="video-card">
+    <video autoplay loop muted playsinline>
+      <source src="{{ vid.file }}" type="video/mp4">
+    </video>
+    <p class="caption">{{ vid.caption }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+{% assign videos = site.data.videos | sort: 'caption' | reverse %}
+<div class="video-wall">
+  {% for vid in videos limit:2 %}
+  <div class="video-card">
+    <video autoplay loop muted playsinline>
+      <source src="{{ vid.file }}" type="video/mp4">
+    </video>
+    <p class="caption">{{ vid.caption }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+### Research Highlights
 
 {% include research_highlight.html %}
 <hr>
+
+### Select Media Coverage
+
+<div class="media-wrapper">
+{% for media in site.data.media %}
+  {% include media_entry.html media=media %}
+{% endfor %}
+</div>
+
+
 
 ### Cooperative Autonomy
 <div class="researchimg">

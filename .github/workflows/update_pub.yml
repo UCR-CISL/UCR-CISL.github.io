@@ -1,0 +1,31 @@
+name: Convert BibTeX to YAML
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'assets/publications.bib'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11.13'
+      - name: Install dependencies
+        run: pip install bibtexparser pyyaml argparse tqdm
+      - name: Convert bibtex to yaml
+        run: python ./assets/bib2yml.py --bibtex_fp ./assets/publications.bib
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add _data/pub.yml
+          git commit -m "Auto-update pub.yml from bib (trigger: ${{ github.sha }})" || echo "No changes"
+          git push

@@ -4,7 +4,7 @@
     Qiu
   booktitle: 9th Annual Conference on Robot Learning
   code: https://github.com/UCR-CISL/BEVCalib
-  conf: CoRL
+  conf: CoRL '25
   img: bevcalib.png
   series: CoRL '25
   star: https://github.com/UCR-CISL/BEVCalib
@@ -43,9 +43,22 @@
   number: '7'
   pages: 10092-10108
   series: IEEE TVT
-  title: 'CATS: A Framework for Cooperative Autonomy Trust and Security'
+  title: 'CATS: A Framework for Cooperative Autonomy Trust \& Security'
   url: https://ieeexplore.ieee.org/document/10919219
   volume: '74'
+  year: '2025'
+- ENTRYTYPE: inproceedings
+  ID: see_v2x
+  author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
+  booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
+  code: https://github.com/UCR-CISL/SEE-V2X/
+  conf: ACM SenSys '25
+  data: https://drive.google.com/drive/u/1/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL
+  img: see-v2x.png
+  publisher: Association for Computing Machinery
+  series: ACM SenSys '25
+  title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
+  web: https://cisl.ucr.edu/SEE-V2X/
   year: '2025'
 - ENTRYTYPE: article
   ID: cmp
@@ -72,36 +85,22 @@
   web: https://cmp-cooperative-prediction.github.io/
   year: '2025'
 - ENTRYTYPE: inproceedings
-  ID: see_v2x
-  author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
-  booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
-  code: https://github.com/UCR-CISL/SEE-V2X/
-  conf: ACM SenSys
-  data: https://drive.google.com/drive/u/1/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL
-  img: see-v2x.png
-  publisher: Association for Computing Machinery
-  series: ACM SenSys '25
-  title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
-  web: https://cisl.ucr.edu/SEE-V2X/
-  year: '2025'
-- ENTRYTYPE: inproceedings
   ID: replayar
   address: New York, NY, USA
   author: Zijian Huang, Cary Shu, Hang Qiu, Jiasi Chen
   booktitle: Proceedings of the 30th Annual International Conference on Mobile Computing
     and Networking
   code: https://github.com/mavens-lab/replayAR
-  conf: ACM MobiCom
+  conf: ACM MobiCom '24, ImmerCom Workshop
   doi: 10.1145/3636534.3696213
   img: replayar.png
   isbn: '9798400704895'
   keywords: augemented reality, evaluation tools, visualization
   location: Washington D.C., DC, USA
-  note: ImmerCom Workshop
   numpages: '7'
   pages: "2106\u20132112"
   publisher: Association for Computing Machinery
-  series: ACM MobiCom '24
+  series: ACM MobiCom '24, ImmerCom Workshop
   slides: https://docs.google.com/presentation/d/1nlbcWakgK95wAiTLNMA8KBuDyriHCRjJeXleHAyhk9E/edit?usp=sharing
   title: 'ReplayAR: A Tool for Visual Evaluation of Mixed Reality'
   url: https://doi.org/10.1145/3636534.3696213
@@ -128,7 +127,7 @@
   author: Ruiyang Zhu, Xiao Zhu, Anlan Zhang, Xumiao Zhang, Jiachen Sun, Feng Qian,
     Hang Qiu, Z. Morley Mao, Myungjin Lee
   booktitle: Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems
-  conf: ACM SenSys
+  conf: ACM SenSys '24
   doi: 10.1145/3666025.3699328
   img: harbor.png
   isbn: '9798400706974'
@@ -146,15 +145,32 @@
   ID: elm
   author: Yunsong Zhou, Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi
     Zhu, Minyi Guo, Yu Qiao, Hongyang Li
-  booktitle: Proceedings of The 18th European Conference on Computer Vision (ECCV)
+  booktitle: Proceedings of The 18th European Conference on Computer Vision
   code: https://github.com/OpenDriveLab/ELM
-  conf: ECCV
+  conf: ECCV '24
   data: https://drive.google.com/drive/folders/1n4S0A4k8_9yDFIPIPWH_JLTUQ6yFc8ME?usp=sharing
   img: elm.png
   series: ECCV '24
   star: https://github.com/OpenDriveLab/ELM
   title: Embodied Understanding of Driving Scenarios
   url: https://arxiv.org/abs/2403.04593
+  year: '2024'
+- ENTRYTYPE: article
+  ID: pillarattention
+  author: Zhengwei Bai, Guoyuan Wu, Matthew J. Barth, Hang Qiu, Yongkang Liu, Emrah
+    Akin Sisbot, Kentaro Oguchi
+  conf: IOT-J
+  doi: 10.1109/JIOT.2024.3390552
+  journal: IEEE Internet of Things Journal
+  keywords: Feature extraction;Sensors;Data mining;Three-dimensional displays;Shape;Bandwidth;Adaptive
+    systems;Cooperative Perception;Transformer;Feature Filtering;3D Object Detection;Connected
+    and Automated Vehicles
+  number: ''
+  pages: 1-1
+  series: IOT-J
+  title: Pillar Attention Encoder for Adaptive Cooperative Perception
+  url: https://ieeexplore.ieee.org/abstract/document/10504810
+  volume: ''
   year: '2024'
 - ENTRYTYPE: inproceedings
   ID: womdlidar
@@ -163,11 +179,11 @@
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
   booktitle: Proceedings of 2024 IEEE International Conference on Robotics and Automation
   code: https://github.com/waymo-research/waymo-open-dataset/blob/master/tutorial/tutorial_womd_lidar.ipynb
-  conf: ICRA
+  conf: ICRA '24
   data: https://waymo.com/open/data/motion/
   img: womdlidar.png
   mediaa: waymo-logo.svg
-  mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open.html
+  mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open
   series: ICRA '24
   star: https://github.com/waymo-research/waymo-open-dataset
   title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
@@ -179,28 +195,34 @@
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
   booktitle: Proceedings of the Eleventh International Conference on Learning Representations
   code: https://github.com/hangqiu/MCAL
-  conf: ICLR
+  conf: ICLR '23
   img: mcal.jpg
   series: ICLR '23
   talk: https://iclr.cc/virtual/2023/poster/12195
   title: 'MCAL: Minimum Cost Human-Machine Active Labeling'
   url: https://openreview.net/forum?id=1FxRPKrH8bw
   year: '2023'
-- ENTRYTYPE: inproceedings
-  ID: qiu2021mlexray
-  author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
-    Chinchali, Zain Asgar, Sachin Katti
-  award: Outstanding Paper Award
-  booktitle: Proceedings of Machine Learning and Systems
-  code: https://github.com/hangqiu/ML-EXray
-  conf: MLSys
-  img: mlexray.png
-  mediaa: embeddedcomputing.png
-  mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
-  series: MLSys '22
-  star: https://github.com/hangqiu/ML-EXray
-  title: 'ML-EXray: Visibility into ML Deployment on the Edge'
-  url: https://arxiv.org/abs/2111.04779
+- ENTRYTYPE: article
+  ID: CamLoc
+  address: New York, NY, USA
+  articleno: '28'
+  author: Pradipta Ghosh, Xiaochen Liu, Hang Qiu, Marcos A. M. Vieira, Gaurav S. Sukhatme,
+    Ramesh Govindan
+  conf: TOSN '22
+  doi: 10.1145/3508393
+  img: CamLoc.png
+  issn: 1550-4859
+  issue_date: May 2022
+  journal: ACM Transactions on Sensor Networks
+  keywords: neural network, Localization, camera, mechanical turk, vanishing point
+  month: feb
+  number: '2'
+  numpages: '26'
+  publisher: Association for Computing Machinery
+  series: TOSN '22
+  title: 'Sensing the Sensor: Estimating Camera Properties with Minimal Information'
+  url: https://doi.org/10.1145/3508393
+  volume: '18'
   year: '2022'
 - ENTRYTYPE: inproceedings
   ID: coopernaut
@@ -208,7 +230,7 @@
   booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
     Recognition
   code: https://github.com/UT-Austin-RPL/Coopernaut
-  conf: CVPR
+  conf: CVPR '22
   demo: https://youtu.be/rwR8Q5nuKkc
   img: coopernaut.png
   month: June
@@ -226,7 +248,7 @@
   booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
     Applications, and Services
   code: https://github.com/hangqiu/AutoCast
-  conf: ACM MobiSys
+  conf: ACM MobiSys '22
   demo: https://www.youtube.com/watch?v=uBmdCRmZNIo
   img: autocast.png
   series: ACM MobiSys '22
@@ -237,27 +259,36 @@
   url: https://arxiv.org/abs/2112.14947
   web: https://hangqiu.github.io/AutoCast/
   year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: qiu2021mlexray
+  author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
+    Chinchali, Zain Asgar, Sachin Katti
+  booktitle: Proceedings of Machine Learning and Systems
+  code: https://github.com/hangqiu/ML-EXray
+  conf: MLSys '22
+  img: mlexray.png
+  mediaa: embeddedcomputing.png
+  mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
+  note: Outstanding Paper Award
+  series: MLSys '22
+  star: https://github.com/hangqiu/ML-EXray
+  title: 'ML-EXray: Visibility into ML Deployment on the Edge'
+  url: https://arxiv.org/abs/2111.04779
+  year: '2022'
 - ENTRYTYPE: article
-  ID: CamLoc
-  address: New York, NY, USA
-  articleno: '28'
-  author: Pradipta Ghosh, Xiaochen Liu, Hang Qiu, Marcos A. M. Vieira, Gaurav S. Sukhatme,
-    Ramesh Govindan
-  conf: TOSN
-  doi: 10.1145/3508393
-  img: CamLoc.png
-  issn: 1550-4859
-  issue_date: May 2022
-  journal: ACM Transactions on Sensor Networks
-  keywords: neural network, Localization, camera, mechanical turk, vanishing point
-  month: feb
-  number: '2'
-  numpages: '26'
-  publisher: Association for Computing Machinery
-  series: TOSN '22
-  title: 'Sensing the Sensor: Estimating Camera Properties with Minimal Information'
-  url: https://doi.org/10.1145/3508393
-  volume: '18'
+  ID: TMC
+  author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin S.
+    Chan, Thomas F. La Porta
+  conf: IEEE TMC
+  doi: 10.1109/TMC.2022.3182317
+  img: secon20.png
+  journal: IEEE Transactions on Mobile Computing
+  number: ''
+  pages: 1-15
+  series: IEEE TMC
+  title: Optimal Resource Allocation for Crowdsourced Image Processing
+  url: https://ieeexplore.ieee.org/abstract/document/9795060
+  volume: ''
   year: '2022'
 - ENTRYTYPE: techreport
   ID: ghosh2020localizing
@@ -274,7 +305,7 @@
   author: Fawad Ahmad, Hang Qiu, Ray Eells, Fan Bai, Ramesh Govindan
   booktitle: Proceedings of the 17th Symposium on Networked Systems Design and Implementation
   code: https://github.com/USC-NSL/CarMap
-  conf: USENIX NSDI
+  conf: USENIX NSDI '20
   demo: https://youtu.be/SlG4QGq5ypk
   img: carmap.png
   isbn: 978-1-939133-13-7
@@ -290,12 +321,12 @@
   ID: he2020fedml
   author: Chaoyang He, Songze Li, Jinhyun So, Mi Zhang, Hongyi Wang, Xiaoyang Wang,
     Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen,  others
-  award: Best Paper Award
   booktitle: Proceedings of the 34th Conference on Neural Information Processing Systems
     (NeurIPS '20), Workshop on Scalability, Privacy, and Security in Federated Learning
   code: https://github.com/FedML-AI/FedML
-  conf: NeurIPS, SpicyFL
+  conf: NeurIPS, SpicyFL '20
   img: fedml.png
+  note: Best Paper Award
   series: NeurIPS, SpicyFL '20
   star: https://github.com/FedML-AI/FedML
   title: 'FedML: A Research Library and Benchmark for Federated Machine Learning'
@@ -308,8 +339,7 @@
     Thomas La Porta
   booktitle: Proceedings of the 17th Annual IEEE International Conference on Sensing,
     Communication, and Networking
-  conf: IEEE SECON
-  img: secon20.png
+  conf: IEEE SECON '20
   organization: IEEE
   pages: 1--9
   series: IEEE SECON '20
@@ -320,13 +350,13 @@
   ID: avr_getmobile
   address: New York, NY, USA
   author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
-  award: "Invited article (Best Paper runner-up of Mobisys\u201918)"
   booktitle: 'GetMobile: Mobile Comp. and Comm.'
   conf: 'GetMobile: Mobile Comp. and Comm.'
   doi: 10.1145/3325867.3325880
   issn: 2375-0529
   issue_date: December 2018
   month: may
+  note: "Invited article (Best Paper runner-up of Mobisys\u201918)"
   number: '4'
   numpages: '5'
   pages: "30\u201334"
@@ -339,7 +369,7 @@
   ID: ahmad2018quicksketch
   author: Fawad Ahmad, Hang Qiu, Xiaochen Liu, Fan Bai, Ramesh Govindan
   booktitle: 21st International Conference on Information Fusion (Fusion '18)
-  conf: 21st International Conference on Information Fusion (Fusion
+  conf: 21st International Conference on Information Fusion (Fusion '18)
   organization: IEEE
   pages: 2314--2321
   title: 'QuickSketch: Building 3D Representations in Unknown Environments using Crowdsourcing'
@@ -349,17 +379,17 @@
   ID: avr
   address: New York, NY, USA
   author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
-  award: Best Paper Runner-up Award
   booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
     Applications, and Services
   code: https://github.com/hangqiu/AVR16
-  conf: ACM MobiSys
+  conf: ACM MobiSys '18
   demo: https://www.youtube.com/watch?v=9rOtH3hDcw8&t
   doi: 10.1145/3210240.3210319
   img: avr.png
   isbn: '9781450357203'
   keywords: Collaborative Sensing, Autonomous Cars, Extended Vision
   location: Munich, Germany
+  note: Best Paper Runner-up Award
   numpages: '15'
   pages: "81\u201395"
   publisher: Association for Computing Machinery
@@ -375,7 +405,7 @@
     Urgaonkar, BS Manjunath, Ramesh Govindan
   booktitle: Proceedings of the 3rd IEEE/ACM International Conference on Internet-of-Things
     Design and Implementation
-  conf: IEEE/ACM IoTDI
+  conf: IEEE/ACM IoTDI '18
   data: https://drive.google.com/file/d/0Bz3GHg4Beq4Xd1ZjUzk2dG1ycEMyZ3FGaXNLV2FLN0RPeGNR/view?usp=sharing
   demo: https://youtu.be/vSO7mYUpEhs
   img: kestrel.png
@@ -384,6 +414,26 @@
   series: IEEE/ACM IoTDI '18
   title: 'Kestrel: Video analytics for augmented multi-camera vehicle tracking'
   url: https://ieeexplore.ieee.org/abstract/document/8366976
+  year: '2018'
+- ENTRYTYPE: inproceedings
+  ID: lee2018tracking
+  author: Jongdeog Lee, Tarek Abdelzaher, Hang Qiu, Ramesh Govindan, Kelvin Marcus,
+    Reginald Hobbs, Niranjan Suri, Will Dron
+  booktitle: Proceedings of the 37th Military Communications Conference
+  conf: MILCOM '18
+  series: MILCOM '18
+  title: On Tracking Realistic Targets in a Megacity with Contested Air and Spectrum
+    Access
+  url: https://ieeexplore.ieee.org/abstract/document/8599773
+  year: '2018'
+- ENTRYTYPE: techreport
+  ID: Satyam_arxiv
+  author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
+  conf: ''
+  institution: Integrated into Microsoft Azure ML. Used by UCSB, USC, UIUC, ARL.
+  note: Featured in Microsoft Ignite 2019
+  title: 'Satyam: Democratizing Groundtruth for Machine Vision'
+  url: https://arxiv.org/abs/1811.03621
   year: '2018'
 - ENTRYTYPE: inproceedings
   ID: avr_hotmobile
@@ -405,7 +455,7 @@
     Kar
   booktitle: Proceedings of the 18th International Workshop on Mobile Computing Systems
     and Applications
-  conf: ACM HotMobile
+  conf: ACM HotMobile '17
   doi: 10.1145/3032970.3032976
   img: avr_hotmobile.png
   isbn: '9781450349079'
@@ -435,13 +485,13 @@
   volume: '67'
   year: '2017'
 - ENTRYTYPE: inproceedings
-  ID: 10.1145/2942358.2942372
+  ID: cobcast
   address: New York, NY, USA
   author: Hang Qiu, Konstantinos Psounis, Giuseppe Caire, Keith M. Chugg, Kaidong
     Wang
   booktitle: Proceedings of the 17th ACM International Symposium on Mobile Ad Hoc
     Networking and Computing
-  conf: ACM MobiHoc
+  conf: ACM MobiHoc '16
   doi: 10.1145/2942358.2942372
   img: cobcast.png
   isbn: '9781450341844'
@@ -459,7 +509,7 @@
   url: https://doi.org/10.1145/2942358.2942372
   year: '2016'
 - ENTRYTYPE: inproceedings
-  ID: 10.1145/2809695.2809725
+  ID: carloc
   abstract: 'Precise positioning of an automobile to within lane-level precision can
     enable better navigation and context-awareness. However, GPS by itself cannot
     provide such precision in obstructed urban environments. In this paper, we present
@@ -477,7 +527,7 @@
   author: Yurong Jiang, Hang Qiu, Matthew McCartney, Gaurav Sukhatme, Marco Gruteser,
     Fan Bai, Donald Grimm, Ramesh Govindan
   booktitle: Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems
-  conf: ACM SenSys
+  conf: ACM SenSys '15
   doi: 10.1145/2809695.2809725
   img: carloc.png
   isbn: '9781450336314'
@@ -491,12 +541,12 @@
   url: https://doi.org/10.1145/2809695.2809725
   year: '2015'
 - ENTRYTYPE: inproceedings
-  ID: 10.1145/2668332.2668350
+  ID: carlog
   address: New York, NY, USA
   author: Yurong Jiang, Hang Qiu, Matthew McCartney, William G. J. Halfond, Fan Bai,
     Donald Grimm, Ramesh Govindan
   booktitle: Proceedings of the 12th ACM Conference on Embedded Network Sensor Systems
-  conf: ACM SenSys
+  conf: ACM SenSys '14
   doi: 10.1145/2668332.2668350
   img: carlog.png
   isbn: '9781450331432'
@@ -521,11 +571,11 @@
 - ENTRYTYPE: inbook
   ID: icm
   author: Xilun Chen, Hang Qiu, Chunzhi Yang
-  award: "Invited article (Outstanding Winner of ICM\u201912)"
   booktitle: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM
     \/ ICM Contest Edition
   conf: UMAP Journal 34.2 \& 34.3 Summer \/ Fall 2013 Edition - The 2013 MCM \/ ICM
     Contest Edition
+  note: "Invited article (Outstanding Winner of ICM\u201912)"
   title: My Story with ICM
   url: https://www.comap.com/undergraduate/contests/stories/My_Story_with_ICM.pdf
   year: '2013'
