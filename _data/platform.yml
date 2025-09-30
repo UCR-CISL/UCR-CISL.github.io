@@ -1,34 +1,34 @@
 - name: KIA Niro EV
-  avatar: KIA_Niro.png
+  avatar: KIA_Niro_Ev6.png
   type: vehicle
   web: https://www.kia.com/us/en/niro-ev
 - name: Cadillac Lyriq
-  avatar: cadillac_lyriq.png
+  avatar: Cadillac_Lyriq.png
   type: vehicle
   web: https://www.cadillac.com/electric/lyriq
 - name: Nissan Leaf
-  avatar: nissan_leaf.png
+  avatar: Nissan_Leaf.png
   type: vehicle
 - name: Sensing Platform (CMS)
-  avatar: nopush.jpeg
+  avatar: Sensing_Platform.png
   type: device
   web: https://cisl.ucr.edu/CMS/
 - name: AVL DGT
-  avatar: avl_dgt.png
+  avatar: AVL_DGT.png
   type: device
   web: https://www.avl.com/en/testing-solutions/automated-and-connected-mobility-testing/avl-dynamic-ground-truth-system
 - name: Cohda MK6
-  avatar: cohda_mk6.png
+  avatar: Cohda_MK6.png
   type: device
   web: https://www.cohdawireless.com/solutions/mk6/
 - name: Innovation Corridor
-  avatar: corridor.png
+  avatar: Innovation_Corridor.png
   type: env
   web: https://www.cert.ucr.edu/riverside-innovation-corridor
 - name: Motion Capture
-  avatar: mocap.png
+  avatar: Motion_Capture.png
   type: env
   web: https://www.optitrack.com/
 - name: Remote Operation Center
-  avatar: remoteops.jpeg
+  avatar: ROC.png
   type: env
