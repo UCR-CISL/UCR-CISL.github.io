@@ -29,10 +29,31 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 
 {% assign news = site.data.news | sort : "date" | reverse %}
 <ul>
-{% for item in news %}
-    <li> {{ item.date | date: "%b %Y"}}: <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em></li>
-{% endfor %}
+  {% assign recent_count = 0 %}
+  {% for item in news %}
+    {% if recent_count < 10 %}
+      <li>{{ item.date | date: "%b %Y"}}:
+        <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em>
+      </li>
+      {% assign recent_count = recent_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
 </ul>
+
+<details>
+  <summary>Previous Updates</summary>
+  <ul>
+    {% assign recent_count = 0 %}
+    {% for item in news %}
+      {% if recent_count >= 10 %}
+        <li>{{ item.date | date: "%b %Y"}}:
+          <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em>
+        </li>
+        {% assign recent_count = recent_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</details>
 
 
 <hr>
