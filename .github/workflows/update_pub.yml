@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'assets/publications.bib'
+  workflow_dispatch:
 
 permissions:
   contents: write
