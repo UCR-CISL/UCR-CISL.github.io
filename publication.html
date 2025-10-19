@@ -12,7 +12,7 @@ title: Publication
 
 
 <div>
-{% for pub in site.data.pub %}
+{% for pub in site.data.pub_auto %}
     {% if pub.ENTRYTYPE == "misc" %}
         {% if pub.img %}
             {% include pubentry.html %}
@@ -22,7 +22,7 @@ title: Publication
 </div>
 
 <div>
-{% for pub in site.data.pub %}
+{% for pub in site.data.pub_auto %}
     {% if pub.ENTRYTYPE == "inproceedings" or pub.ENTRYTYPE == "article" %}
         {% if pub.img %}
             {% include pubentry.html %}

@@ -11,11 +11,11 @@ Please add a bibtex entry to [/assets/pubication.bib](https://github.com/UCR-CIS
 
 *Note: there are a few special items added to bibtex entry that only this website recognizes, such as for thumbnail images, project website, github links, etc. Please see the [publication page](https://cisl.ucr.edu/publication/) and their corresponding bibtex entry for examples.*
 
-There is a git action that runs compilation script to update [/_data/pub.yml](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/_data/pub.yml). 
+There is a git action that runs compilation script to update [/_data/pub_auto.yml](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/_data/pub_auto.yml). 
 ```python
 python3 ./assets/bib2yml.py --bibtex_fp ./assets/publications.bib
 ```
-*Note: Do not edit pub.yml directly as the compilation script will overwrite it.*
+*Note: Do not edit pub_auto.yml directly as the compilation script will overwrite it.*
 
 Lastly, add a recent news entry to _data/news.yml to share the good news!
 
@@ -30,4 +30,4 @@ Commit and push changes to this repo. That's all!
 Copyright CISL@UCR
 
 #### Git Actions
-- Upon push, convert publication.bib to pub.yml automatically
+- Upon push, convert publication.bib to pub_auto.yml automatically

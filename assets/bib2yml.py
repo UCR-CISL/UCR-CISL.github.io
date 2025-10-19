@@ -5,7 +5,7 @@ import yaml
 from tqdm import tqdm
 
 paper_dir = 'papers'
-output_dir = './_data/pub.yml'
+output_dir = './_data/pub_auto.yml'
 
 booktitle_series_map = {
     "International Conference on Learning Representations": "ICLR",
