@@ -194,6 +194,20 @@
   avatar: athena.png
   email: anels048@email.ucr.edu
   github: https://github.com/thena-ay
+- name: Bryan Deng 
+  type: Undergrad
+  department: CSE
+  avatar: bryan.png
+  email: bdeng021@ucr.edu
+  github: https://github.com/thelosttree
+- name: Stanley Lew
+  type: Undergrad
+  department: CSE
+  avatar: stanley.jpg
+  email: slew013@ucr.edu
+  github: https://github.com/stanleylew5
+  web: https://stanleylew5.github.io
+  linkedin: https://linkedin.com/in/stanleylew5
 - name: Ajay Anubolu 
   type: Undergrad
   department: Data Science
