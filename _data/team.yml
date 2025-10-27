@@ -9,19 +9,6 @@
   twitter: https://twitter.com/hangqiu
   facebook: https://facebook.com/hang.qiu.1
   linkedin: https://www.linkedin.com/in/hang-qiu-a523128a
-- name: Yanyu Zhang
-  type: Alumni
-  web: https://zhangyanyu0722.github.io/
-  avatar: yanyu.png
-  department: ECE
-  coadvisor: Dr. Ren
-  email: yzhan831@ucr.edu
-  github: https://github.com/zhangyanyu0722
-  gscholar: https://scholar.google.com/citations?user=K8riPnMAAAAJ&hl=en
-  linkedin: https://www.linkedin.com/in/zhangyanyu/
-  year: 2024
-  role: PhD
-  next: Staff Engineer @ VisionNav Robotics
 - name: Bo Wu
   type: PHD
   avatar: Bo.jpg
@@ -208,13 +195,6 @@
   github: https://github.com/stanleylew5
   web: https://stanleylew5.github.io
   linkedin: https://linkedin.com/in/stanleylew5
-- name: Ajay Anubolu 
-  type: Undergrad
-  department: Data Science
-  avatar: ajay.jpeg
-  email: anels048@email.ucr.edu
-  github: https://github.com/ajanubolu
-  linkedin: https://www.linkedin.com/in/ajay-anubolu-521722330/
 - name: Rahul Shah
   type: Undergrad
   department: Mechanical Engineering
@@ -312,26 +292,6 @@
   email: crobe042@ucr.edu
   github: https://github.com/crisapi
   linkedin: https://www.linkedin.com/in/cristian-roberts/
-# - name: Holland Pleskac
-#   type: Undergrad
-#   department: CSE
-#   avatar: holland.jpg
-#   email: hples001@ucr.edu
-#   github: https://github.com/HollandPleskac
-#   linkedin: https://www.linkedin.com/in/holland-pleskac-54a090199/
-# - name: Terek Johnson
-#   type: Undergrad
-#   department: CSE 
-#   avatar: terek.png
-#   email: tjohn108@ucr.edu
-#   linkedin: https://linkedin.com/in/terekjohnson
-# - name: James Liu
-#   type: Undergrad
-#   department: CSE
-#   avatar: james.jpeg
-#   email: james.liu001@email.ucr.edu
-#   github: https://github.com/jliu0411
-#   linkedin: https://www.linkedin.com/in/jliu0411/
 - name: Jinjie Liu
   type: Visitor
   department: MS Student, USC
@@ -385,3 +345,24 @@
   role: Research Intern
   avatar: cisl.png
   department: High School Student, American High School
+- name: Yanyu Zhang
+  type: Alumni
+  web: https://zhangyanyu0722.github.io/
+  avatar: yanyu.png
+  department: ECE
+  coadvisor: Dr. Ren
+  email: yzhan831@ucr.edu
+  github: https://github.com/zhangyanyu0722
+  gscholar: https://scholar.google.com/citations?user=K8riPnMAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/zhangyanyu/
+  year: 2024
+  role: PhD
+  next: Staff Engineer @ VisionNav Robotics
+- name: Ajay Anubolu 
+  type: Alumni
+  department: Data Science
+  avatar: ajay.jpeg
+  email: anels048@email.ucr.edu
+  github: https://github.com/ajanubolu
+  linkedin: https://www.linkedin.com/in/ajay-anubolu-521722330/
+  next: Undergraduate @ UCSD
