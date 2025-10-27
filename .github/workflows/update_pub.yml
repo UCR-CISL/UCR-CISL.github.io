@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'assets/publications.bib'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -26,6 +27,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add _data/pub.yml
-          git commit -m "Auto-update pub.yml from bib (trigger: ${{ github.sha }})" || echo "No changes"
+          git add _data/pub_auto.yml
+          git commit -m "Auto-update pub_auto.yml from bib (trigger: ${{ github.sha }})" || echo "No changes"
           git push
