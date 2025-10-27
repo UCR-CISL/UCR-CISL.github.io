@@ -34,12 +34,6 @@
   avatar: neda.png
   department: PhD Student, UCR
   email: nfara011@ucr.edu
-- name: Orhun Altay
-  type: Visitor
-  avatar: orhun.jpg
-  department: BS Student, Bilkent University
-  email: orhuna@ucr.edu
-  linkedin: http://www.linkedin.com/in/orhun-altay
 - name: Ruoshen Mo
   type: PHD
   department: CSE
@@ -360,9 +354,19 @@
   next: Staff Engineer @ VisionNav Robotics
 - name: Ajay Anubolu 
   type: Alumni
+  role: BS
   department: Data Science
   avatar: ajay.jpeg
   email: anels048@email.ucr.edu
   github: https://github.com/ajanubolu
   linkedin: https://www.linkedin.com/in/ajay-anubolu-521722330/
   next: Undergraduate @ UCSD
+  year: 2025
+- name: Orhun Altay
+  type: PastVisitor
+  avatar: orhun.jpg
+  department: BS Student, Bilkent University
+  email: orhuna@ucr.edu
+  linkedin: http://www.linkedin.com/in/orhun-altay
+  year: 2025
+  role: Research Intern
