@@ -1,4 +1,15 @@
 - ENTRYTYPE: inproceedings
+  ID: pgr
+  author: Pengxi Zeng, Alberto Presta, Jonah Reinis, Dinesh Bharadia, Hang Qiu, Pamela
+    Cosman
+  booktitle: 2026 International Conference on Computing, Networking and Communications
+  conf: ICNC
+  series: ICNC
+  title: Can We Remove the Ground? Obstacle-aware Point Cloud Compression for Remote
+    Object Detection
+  url: https://arxiv.org/abs/2410.00582
+  year: '2026'
+- ENTRYTYPE: inproceedings
   ID: bevcalib
   author: Weiduo Yuan, Jerry Li, Justin Yue, Divyank Shah, Konstantinos Karydis, Hang
     Qiu
