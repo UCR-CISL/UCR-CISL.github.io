@@ -35,11 +35,12 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
       <li>{{ item.date | date: "%b %Y"}}:
         <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em>
       </li>
-      {% assign recent_count = recent_count | plus: 1 %}
     {% endif %}
+    {% assign recent_count = recent_count | plus: 1 %}
   {% endfor %}
 </ul>
 
+{% assign news = site.data.news | sort : "date" | reverse %}
 <details>
   <summary>Previous Updates</summary>
   <ul>
@@ -49,8 +50,8 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
         <li>{{ item.date | date: "%b %Y"}}:
           <em>{{ item.title | markdownify | remove: '<p>' | remove: '</p>'}}</em>
         </li>
-        {% assign recent_count = recent_count | plus: 1 %}
       {% endif %}
+      {% assign recent_count = recent_count | plus: 1 %}
     {% endfor %}
   </ul>
 </details>
