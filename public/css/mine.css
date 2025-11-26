@@ -34,11 +34,24 @@
   height: 7rem;
 }
 
+.sponsor-marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .sponsor-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  width: max-content;     /* necessary for long content */
+  animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } 
 }
 
 .sponsor-box {
