@@ -56,6 +56,7 @@
 
 .sponsor-box {
   height: 5rem;
+  max-width: 10rem;
   width: auto;
   display: flex;
   align-items: center;

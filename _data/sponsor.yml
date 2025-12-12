@@ -18,3 +18,7 @@
   avatar: broadcom.svg
   type: com
   web: https://www.broadcom.com/
+- name: NVIDIA
+  avatar: nvidia.svg
+  type: com
+  web: https://www.nvidia.com/
