@@ -202,14 +202,14 @@
   avatar: bhargav.jpg
   email: bhargav.srikantaprasadhoskote@email.ucr.edu
   linkedin: https://www.linkedin.com/in/hs-bhargav
-- name: Rahul Shah
-  type: Undergrad
-  department: Mechanical Engineering
-  avatar: rahul.jpeg
-  email: rshah096@ucr.edu
-  github: https://github.com/thefinisher1738
-  linkedin: https://linkedin.com/in/rahul-shah-86a3a41b1  
-  web: https://sites.google.com/ucr.edu/rahulshahportfolio/home
+# - name: Rahul Shah
+#   type: Undergrad
+#   department: Mechanical Engineering
+#   avatar: rahul.jpeg
+#   email: rshah096@ucr.edu
+#   github: https://github.com/thefinisher1738
+#   linkedin: https://linkedin.com/in/rahul-shah-86a3a41b1  
+#   web: https://sites.google.com/ucr.edu/rahulshahportfolio/home
 - name: Jonathan Setiabudi
   type: Undergrad
   department: CE
@@ -217,13 +217,6 @@
   email: jseti007@ucr.edu
   linkedin: https://www.linkedin.com/in/jonathansetiabudi
   github: http://jonathansetiabudi.com
-- name: Arya Thammanna
-  type: Grad
-  department: CSE
-  avatar: arya.png
-  email: atham011@ucr.edu
-  linkedin: https://www.linkedin.com/in/arya-thammanna/
-  github: https://github.com/atham011
 - name: Anatulya Nandi
   type: Undergrad
   department: ECE
@@ -291,11 +284,6 @@
   email: crobe042@ucr.edu
   github: https://github.com/crisapi
   linkedin: https://www.linkedin.com/in/cristian-roberts/
-- name: Jinjie Liu
-  type: Visitor
-  department: MS Student, USC
-  avatar: Jinjie.jpg
-  email: jinjie.liu@usc.edu 
 - name: Feiyang Ma
   type: Visitor
   department: MS Student, UCSD
@@ -384,3 +372,19 @@
   linkedin: https://www.linkedin.com/in/shubham-d-021a56186
   github: https://shubhamd13.github.io/
   year: 2025
+- name: Arya Thammanna
+  type: Alumni
+  department: CSE
+  avatar: arya.png
+  email: atham011@ucr.edu
+  linkedin: https://www.linkedin.com/in/arya-thammanna/
+  github: https://github.com/atham011
+  role: BS+MS
+  year: 2025
+- name: Jinjie Liu
+  type: PastVisitor
+  department: ECE, USC
+  avatar: Jinjie.jpg
+  email: jinjie.liu@usc.edu 
+  year: 2025
+  role: MS
