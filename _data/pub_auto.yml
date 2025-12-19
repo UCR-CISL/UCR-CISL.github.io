@@ -10,6 +10,23 @@
   url: https://arxiv.org/abs/2410.00582
   year: '2026'
 - ENTRYTYPE: inproceedings
+  ID: talkingvehicles
+  author: Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi,
+    Hang Qiu, Peter Stone
+  booktitle: Proceedings of the 25th International Conference on Autonomous Agents
+    and Multiagent Systems
+  code: https://github.com/cuijiaxun/talking-vehicles
+  conf: AAMAS '26
+  demo: https://utexas.app.box.com/s/5pn2rfcprqv9p992m9lzyeaurq8irrhd
+  img: talkingvehicles.png
+  note: Oral Presentation
+  series: AAMAS '26
+  title: 'CoopReflect: Towards Natural Language Communication for Cooperative Autonomous
+    Driving via Multi-Agent Learning'
+  url: https://arxiv.org/abs/2505.18334
+  web: https://talking-vehicles.github.io/
+  year: '2026'
+- ENTRYTYPE: inproceedings
   ID: bevcalib
   author: Weiduo Yuan, Jerry Li, Justin Yue, Divyank Shah, Konstantinos Karydis, Hang
     Qiu
@@ -23,22 +40,6 @@
     Representations'
   url: https://arxiv.org/abs/2506.02587
   web: https://cisl.ucr.edu/BEVCalib/
-  year: '2025'
-- ENTRYTYPE: misc
-  ID: talkingvehicles
-  archiveprefix: arXiv
-  author: Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi,
-    Hang Qiu, Peter Stone
-  code: https://github.com/cuijiaxun/talking-vehicles
-  conf: arXiv
-  demo: https://utexas.app.box.com/s/5pn2rfcprqv9p992m9lzyeaurq8irrhd
-  eprint: '2505.18334'
-  img: talkingvehicles.png
-  primaryclass: cs.RO
-  title: Towards Natural Language Communication for Cooperative Autonomous Driving
-    via Self-Play
-  url: https://arxiv.org/abs/2505.18334
-  web: https://talking-vehicles.github.io/
   year: '2025'
 - ENTRYTYPE: article
   ID: cats
