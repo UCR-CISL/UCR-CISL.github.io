@@ -202,6 +202,14 @@
   avatar: bhargav.jpg
   email: bhargav.srikantaprasadhoskote@email.ucr.edu
   linkedin: https://www.linkedin.com/in/hs-bhargav
+- name: Rishi Dave
+  type: Undergrad
+  department: Computer Science
+  avatar: rishi.jpeg
+  email: rishi.dave@email.ucr.edu
+  linkedin: https://www.linkedin.com/in/rishi-dave1
+  github: https://github.com/Rishi-Dave
+  web: https://rishidave.vercel.app/
 # - name: Rahul Shah
 #   type: Undergrad
 #   department: Mechanical Engineering
