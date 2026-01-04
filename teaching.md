@@ -4,6 +4,7 @@ title: Teaching
 ---
 
 ## Teaching
+* Winter 2026:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter26/) 
 * Fall 2025:  [EE 267: Introduction to Autonomous Driving Systems](https://ucr-cisl.github.io/EE267/fall25/) 
 * Spring 2025:  [CS 135: Virtual Reality](https://ucr-cisl.github.io/CS135/spring25/) 
 * Winter 2025:  [EE/CS 131: Edge Computing](https://ucr-cisl.github.io/EECS131/winter25/) 
