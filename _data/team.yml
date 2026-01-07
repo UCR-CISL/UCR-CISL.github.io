@@ -42,15 +42,6 @@
   email: rmo008@ucr.edu
   github: https://github.com/MorrisHohoho
   web: https://morrishohoho.github.io/
-- name: Shilpa Mukhopadhyay
-  type: PHD
-  department: CSE
-  avatar: shilpa.JPG
-  coadvisor: Dr. Roy Chowdhury
-  email: shilpa.mukhopadhyay@email.ucr.edu
-  github: https://github.com/shilpa2301
-  linkedin: https://www.linkedin.com/in/shilpa-mukhopadhyay-a87967102/
-  web: https://sites.google.com/view/shilpamukhopadhyay/home/
 - name: Jianpeng Yao
   type: PHD
   department: ECE
@@ -59,50 +50,6 @@
   web: https://jyao97.github.io
   github: https://github.com/jyao97
   linkedin: https://www.linkedin.com/in/jianpeng-yao-073a1911a/
-- name: Haoge Zhou
-  type: Alumni
-  role: MS
-  avatar: haoge.png
-  department: ECE
-  year: 2024
-  email: hzhou083@ucr.edu
-  github: https://github.com/hankge
-- name: Diwakar Ravichandran
-  type: Alumni
-  role: MS
-  year: 2025
-  avatar: Diwakar.jpeg
-  department: BCOE
-  coadvisor: Dr. Ren
-  email: diwakar.ravichandran@email.ucr.edu
-  github: https://github.com/bundle-adjuster
-- name: Harish Kulasekaran
-  type: Alumni
-  role: MS
-  year: 2024
-  avatar: Harish.jpg
-  department: CSE
-  email: harish.kulasekaran@email.ucr.edu
-  github: https://github.com/haikux
-  linkedin: https://www.linkedin.com/in/harish-kulasekaran/
-  next: MLE @ TogetherAI
-- name: Divyank Shah
-  type: Grad
-  avatar: divyank.jpg
-  department: CSE
-  email: dshah048@ucr.edu
-  github: https://github.com/shahdivyank
-  linkedin: https://www.linkedin.com/in/divyank-shah
-- name: Sudhanshu Gulhane
-  type: Alumni
-  role: MS
-  year: 2025
-  avatar: sudhanshu.jpeg
-  department: CSE
-  email: sudhanshu.gulhane@email.ucr.edu
-  github: https://github.com/SudhanshuGulhane
-  web: https://sudhanshugulhane.github.io/
-  linkedin: https://www.linkedin.com/in/sudhanshu-gulhane
 - name: Shir-Kang Scott Jin
   type: Grad
   avatar: scott.jpeg
@@ -110,66 +57,6 @@
   email: sjin075@ucr.edu
   linkedin: https://www.linkedin.com/in/scott-jin-a818372a0
   github: https://github.com/JINSCOTT
-- name: Zhaoze Sun
-  type: Alumni
-  avatar: Zhaoze.jpg
-  department: ECE
-  role: MS
-  year: 2024
-  email: zhaoze.sun@email.ucr.edu
-  github: https://github.com/zsun114
-- name: Rakshith Mahishi
-  type: Alumni
-  role: MS
-  year: 2025
-  avatar: rakshith.jpeg
-  department: CSE
-  email: rmahi001@ucr.edu
-  github: https://github.com/rakshith911
-  linkedin: https://www.linkedin.com/in/rakshith-mahishi-423442182/
-- name: Kiran Kumar
-  type: Alumni
-  role: MS
-  year: 2025
-  avatar: Kiran.jpeg
-  department: CSE
-  email: khire001@ucr.edu
-  github: https://github.com/hk-kiran
-  linkedin: http://www.linkedin.com/in/hkkiran
-  next: SWE @ CISCO
-- name: Ashik Mysore Padmanabha
-  type: Alumni
-  role: MS
-  year: 2025
-  avatar: ashik.jpg
-  department: CSE
-  email: amyso001@ucr.edu
-  github: https://www.github.com/ashvegeta
-  linkedin: https://www.linkedin.com/in/ashik-mp-a7a0ab178/
-  web: https://ashvegeta.github.io/
-- name: Joseph Spracklen
-  type: Alumni
-  role: BS
-  year: 2024
-  department: ECE
-  avatar: Joseph.jpg
-  email: jspra006@ucr.edu
-# - name: Marcus Hsieh
-#   type: Undergrad
-#   department: Robotics
-#   avatar: marcus.png
-#   linkedin: https://linkedin.com/in/marcusjhsieh/
-#   github: https://github.com/MarcusHsieh
-- name: Jerry Li
-  type: Alumni
-  role: BS
-  year: 2025
-  department: CSE
-  avatar: jerry.png
-  email: jli793@ucr.edu
-  linkedin: https://www.linkedin.com/in/jerryli2025/
-  github: https://github.com/Jeli04
-  next: MS @ USC
 - name: Athena Nelson
   type: Undergrad
   department: CSE
@@ -232,12 +119,6 @@
   email: jseti007@ucr.edu
   linkedin: https://www.linkedin.com/in/jonathansetiabudi
   github: http://jonathansetiabudi.com
-- name: Anatulya Nandi
-  type: Undergrad
-  department: ECE
-  avatar: anatulya.jpg
-  email: anand023@ucr.edu
-  linkedin: https://www.linkedin.com/in/anatulya/
 - name: Dylan Wong
   type: Undergrad
   department: CSE
@@ -251,33 +132,6 @@
   email: jha066@ucr.edu
   linkedin: https://www.linkedin.com/in/joshua-ha-805879280/
   github: https://joshuaha.vercel.app/index.html
-- name: Minjun Song
-  type: Alumni
-  department: ECE
-  avatar: Minjun.jpg
-  email: minjun.song@email.ucr.edu
-  role: Undergrad
-  year: 2024
-  next: Undergraduate @ UCSD
-- name: Adhith Karthikeyan
-  type: Alumni
-  role: MS
-  year: 2025
-  department: CSE
-  avatar: ak.jpg
-  email: akart006@ucr.edu
-  github: https://github.com/kkadhith
-  web: https://kkadhith.com/
-- name: Purab Balani
-  type: Alumni
-  department: ECE
-  avatar: purab.jpeg
-  email: pbala011@ucr.edu
-  github: https://www.github.com/PurabB
-  linkedin: https://www.linkedin.com/in/purab-balani
-  role: Undergrad
-  year: 2024
-  next: Undergraduate @ UCSD
 - name: Alex Totah
   type: Undergrad
   department: ECE
@@ -403,3 +257,157 @@
   email: jinjie.liu@usc.edu 
   year: 2025
   role: MS
+- name: Anatulya Nandi
+  type: Alumni
+  department: ECE
+  avatar: anatulya.jpg
+  email: anand023@ucr.edu
+  linkedin: https://www.linkedin.com/in/anatulya/
+  role: BS
+  year: 2026
+  next: Undergraduate @ UIUC
+- name: Minjun Song
+  type: Alumni
+  department: ECE
+  avatar: Minjun.jpg
+  email: minjun.song@email.ucr.edu
+  role: Undergrad
+  year: 2024
+  next: Undergraduate @ UCSD
+- name: Adhith Karthikeyan
+  type: Alumni
+  role: MS
+  year: 2025
+  department: CSE
+  avatar: ak.jpg
+  email: akart006@ucr.edu
+  github: https://github.com/kkadhith
+  web: https://kkadhith.com/
+- name: Purab Balani
+  type: Alumni
+  department: ECE
+  avatar: purab.jpeg
+  email: pbala011@ucr.edu
+  github: https://www.github.com/PurabB
+  linkedin: https://www.linkedin.com/in/purab-balani
+  role: Undergrad
+  year: 2024
+  next: Undergraduate @ UCSD
+- name: Shilpa Mukhopadhyay
+  type: Alumni
+  department: CSE
+  avatar: shilpa.JPG
+  coadvisor: Dr. Roy Chowdhury
+  email: shilpa.mukhopadhyay@email.ucr.edu
+  github: https://github.com/shilpa2301
+  linkedin: https://www.linkedin.com/in/shilpa-mukhopadhyay-a87967102/
+  web: https://sites.google.com/view/shilpamukhopadhyay/home/
+  role: GSR
+  year: 2026
+- name: Haoge Zhou
+  type: Alumni
+  role: MS
+  avatar: haoge.png
+  department: ECE
+  year: 2024
+  email: hzhou083@ucr.edu
+  github: https://github.com/hankge
+- name: Diwakar Ravichandran
+  type: Alumni
+  role: MS
+  year: 2025
+  avatar: Diwakar.jpeg
+  department: BCOE
+  coadvisor: Dr. Ren
+  email: diwakar.ravichandran@email.ucr.edu
+  github: https://github.com/bundle-adjuster
+- name: Harish Kulasekaran
+  type: Alumni
+  role: MS
+  year: 2024
+  avatar: Harish.jpg
+  department: CSE
+  email: harish.kulasekaran@email.ucr.edu
+  github: https://github.com/haikux
+  linkedin: https://www.linkedin.com/in/harish-kulasekaran/
+  next: MLE @ TogetherAI
+- name: Divyank Shah
+  type: Alumni
+  avatar: divyank.jpg
+  department: CSE
+  email: dshah048@ucr.edu
+  github: https://github.com/shahdivyank
+  linkedin: https://www.linkedin.com/in/divyank-shah
+  role: BS+MS
+  next: Meta
+  year: 2026
+- name: Sudhanshu Gulhane
+  type: Alumni
+  role: MS
+  year: 2025
+  avatar: sudhanshu.jpeg
+  department: CSE
+  email: sudhanshu.gulhane@email.ucr.edu
+  github: https://github.com/SudhanshuGulhane
+  web: https://sudhanshugulhane.github.io/
+  linkedin: https://www.linkedin.com/in/sudhanshu-gulhane
+- name: Zhaoze Sun
+  type: Alumni
+  avatar: Zhaoze.jpg
+  department: ECE
+  role: MS
+  year: 2024
+  email: zhaoze.sun@email.ucr.edu
+  github: https://github.com/zsun114
+- name: Rakshith Mahishi
+  type: Alumni
+  role: MS
+  year: 2025
+  avatar: rakshith.jpeg
+  department: CSE
+  email: rmahi001@ucr.edu
+  github: https://github.com/rakshith911
+  linkedin: https://www.linkedin.com/in/rakshith-mahishi-423442182/
+- name: Kiran Kumar
+  type: Alumni
+  role: MS
+  year: 2025
+  avatar: Kiran.jpeg
+  department: CSE
+  email: khire001@ucr.edu
+  github: https://github.com/hk-kiran
+  linkedin: http://www.linkedin.com/in/hkkiran
+  next: SWE @ CISCO
+- name: Ashik Mysore Padmanabha
+  type: Alumni
+  role: MS
+  year: 2025
+  avatar: ashik.jpg
+  department: CSE
+  email: amyso001@ucr.edu
+  github: https://www.github.com/ashvegeta
+  linkedin: https://www.linkedin.com/in/ashik-mp-a7a0ab178/
+  web: https://ashvegeta.github.io/
+- name: Joseph Spracklen
+  type: Alumni
+  role: BS
+  year: 2024
+  department: ECE
+  avatar: Joseph.jpg
+  email: jspra006@ucr.edu
+# - name: Marcus Hsieh
+#   type: Undergrad
+#   department: Robotics
+#   avatar: marcus.png
+#   linkedin: https://linkedin.com/in/marcusjhsieh/
+#   github: https://github.com/MarcusHsieh
+- name: Jerry Li
+  type: Alumni
+  role: BS
+  year: 2025
+  department: CSE
+  avatar: jerry.png
+  email: jli793@ucr.edu
+  linkedin: https://www.linkedin.com/in/jerryli2025/
+  github: https://github.com/Jeli04
+  next: MS @ USC
