@@ -27,6 +27,23 @@
   web: https://talking-vehicles.github.io/
   year: '2026'
 - ENTRYTYPE: inproceedings
+  ID: closercloud
+  author: Pragya Sharma, Hang Qiu, Mani Srivastava
+  booktitle: 2025 34th International Conference on Computer Communications and Networks
+    (ICCCN)
+  conf: 2025 34th International Conference on Computer Communications and Networks
+    (ICCCN)
+  doi: 10.1109/ICCCN65249.2025.11133852
+  keywords: Cloud computing;Computer architecture;Throughput;Real-time systems;Delays;Safety;Sensors;Vehicle
+    dynamics;Autonomous vehicles;Context modeling;real-time;cloud computing;autonomous
+    vehicles
+  number: ''
+  pages: 1-9
+  title: 'Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed
+    Real-Time Inference'
+  volume: ''
+  year: '2025'
+- ENTRYTYPE: inproceedings
   ID: bevcalib
   author: Weiduo Yuan, Jerry Li, Justin Yue, Divyank Shah, Konstantinos Karydis, Hang
     Qiu
