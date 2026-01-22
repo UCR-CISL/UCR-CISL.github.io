@@ -104,6 +104,26 @@
   linkedin: https://www.linkedin.com/in/rishi-dave1
   github: https://github.com/Rishi-Dave
   web: https://rishidave.vercel.app/
+- name: Maxwell Steins
+  type: Undergrad
+  department: CSE
+  avatar: max.jpg
+  email: maxwell.steins@email.ucr.edu
+  github: https://github.com/MaxSteins36
+- name: Pratheek Sunilkumar
+  type: Undergrad
+  department: CSE
+  avatar: pratheek.jpg
+  email: pratheek.sunilkumar@ucr.edu
+  github: https://github.com/pratheek28
+  linkedin: https://www.linkedin.com/in/pratheek28
+- name: Pranav Gowrishankar
+  type: Undergrad
+  department: CSE
+  avatar: pranav.jpeg
+  email: pranav.gowrishankar@email.ucr.edu
+  github: https://github.com/pranavgowrish
+  linkedin: https://www.linkedin.com/in/pranavgowrish/
 # - name: Rahul Shah
 #   type: Undergrad
 #   department: Mechanical Engineering
