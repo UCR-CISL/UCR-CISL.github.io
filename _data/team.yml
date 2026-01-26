@@ -58,11 +58,13 @@
   linkedin: https://www.linkedin.com/in/scott-jin-a818372a0
   github: https://github.com/JINSCOTT
 - name: Athena Nelson
-  type: Undergrad
+  type: Alumni
+  role: BS
   department: CSE
   avatar: athena.png
   email: anels048@email.ucr.edu
   github: https://github.com/thena-ay
+  year: 2025
 - name: Bryan Deng 
   type: Undergrad
   department: CSE
@@ -104,6 +106,26 @@
   linkedin: https://www.linkedin.com/in/rishi-dave1
   github: https://github.com/Rishi-Dave
   web: https://rishidave.vercel.app/
+- name: Maxwell Steins
+  type: Undergrad
+  department: CSE
+  avatar: max.jpg
+  email: maxwell.steins@email.ucr.edu
+  github: https://github.com/MaxSteins36
+- name: Pratheek Sunilkumar
+  type: Undergrad
+  department: CSE
+  avatar: pratheek.jpg
+  email: pratheek.sunilkumar@ucr.edu
+  github: https://github.com/pratheek28
+  linkedin: https://www.linkedin.com/in/pratheek28
+- name: Pranav Gowrishankar
+  type: Undergrad
+  department: CSE
+  avatar: pranav.jpeg
+  email: pranav.gowrishankar@email.ucr.edu
+  github: https://github.com/pranavgowrish
+  linkedin: https://www.linkedin.com/in/pranavgowrish/
 # - name: Rahul Shah
 #   type: Undergrad
 #   department: Mechanical Engineering
@@ -159,12 +181,14 @@
   avatar: feiyang.jpeg
   email: f4ma@ucsd.edu
 - name: Allen Biju
-  type: Undergrad
+  type: Alumni
+  role: BS
   department: CSE
   avatar: allen.jpg
   email: allen.biju@email.ucr.edu
   linkedin: https://www.linkedin.com/in/allen-biju-54098b256/
   github: https://github.com/allenbiju30301
+  year: 2025
 - name: Jiapeng Zhao
   type: PastVisitor
   role: Visiting Researcher
