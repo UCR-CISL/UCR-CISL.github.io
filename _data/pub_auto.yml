@@ -1,4 +1,14 @@
 - ENTRYTYPE: inproceedings
+  ID: coopertrim
+  author: Shilpa Mukhopadhyay, Amit Roy-Chowdhury, Hang Qiu
+  booktitle: The Fourteenth International Conference on Learning Representations
+  conf: ICLR '26
+  img: coopertrim.png
+  series: ICLR '26
+  title: 'CooperTrim: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception'
+  url: https://openreview.net/forum?id=8NgKNuHRiH
+  year: '2026'
+- ENTRYTYPE: inproceedings
   ID: pgr
   author: Pengxi Zeng, Alberto Presta, Jonah Reinis, Dinesh Bharadia, Hang Qiu, Pamela
     Cosman
