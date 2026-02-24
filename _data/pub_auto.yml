@@ -1,12 +1,30 @@
 - ENTRYTYPE: inproceedings
+  ID: dmw
+  author: Zehao Wang, Huaide Jiang, Shuaiwu Dong, Yuping Wang, Hang Qiu, Jiachen Li
+  booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+    Recognition
+  code: ''
+  conf: CVPR '26
+  demo: ''
+  img: dmw.png
+  month: June
+  series: CVPR '26
+  title: 'Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized
+    Driving'
+  url: https://openreview.net/forum?id=zGgkfUctOB
+  web: ''
+  year: '2026'
+- ENTRYTYPE: inproceedings
   ID: coopertrim
   author: Shilpa Mukhopadhyay, Amit Roy-Chowdhury, Hang Qiu
   booktitle: The Fourteenth International Conference on Learning Representations
+  code: https://github.com/UCR-CISL/CooperTrim
   conf: ICLR '26
   img: coopertrim.png
   series: ICLR '26
   title: 'CooperTrim: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception'
   url: https://openreview.net/forum?id=8NgKNuHRiH
+  web: https://cisl.ucr.edu/CooperTrim/
   year: '2026'
 - ENTRYTYPE: inproceedings
   ID: pgr
