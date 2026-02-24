@@ -34,6 +34,13 @@
   height: 7rem;
 }
 
+.rectplatform{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8rem;
+}
+
 .sponsor-marquee {
   width: 100%;
   overflow: hidden;
@@ -98,6 +105,17 @@
     width: 33%;
     max-width:16rem;
     height: 16rem;
+    float: left;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-right: 3%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.platform{
+    left: 0;
+    width: 33%;
+    max-width:16rem;
     float: left;
     text-align: center;
     font-size: 0.9rem;
