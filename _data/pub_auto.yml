@@ -1,5 +1,5 @@
 - ENTRYTYPE: inproceedings
-  ID: dmw
+  ID: DMW
   author: Zehao Wang, Huaide Jiang, Shuaiwu Dong, Yuping Wang, Hang Qiu, Jiachen Li
   booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
     Recognition
@@ -9,19 +9,21 @@
   img: dmw.png
   month: June
   series: CVPR '26
+  tag: PAI
   title: 'Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized
     Driving'
   url: https://openreview.net/forum?id=zGgkfUctOB
   web: ''
   year: '2026'
 - ENTRYTYPE: inproceedings
-  ID: coopertrim
+  ID: CooperTrim
   author: Shilpa Mukhopadhyay, Amit Roy-Chowdhury, Hang Qiu
   booktitle: The Fourteenth International Conference on Learning Representations
   code: https://github.com/UCR-CISL/CooperTrim
   conf: ICLR '26
   img: coopertrim.png
   series: ICLR '26
+  tag: CA
   title: 'CooperTrim: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception'
   url: https://openreview.net/forum?id=8NgKNuHRiH
   web: https://cisl.ucr.edu/CooperTrim/
@@ -38,7 +40,7 @@
   url: https://arxiv.org/abs/2410.00582
   year: '2026'
 - ENTRYTYPE: inproceedings
-  ID: talkingvehicles
+  ID: CoopReflect
   author: Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi,
     Hang Qiu, Peter Stone
   booktitle: Proceedings of the 25th International Conference on Autonomous Agents
@@ -49,6 +51,7 @@
   img: talkingvehicles.png
   note: Oral Presentation
   series: AAMAS '26
+  tag: CA
   title: 'CoopReflect: Towards Natural Language Communication for Cooperative Autonomous
     Driving via Multi-Agent Learning'
   url: https://arxiv.org/abs/2505.18334
@@ -72,7 +75,7 @@
   volume: ''
   year: '2025'
 - ENTRYTYPE: inproceedings
-  ID: bevcalib
+  ID: BEVCalib
   author: Weiduo Yuan, Jerry Li, Justin Yue, Divyank Shah, Konstantinos Karydis, Hang
     Qiu
   booktitle: 9th Annual Conference on Robot Learning
@@ -81,13 +84,14 @@
   img: bevcalib.png
   series: CoRL '25
   star: https://github.com/UCR-CISL/BEVCalib
+  tag: PAI
   title: 'BEVCALIB: LiDAR-Camera Calibration via Geometry-Guided Bird''s-Eye View
     Representations'
   url: https://arxiv.org/abs/2506.02587
   web: https://cisl.ucr.edu/BEVCalib/
   year: '2025'
 - ENTRYTYPE: article
-  ID: cats
+  ID: CATS
   author: Namo Asavisanu, Tina Khezresmaeilzadeh, Rohan Sequeira, Hang Qiu, Fawad
     Ahmad, Konstantinos Psounis, Ramesh Govindan
   conf: IEEE TVT
@@ -100,12 +104,13 @@
   number: '7'
   pages: 10092-10108
   series: IEEE TVT
+  tag: CA
   title: 'CATS: A Framework for Cooperative Autonomy Trust \& Security'
   url: https://ieeexplore.ieee.org/document/10919219
   volume: '74'
   year: '2025'
 - ENTRYTYPE: inproceedings
-  ID: see_v2x
+  ID: SEE-V2X
   author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
   booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
   code: https://github.com/UCR-CISL/SEE-V2X/
@@ -114,11 +119,12 @@
   img: see-v2x.png
   publisher: Association for Computing Machinery
   series: ACM SenSys '25
+  tag: CA
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
   web: https://cisl.ucr.edu/SEE-V2X/
   year: '2025'
 - ENTRYTYPE: article
-  ID: cmp
+  ID: CMP
   author: Zehao Wang, Yuping Wang, Zhuoyuan Wu, Hengbo Ma, Zhaowei Li, Hang Qiu, Jiachen
     Li
   code: https://github.com/tasl-lab/CMP/
@@ -136,6 +142,7 @@
   publisher: IEEE
   series: IEEE RA-L
   star: https://github.com/tasl-lab/CMP/
+  tag: CA
   title: 'CMP: Cooperative Motion Prediction with Multi-Agent Communication'
   url: https://arxiv.org/pdf/2403.17916
   volume: ''
@@ -163,7 +170,7 @@
   url: https://doi.org/10.1145/3636534.3696213
   year: '2024'
 - ENTRYTYPE: inproceedings
-  ID: harbor
+  ID: Harbor
   abstract: 'Collaborative Vehicular Perception (CVP) enables connected and autonomous
     vehicles (CAVs) to cooperatively extend their views through wirelessly sharing
     their sensor data. Existing CVP systems employ either a vehicle-to-vehicle (V2V)
@@ -194,12 +201,13 @@
   pages: "141\u2013154"
   publisher: Association for Computing Machinery
   series: ACM SenSys '24
+  tag: CA
   title: Boosting Collaborative Vehicular Perception on the Edge with Vehicle-to-Vehicle
     Communication
   url: https://doi.org/10.1145/3666025.3699328
   year: '2024'
 - ENTRYTYPE: inproceedings
-  ID: elm
+  ID: ELM
   author: Yunsong Zhou, Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi
     Zhu, Minyi Guo, Yu Qiao, Hongyang Li
   booktitle: Proceedings of The 18th European Conference on Computer Vision
@@ -209,6 +217,7 @@
   img: elm.png
   series: ECCV '24
   star: https://github.com/OpenDriveLab/ELM
+  tag: PAI
   title: Embodied Understanding of Driving Scenarios
   url: https://arxiv.org/abs/2403.04593
   year: '2024'
@@ -230,7 +239,7 @@
   volume: ''
   year: '2024'
 - ENTRYTYPE: inproceedings
-  ID: womdlidar
+  ID: WOMD-LiDAR
   author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
@@ -243,18 +252,20 @@
   mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open
   series: ICRA '24
   star: https://github.com/waymo-research/waymo-open-dataset
+  tag: PAI
   title: 'WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting'
   url: https://arxiv.org/abs/2304.03834
   web: https://waymo.com/research/womd-lidar/
   year: '2024'
 - ENTRYTYPE: inproceedings
-  ID: mcal
+  ID: MCAL
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
   booktitle: Proceedings of the Eleventh International Conference on Learning Representations
   code: https://github.com/hangqiu/MCAL
   conf: ICLR '23
   img: mcal.jpg
   series: ICLR '23
+  tag: mlsys
   talk: https://iclr.cc/virtual/2023/poster/12195
   title: 'MCAL: Minimum Cost Human-Machine Active Labeling'
   url: https://openreview.net/forum?id=1FxRPKrH8bw
@@ -282,7 +293,7 @@
   volume: '18'
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: coopernaut
+  ID: Coopernaut
   author: Hang Qiu*, Jiaxun Cui*, Dian Chen, Peter Stone, Yuke Zhu
   booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
     Recognition
@@ -293,13 +304,14 @@
   month: June
   series: CVPR '22
   star: https://github.com/UT-Austin-RPL/Coopernaut
+  tag: CA
   title: 'Coopernaut: End-to-End Driving with Cooperative Perception for Networked
     Vehicles'
   url: https://arxiv.org/abs/2205.02222
   web: https://ut-austin-rpl.github.io/Coopernaut/
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: autocast
+  ID: AutoCast
   author: Hang Qiu, Pohan Huang, Namo Asavisanu, Xiaochen Liu, Konstantinos Psounis,
     Ramesh Govindan
   booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
@@ -310,6 +322,7 @@
   img: autocast.png
   series: ACM MobiSys '22
   star: https://github.com/hangqiu/AutoCastSim
+  tag: CA
   talk: https://www.youtube.com/watch?v=EZ8t9eaddyM
   title: 'AutoCast: Scalable Infrastructure-less Cooperative Perception for Distributed
     Collaborative Driving'
@@ -317,7 +330,7 @@
   web: https://hangqiu.github.io/AutoCast/
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: qiu2021mlexray
+  ID: ML-EXray
   author: Hang Qiu, Ioanna Vavelidou, Jian Li, Evgenya Pergament, Pete Warden, Sandeep
     Chinchali, Zain Asgar, Sachin Katti
   booktitle: Proceedings of Machine Learning and Systems
@@ -329,6 +342,7 @@
   note: Outstanding Paper Award
   series: MLSys '22
   star: https://github.com/hangqiu/ML-EXray
+  tag: mlsys
   title: 'ML-EXray: Visibility into ML Deployment on the Edge'
   url: https://arxiv.org/abs/2111.04779
   year: '2022'
@@ -357,7 +371,7 @@
   url: https://arxiv.org/abs/2003.10664
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: carmap
+  ID: CarMap
   address: Santa Clara, CA
   author: Fawad Ahmad, Hang Qiu, Ray Eells, Fan Bai, Ramesh Govindan
   booktitle: Proceedings of the 17th Symposium on Networked Systems Design and Implementation
@@ -371,11 +385,12 @@
   publisher: '{USENIX} Association'
   series: USENIX NSDI '20
   star: https://github.com/USC-NSL/CarMap
+  tag: CA
   title: 'CarMap: Fast 3D Feature Map Updates for Automobiles '
   url: https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: he2020fedml
+  ID: FedML
   author: Chaoyang He, Songze Li, Jinhyun So, Mi Zhang, Hongyi Wang, Xiaoyang Wang,
     Praneeth Vepakomma, Abhishek Singh, Hang Qiu, Li Shen,  others
   booktitle: Proceedings of the 34th Conference on Neural Information Processing Systems
@@ -386,6 +401,7 @@
   note: Best Paper Award
   series: NeurIPS, SpicyFL '20
   star: https://github.com/FedML-AI/FedML
+  tag: mlsys
   title: 'FedML: A Research Library and Benchmark for Federated Machine Learning'
   url: https://arxiv.org/abs/2007.13518
   web: https://fedml.ai/
@@ -433,7 +449,7 @@
   url: https://ieeexplore.ieee.org/abstract/document/8455437/
   year: '2018'
 - ENTRYTYPE: inproceedings
-  ID: avr
+  ID: AVR
   address: New York, NY, USA
   author: Hang Qiu, Fawad Ahmad, Fan Bai, Marco Gruteser, Ramesh Govindan
   booktitle: Proceedings of the 16th Annual International Conference on Mobile Systems,
@@ -452,6 +468,7 @@
   publisher: Association for Computing Machinery
   series: ACM MobiSys '18
   star: https://github.com/hangqiu/AVR16
+  tag: CA
   talk: https://youtu.be/QWrEl1-m0ho
   title: 'AVR: Augmented Vehicular Reality'
   url: https://doi.org/10.1145/3210240.3210319
@@ -526,7 +543,7 @@
   url: https://doi.org/10.1145/3032970.3032976
   year: '2017'
 - ENTRYTYPE: article
-  ID: qiu2017towards
+  ID: ContextSensing
   author: Hang Qiu, Jinzhu Chen, Shubham Jain, Yurong Jiang, Matt McCartney, Gorkem
     Kar, Fan Bai, Donald K Grimm, Marco Gruteser, Ramesh Govindan
   conf: IEEE TVT
@@ -537,6 +554,7 @@
   pages: 1909--1922
   publisher: IEEE
   series: IEEE TVT
+  tag: sensing
   title: Towards Robust Vehicular Context Sensing
   url: https://ieeexplore.ieee.org/abstract/document/8100990
   volume: '67'
@@ -566,7 +584,7 @@
   url: https://doi.org/10.1145/2942358.2942372
   year: '2016'
 - ENTRYTYPE: inproceedings
-  ID: carloc
+  ID: CarLoc
   abstract: 'Precise positioning of an automobile to within lane-level precision can
     enable better navigation and context-awareness. However, GPS by itself cannot
     provide such precision in obstructed urban environments. In this paper, we present
@@ -594,11 +612,12 @@
   pages: "253\u2013265"
   publisher: Association for Computing Machinery
   series: ACM SenSys '15
+  tag: sensing
   title: 'CARLOC: Precise Positioning of Automobiles'
   url: https://doi.org/10.1145/2809695.2809725
   year: '2015'
 - ENTRYTYPE: inproceedings
-  ID: carlog
+  ID: CarLog
   address: New York, NY, USA
   author: Yurong Jiang, Hang Qiu, Matthew McCartney, William G. J. Halfond, Fan Bai,
     Donald Grimm, Ramesh Govindan
@@ -613,6 +632,7 @@
   pages: "221\u2013235"
   publisher: Association for Computing Machinery
   series: ACM SenSys '14
+  tag: sensing
   title: 'CARLOG: A Platform for Flexible and Efficient Automotive Sensing'
   url: https://doi.org/10.1145/2668332.2668350
   year: '2014'

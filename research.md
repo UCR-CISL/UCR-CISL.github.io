@@ -18,12 +18,9 @@ title: Research
 </div>
 
 
-### Research Highlights
-
-{% include research_highlight.html %}
-<hr>
-
 ### Select Media Coverage
+
+<br>
 
 <div class="media-wrapper">
 {% for media in site.data.media %}
