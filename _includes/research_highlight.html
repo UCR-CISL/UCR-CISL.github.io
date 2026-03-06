@@ -12,6 +12,17 @@
 </div>
     
 <div>
+    <div class="pubimg"><strong><span style="color:#000080;">Physical AI </span></strong></div>
+    <div class="pubentry">
+    {% for pub in sorted_pubs %}
+        {% if pub.tag == "PAI" %} 
+            &#9679;&nbsp;<em>{{ pub.ID }}&nbsp;(<a href="{{ pub.url }}">{{ pub.series }}</a>) &nbsp;</em>
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>
+
+<div>
     <div class="pubimg"><strong><span style="color:#000080;">System for Edge ML </span></strong></div>
     <div class="pubentry">
     {% for pub in sorted_pubs %}
@@ -22,15 +33,5 @@
     </div>
 </div>
 
-<div>
-    <div class="pubimg"><strong><span style="color:#000080;">Physical AI </span></strong></div>
-    <div class="pubentry">
-    {% for pub in sorted_pubs %}
-        {% if pub.tag == "PAI" %} 
-            &#9679;&nbsp;<em>{{ pub.ID }}&nbsp;(<a href="{{ pub.url }}">{{ pub.series }}</a>) &nbsp;</em>
-        {% endif %}
-    {% endfor %}
-    </div>
-</div>
 
 </div>
