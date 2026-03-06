@@ -117,10 +117,13 @@
   conf: ACM SenSys '25
   data: https://drive.google.com/drive/u/1/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL
   img: see-v2x.png
+  numpages: '7'
+  pages: "305\u2013311"
   publisher: Association for Computing Machinery
   series: ACM SenSys '25
   tag: CA
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
+  url: https://doi.org/10.1145/3715014.3722077
   web: https://cisl.ucr.edu/SEE-V2X/
   year: '2025'
 - ENTRYTYPE: article
