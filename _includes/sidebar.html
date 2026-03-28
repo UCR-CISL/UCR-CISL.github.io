@@ -1,13 +1,15 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-<!--      <img src="{{ site.baseurl }}/assets/HangQ.jpg" alt="Avatar" class="centeravatar">-->
-      <h1>
-        <a href="{{ site.baseurl }}/">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
+
+    <div class="sidebar-header">
+      <div class="sidebar-about">
+        <h1>
+          <a href="{{ site.baseurl }}/">
+            {{ site.title }}
+          </a>
+        </h1>
+        <p class="lead">{{ site.description }}</p>
+      </div>
     </div>
 
     <div class="social-icons">
@@ -23,44 +25,66 @@
       </div>
     </div>
 
-    <form class="sidebar-search" action="/search/" method="get">
-      <div class="search-input-wrap">
-        <input type="text" name="q" placeholder="Search..." autocomplete="off">
-        <button type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
-      </div>
-    </form>
+    <div class="search-toggle-row">
+      <form class="sidebar-search" action="/search/" method="get">
+        <div class="search-input-wrap">
+          <input type="text" name="q" placeholder="Search CISL..." autocomplete="off">
+          <button type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
 
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      <button class="sidebar-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+    <div class="sidebar-expandable">
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            {% unless node.exclude_from_nav %}
-            {% if node.title != "Join Us" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
-            {% endunless %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+        {% comment %}
+          The code below dynamically generates a sidebar nav of pages with
+          `layout: page` in the front-matter. See readme for usage.
+        {% endcomment %}
 
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            {% if node.title == "Join Us" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% assign pages_list = site.pages %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              {% unless node.exclude_from_nav %}
+              {% if node.title != "Join Us" %}
+              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+              {% endif %}
+              {% endunless %}
             {% endif %}
           {% endif %}
-        {% endif %}
-      {% endfor %}
-    </nav>
-  <p>Copyright &copy; {{ site.time | date: '%Y' }} CISL@UCR</p>
+        {% endfor %}
+
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              {% if node.title == "Join Us" %}
+              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </nav>
+
+      <p>Copyright &copy; {{ site.time | date: '%Y' }} CISL@UCR</p>
+    </div>
+
   </div>
 </div>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('.sidebar-toggle');
+    var sidebar = document.querySelector('.sidebar');
+    if (!toggle) return;
+    toggle.addEventListener('click', function () {
+      var open = sidebar.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  }());
+</script>
