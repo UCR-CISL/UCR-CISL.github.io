@@ -50,6 +50,14 @@
   web: https://jyao97.github.io
   github: https://github.com/jyao97
   linkedin: https://www.linkedin.com/in/jianpeng-yao-073a1911a/
+- name: Yubin Choi
+  type: PHD
+  department: ECE
+  avatar: yubin.jpg
+  email: ychoi149@ucr.edu
+  web: https://yeepy3.github.io/
+  github: https://github.com/Yubin-OP
+  linkedin: https://www.linkedin.com/in/yubin-choi-20337b2b3/
 - name: Shir-Kang Scott Jin
   type: Grad
   avatar: scott.jpeg
@@ -126,6 +134,13 @@
   email: pranav.gowrishankar@email.ucr.edu
   github: https://github.com/pranavgowrish
   linkedin: https://www.linkedin.com/in/pranavgowrish/
+- name: Matthew Chung
+  type: Undergrad
+  department: CSE
+  avatar: MatthewChung.jpg
+  email: matthew.chung@email.ucr.edu
+  github: https://github.com/matthewc2003
+  linkedin: https://www.linkedin.com/in/matthew-chung-23763922a/
 # - name: Rahul Shah
 #   type: Undergrad
 #   department: Mechanical Engineering
