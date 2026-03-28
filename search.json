@@ -1,0 +1,10 @@
+---
+layout: null
+---
+{% assign sep = "" %}
+[{% for pub in site.data.pub_auto %}{% if pub.title %}{{ sep }}
+{"type":"publication","id":{{ pub.ID | jsonify }},"title":{{ pub.title | jsonify }},"author":{{ pub.author | jsonify }},"year":{{ pub.year | jsonify }},"venue":{{ pub.conf | jsonify }},"tag":{{ pub.tag | jsonify }},"url":{{ pub.url | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}{% for person in site.data.team %}{{ sep }}
+{"type":"person","id":{{ person.name | slugify | jsonify }},"name":{{ person.name | jsonify }},"department":{{ person.department | jsonify }},"role":{{ person.type | jsonify }},"url":"/people/"}{% assign sep = "," %}{% endfor %}{% for item in site.data.news %}{{ sep }}
+{"type":"news","id":{{ forloop.index | jsonify }},"title":{{ item.title | markdownify | strip_html | jsonify }},"date":{{ item.date | date: "%Y-%m-%d" | jsonify }},"url":"/"}{% assign sep = "," %}{% endfor %}{% for course in site.data.teaching %}{{ sep }}
+{"type":"teaching","id":{{ course.term | append: " " | append: course.number | slugify | jsonify }},"name":{{ course.name | jsonify }},"number":{{ course.number | jsonify }},"term":{{ course.term | jsonify }},"role":{{ course.role | default: "Instructor" | jsonify }},"instructor":{{ course.instructor | jsonify }},"tas":{{ course.tas | jsonify }},"url":"/teaching/"}{% assign sep = "," %}{% endfor %}
+]

@@ -1,0 +1,160 @@
+---
+layout: page
+title: Search
+exclude_from_nav: true
+---
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<div id="search-summary"></div>
+
+<!-- People: pre-rendered by Jekyll, shown/hidden by JS -->
+<div id="results-people" style="display:none">
+  <h3 id="people-heading"></h3>
+  <div class="clearfix">
+    {% for people in site.data.team %}
+      {% if people.avatar %}
+        <div class="search-person-item" data-person-id="{{ people.name | slugify }}" style="display:none">
+          {% include avatar_entry.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- News: pre-rendered by Jekyll, shown/hidden by JS -->
+<div id="results-news" style="display:none">
+  <h3 id="news-heading"></h3>
+  {% for item in site.data.news %}
+    <div class="search-news-item" data-news-id="{{ forloop.index }}" style="display:none">
+      <div class="search-result">
+        <div>{{ item.title | markdownify }}</div>
+        <div class="search-result-meta">{{ item.date | date: "%B %d, %Y" }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Publications: pre-rendered by Jekyll, shown/hidden by JS -->
+<div id="results-publications" style="display:none">
+  <h3 id="pub-heading"></h3>
+  <div class="clearfix">
+    {% for pub in site.data.pub_auto %}
+      {% if pub.img %}
+        <div class="search-pub-item" data-pub-id="{{ pub.ID }}" style="display:none">
+          {% include pubentry.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Teaching: pre-rendered by Jekyll, shown/hidden by JS -->
+<div id="results-teaching" style="display:none">
+  <h3 id="teaching-heading"></h3>
+  {% for course in site.data.teaching %}
+    <div class="search-teaching-item" data-teaching-id="{{ course.term | append: ' ' | append: course.number | slugify }}" style="display:none">
+      <div class="search-result">
+        <a href="{{ course.url }}" target="_blank">{{ course.name }}</a>
+        <div class="search-result-meta">
+          {{ course.term }}{% if course.role %} &middot; {{ course.role }}{% endif %}{% if course.instructor %} &middot; Instructor: {{ course.instructor }}{% endif %}{% if course.tas %} &middot; TA: {{ course.tas }}{% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script>
+(function () {
+  var summaryDiv = document.getElementById('search-summary');
+  var params = new URLSearchParams(window.location.search);
+  var query  = params.get('q') || '';
+
+  if (!query.trim()) {
+    summaryDiv.innerHTML = '<p>Use the search bar in the sidebar to find publications, people, and news.</p>';
+    return;
+  }
+
+  summaryDiv.innerHTML = '<p>Searching&hellip;</p>';
+
+  fetch('/search.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var idx = lunr(function () {
+        this.ref('_idx');
+        this.field('title',      { boost: 10 });
+        this.field('author',     { boost: 5  });
+        this.field('name',       { boost: 10 });
+        this.field('number',     { boost: 8  });
+        this.field('venue',      { boost: 3  });
+        this.field('tag',        { boost: 2  });
+        this.field('department');
+        this.field('role');
+        this.field('term');
+        this.field('year');
+        this.field('instructor', { boost: 5 });
+        this.field('tas',        { boost: 5 });
+
+        data.forEach(function (item, i) {
+          item._idx = i;
+          this.add(item);
+        }, this);
+      });
+
+      var results;
+      try {
+        results = idx.search(query);
+      } catch (e) {
+        try { results = idx.search(query + '*'); } catch (e2) { results = []; }
+      }
+
+      if (results.length === 0) {
+        summaryDiv.innerHTML = '<p>No results found for <strong>' + esc(query) + '</strong>.</p>';
+        return;
+      }
+
+      var pubIds = [], personIds = [], newsIds = [], teachingIds = [];
+      results.forEach(function (r) {
+        var item = data[r.ref];
+        if      (item.type === 'publication') pubIds.push(String(item.id));
+        else if (item.type === 'person')      personIds.push(String(item.id));
+        else if (item.type === 'news')        newsIds.push(String(item.id));
+        else if (item.type === 'teaching')    teachingIds.push(String(item.id));
+      });
+
+      var shownPeople   = reveal('.search-person-item',  'data-person-id',  personIds,   'results-people',       'people-heading',   'People');
+      var shownNews     = reveal('.search-news-item',    'data-news-id',    newsIds,     'results-news',         'news-heading',     'News');
+      var shownPubs     = reveal('.search-pub-item',     'data-pub-id',     pubIds,      'results-publications', 'pub-heading',      'Publications');
+      var shownTeaching = reveal('.search-teaching-item','data-teaching-id',teachingIds, 'results-teaching',     'teaching-heading', 'Teaching');
+
+      var total = shownPeople + shownNews + shownPubs + shownTeaching;
+      summaryDiv.innerHTML = '<p>Found ' + total + ' result' + (total !== 1 ? 's' : '') +
+                             ' for <strong>' + esc(query) + '</strong>.</p>';
+    })
+    .catch(function () {
+      summaryDiv.innerHTML = '<p>Error loading search index. Please try again.</p>';
+    });
+
+  function reveal(selector, attr, ids, sectionId, headingId, label) {
+    var section = document.getElementById(sectionId);
+    var shown = 0;
+    section.querySelectorAll(selector).forEach(function (el) {
+      if (ids.indexOf(el.getAttribute(attr)) !== -1) {
+        el.style.display = '';
+        shown++;
+      }
+    });
+    if (shown > 0) {
+      section.style.display = '';
+      document.getElementById(headingId).textContent = label + ' (' + shown + ')';
+    }
+    return shown;
+  }
+
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+}());
+</script>
