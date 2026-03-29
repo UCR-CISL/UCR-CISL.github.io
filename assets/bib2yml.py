@@ -6,23 +6,17 @@ from tqdm import tqdm
 
 paper_dir = 'papers'
 output_dir = './_data/pub_auto.yml'
+venues_file = './_data/venues.yml'
 
-booktitle_series_map = {
-    "International Conference on Learning Representations": "ICLR",
-    "IEEE Transactions on Robotics": "TOR",
-    "Conference on Robot Learning": "CoRL",
-    "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition": "CVPR",
-    "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition": "CVPR",
-    "Proceedings of the European Conference on Computer Vision (ECCV) Workshops": "ECCV",
-    "European conference on computer vision": "ECCV",
-    "Robotics: Science and Systems": "RSS",
-    "Advances in Neural Information Processing Systems": "NIPS",
-    "Proceedings of the IEEE International Conference on Computer Vision": "ICCV",
-    "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.": "IMWUT",
-    "IEEE Communications Magazine": "CommMag",
-    "IEEE Transactions on Vehicular Technology": "TVT",
-    "The Journal of Defense Modeling and Simulation": "JDMS",
-}
+def load_venues():
+    if os.path.exists(venues_file):
+        with open(venues_file, 'r') as f:
+            mapping = yaml.safe_load(f)
+            return mapping if mapping else {}
+    print(f"Warning: venues file not found at {venues_file}, using empty mapping")
+    return {}
+
+booktitle_series_map = load_venues()
 
 def add_new_articles(bibdbs):
 

@@ -1,0 +1,27 @@
+# Venue name mappings: full booktitle/journal -> short abbreviation
+# Add new venues here without touching bib2yml.py
+
+# Machine Learning & AI
+"International Conference on Learning Representations": "ICLR"
+"Advances in Neural Information Processing Systems": "NeurIPS"
+
+# Computer Vision
+"Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition": "CVPR"
+"Proceedings of the IEEE/CVF International Conference on Computer Vision": "ICCV"
+"Proceedings of the European Conference on Computer Vision": "ECCV"
+
+# Robotics
+"Robotics: Science and Systems": "RSS"
+"Conference on Robot Learning": "CoRL"
+"IEEE Transactions on Robotics": "TRO"
+
+# Autonomous Agents
+"Proceedings of the International Conference on Autonomous Agents and Multiagent Systems": "AAMAS"
+
+# Networking & Mobile
+"Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.": "IMWUT"
+"IEEE Communications Magazine": "CommMag"
+"International Conference on Computing, Networking and Communications": "ICNC"
+
+# Vehicles & Defense
+"IEEE Transactions on Vehicular Technology": "TVT"
