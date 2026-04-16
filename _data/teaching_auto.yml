@@ -1,0 +1,124 @@
+- keywords: nonumber
+  month: '4'
+  org: University of California, Riverside
+  tas: Jianpeng Yao
+  term: Spring 2026
+  title: 'CS 135: Virtual Reality'
+  url: https://ucr-cisl.github.io/CS135/spring26/
+  year: '2026'
+- keywords: nonumber
+  month: '1'
+  org: University of California, Riverside
+  tas: Bo Wu
+  term: Winter 2026
+  title: 'EE/CS 131: Edge Computing'
+  url: https://ucr-cisl.github.io/EECS131/winter26/
+  year: '2026'
+- keywords: nonumber
+  month: '9'
+  org: University of California, Riverside
+  tas: Shilpa Mukhopadhyay
+  term: Fall 2025
+  title: 'EE 267: Introduction to Autonomous Driving Systems'
+  url: https://ucr-cisl.github.io/EE267/fall25/
+  year: '2025'
+- keywords: nonumber
+  month: '4'
+  org: University of California, Riverside
+  tas: Justin Yue
+  term: Spring 2025
+  title: 'CS 135: Virtual Reality'
+  url: https://ucr-cisl.github.io/CS135/spring25/
+  year: '2025'
+- keywords: nonumber
+  month: '1'
+  org: University of California, Riverside
+  tas: Bo Wu
+  term: Winter 2025
+  title: 'EE/CS 131: Edge Computing'
+  url: https://ucr-cisl.github.io/EECS131/winter25/
+  year: '2025'
+- keywords: nonumber
+  month: '9'
+  org: University of California, Riverside
+  tas: Harshith Mohan Kumar
+  term: Fall 2024
+  title: 'EE 260B: Introduction to the Self-driving Stack'
+  url: https://ucr-cisl.github.io/EE267/fall24/
+  year: '2024'
+- keywords: nonumber
+  month: '4'
+  org: University of California, Riverside
+  tas: Rakshith Mahishi
+  term: Spring 2024
+  title: 'EE 260C: Introduction to the Self-driving Stack'
+  url: https://ucr-cisl.github.io/EE267/spring24/
+  year: '2024'
+- keywords: nonumber
+  month: '1'
+  org: University of California, Riverside
+  tas: Haoge Zhou, Harish Kulasekaran
+  term: Winter 2024
+  title: 'EE/CS 131: Edge Computing'
+  url: https://ucr-cisl.github.io/EECS131/winter24/
+  year: '2024'
+- instructor: Sachin Katti, Zain Asgar, Pete Warden
+  keywords: nonumber
+  month: '9'
+  note: ', Co-Instructors: S. Katti, Z. Asgar, P. Warden'
+  org: Stanford University
+  role: Co-Instructor
+  term: Fall 2021
+  title: 'EE 292D: ML on Embedded Systems'
+  url: https://ee292d.github.io/
+  year: '2021'
+- instructor: Bhaskar Krishnamachari
+  keywords: nonumber
+  month: '9'
+  note: ', Instructor: B. Krishnamachari'
+  org: University of Southern California
+  role: Teaching Assistant
+  term: Fall 2020
+  title: 'ECE 597: Wireless Networks'
+  url: https://classes.usc.edu/term-20203/course/ee-597/
+  year: '2020'
+- instructor: Konstantinos Psounis
+  keywords: nonumber
+  month: '4'
+  note: ', Instructor: K. Psounis'
+  org: University of Southern California
+  role: Guest Lecturer
+  term: Spring 2020
+  title: 'ECE 597: Wireless Networks'
+  url: https://classes.usc.edu/term-20201/course/ee-597/
+  year: '2020'
+- instructor: Leana Golubchik
+  keywords: nonumber
+  month: '4'
+  note: ', Instructor: L. Golubchik'
+  org: University of Southern California
+  role: Panelist
+  term: Spring 2019
+  title: 'CSCI 697: Seminar in Computer Science Research'
+  url: https://web-app.usc.edu/ws/soc_archive/soc/term-20191/course/csci-697/
+  year: '2019'
+- instructor: Ramesh Govindan
+  keywords: nonumber
+  month: '9'
+  note: ', Instructor: R. Govindan'
+  org: University of Southern California
+  role: Teaching Assistant
+  term: Fall 2017
+  title: 'CSCI 551: Computer Communications'
+  url: https://docs.google.com/document/d/1EzXO5WKGVK2lgIF03YsxD8MnEP25DFAC2taS7EbFupY/edit?usp=sharing
+  year: '2017'
+- instructor: Konstantinos Psounis
+  keywords: nonumber
+  month: '4'
+  note: ', Instructor: K. Psounis'
+  org: University of Southern California
+  role: Guest Lecturer
+  term: Spring 2015
+  title: 'ECE 597: Wireless Networks'
+  url: https://classes.usc.edu/term-20151/course/ee-597/
+  year: '2015'
