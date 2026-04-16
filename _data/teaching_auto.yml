@@ -67,8 +67,8 @@
   keywords: nonumber
   month: '9'
   note: ', Co-Instructors: S. Katti, Z. Asgar, P. Warden'
-  role: Co-Instructor
   title: 'EE 292D: ML on Embedded Systems'
+  type: Co-Instructor
   url: https://ee292d.github.io/
   venue: Stanford University
   year: '2021'
@@ -77,8 +77,8 @@
   keywords: nonumber
   month: '9'
   note: ', Instructor: B. Krishnamachari'
-  role: Teaching Assistant
   title: 'ECE 597: Wireless Networks'
+  type: Teaching Assistant
   url: https://classes.usc.edu/term-20203/course/ee-597/
   venue: University of Southern California
   year: '2020'
@@ -87,8 +87,8 @@
   keywords: nonumber
   month: '4'
   note: ', Instructor: K. Psounis'
-  role: Guest Lecturer
   title: 'ECE 597: Wireless Networks'
+  type: Guest Lecturer
   url: https://classes.usc.edu/term-20201/course/ee-597/
   venue: University of Southern California
   year: '2020'
@@ -97,8 +97,8 @@
   keywords: nonumber
   month: '4'
   note: ', Instructor: L. Golubchik'
-  role: Panelist
   title: 'CSCI 697: Seminar in Computer Science Research'
+  type: Panelist
   url: https://web-app.usc.edu/ws/soc_archive/soc/term-20191/course/csci-697/
   venue: University of Southern California
   year: '2019'
@@ -107,8 +107,8 @@
   keywords: nonumber
   month: '9'
   note: ', Instructor: R. Govindan'
-  role: Teaching Assistant
   title: 'CSCI 551: Computer Communications'
+  type: Teaching Assistant
   url: https://docs.google.com/document/d/1EzXO5WKGVK2lgIF03YsxD8MnEP25DFAC2taS7EbFupY/edit?usp=sharing
   venue: University of Southern California
   year: '2017'
@@ -117,8 +117,8 @@
   keywords: nonumber
   month: '4'
   note: ', Instructor: K. Psounis'
-  role: Guest Lecturer
   title: 'ECE 597: Wireless Networks'
+  type: Guest Lecturer
   url: https://classes.usc.edu/term-20151/course/ee-597/
   venue: University of Southern California
   year: '2015'
