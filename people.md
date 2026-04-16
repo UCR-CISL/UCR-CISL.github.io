@@ -5,7 +5,7 @@ title: People
 
 {% include lab_pic.html %}
 
-{% assign team = site.data.team | sort : "name" %}
+{% assign team = site.data.team_auto | sort : "name" %}
 
 <div class="clearfix">
 
@@ -58,7 +58,7 @@ title: People
 </div>
 
 
-{% assign alum = site.data.team | sort : "year" | reverse %}
+{% assign alum = site.data.team_auto | sort : "year" | reverse %}
 
 <div class="clearfix">
 <h2>Alumni</h2>
