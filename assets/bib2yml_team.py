@@ -51,24 +51,26 @@ def convert(bibtex_fp):
             'type': webtype,
         }
 
-        # --- department + coadvisor -------------------------------------------
+        # --- department + coadvisor (current student display) ----------------
         explicit_dept = entry.get('department', '').strip()
-        explicit_coadvisor = entry.get('coadvisor', '').strip()
+        note = entry.get('note', '').strip()
 
         if explicit_dept:
-            # Visitor / PI entries carry an explicit department field
+            # PI entry only
             person['department'] = explicit_dept
-            if explicit_coadvisor:
-                person['coadvisor'] = explicit_coadvisor
         else:
-            # PhD / MS / UG entries: parse from note
-            note = entry.get('note', '').strip()
+            # Parse dept and coadvisor from note (used by avatar_entry for current students)
             dept, parsed_coadvisor = _parse_note(note)
             if dept:
                 person['department'] = dept
-            coadvisor = explicit_coadvisor or parsed_coadvisor
+            coadvisor = parsed_coadvisor
             if coadvisor:
                 person['coadvisor'] = coadvisor
+
+        # --- note (alumni display) -------------------------------------------
+        # Pass note through as-is so alumni_entry.html can display it directly.
+        if note:
+            person['note'] = note
 
         # --- direct pass-through fields ---------------------------------------
         for field in ['avatar', 'email', 'web', 'github', 'linkedin',
@@ -77,20 +79,21 @@ def convert(bibtex_fp):
             if val:
                 person[field] = val
 
-        # --- role (alumni / past visitors) ------------------------------------
-        webrole = entry.get('webrole', '').strip()
-        if webrole:
-            person['role'] = webrole
+        # --- current vs. past -------------------------------------------------
+        # Inferred from addendum: "pres." means active, anything else means past.
+        # PI has no addendum so is always treated as current.
+        addendum = entry.get('addendum', '').strip()
+        current = (addendum == 'pres.' or webtype == 'PI')
+        person['current'] = current
 
-        # --- year (alumni / past visitors only) -------------------------------
+        # --- year (past members only) -----------------------------------------
         # addendum holds the end date string (e.g. "Summer 2025"); parse the
         # 4-digit year from it.  webyear overrides when an explicit value is set.
-        if webtype in ('Alumni', 'PastVisitor'):
+        if not current:
             webyear = entry.get('webyear', '').strip()
             if webyear:
                 person['year'] = int(webyear)
             else:
-                addendum = entry.get('addendum', '').strip()
                 m = _YEAR_IN_ADDENDUM.search(addendum)
                 if m:
                     person['year'] = int(m.group(1))

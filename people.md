@@ -24,12 +24,12 @@ title: People
 <h2>Graduate Students</h2>
 <br>
 {% for people in team %} 
-    {% if people.type == "PHD" %} 
+    {% if people.current and people.type == "PHD" %} 
         {% include avatar_entry.html %}        
     {% endif %} 
 {% endfor %}
 {% for people in team %} 
-    {% if people.type == "Grad" %} 
+    {% if people.current and people.type == "MS" %} 
         {% include avatar_entry.html %}        
     {% endif %} 
 {% endfor %}
@@ -41,7 +41,7 @@ title: People
 <h2>Undergraduate Students</h2>
 <br>
 {% for people in team %}
-    {% if people.type == "Undergrad" %}
+    {% if people.current and people.type == "BS" %}
         {% include avatar_entry.html %}        
     {% endif %}
 {% endfor %}
@@ -51,7 +51,7 @@ title: People
 <h2>Visiting Students</h2>
 <br>
 {% for people in team %}
-    {% if people.type == "Visitor" %}
+    {% if people.current and people.type == "Visitor" %}
         {% include avatar_entry.html %}        
     {% endif %}
 {% endfor %}
@@ -64,7 +64,7 @@ title: People
 <h2>Alumni</h2>
 <br>
 {% for people in alum %}
-    {% if people.type == "Alumni" %}
+    {% if people.current == false and people.type != "Visitor" %}
         {% include alumni_entry.html %}        
     {% endif %}
 {% endfor %}
@@ -74,7 +74,7 @@ title: People
 <h2>Past Visitors</h2>
 <br>
 {% for people in alum %}
-    {% if people.type == "PastVisitor" %}
+    {% if people.current == false and people.type == "Visitor" %}
         {% include alumni_entry.html %}        
     {% endif %}
 {% endfor %}

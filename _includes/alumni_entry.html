@@ -1,7 +1,7 @@
 <div class="alumni">
         <a href="{{people.web}}">{{people.name}}</a>
         {% if people.next %} -> <em>{{people.next}}</em>{% endif %}
-        <br><em>{{people.role}}, {{people.department}}, {{people.year}}</em>
+        <br><em>{{people.note}}, {{people.year}}</em>
       {% if people.email %}<a class="fa fa-envelope" href="mailto:{{people.email}}"></a>{% endif %}
       {% if people.gscholar %} <a class="ai ai-google-scholar" href="{{people.gscholar}}"></a>{% endif %}
       {% if people.github %}<a class="fa fa-github" href="{{people.github}}"></a>{% endif %}
