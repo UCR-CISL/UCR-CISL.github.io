@@ -1,33 +1,49 @@
 # Collaborative Intelligence Systems Lab Website
 
-This is the website repo of [Collaboative Intelligence Systems Lab (CISL)](https://cisl.ucr.edu/) at the 
-University of California, Riverside.
+Website of the [Collaborative Intelligence Systems Lab (CISL)](https://cisl.ucr.edu/) at UC Riverside.
 
-## New member
-Please add an entry to [/_data/team.yml](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/_data/team.yml). Use existing member entry as references.
+## Adding a new member
 
-## New publication
-Please add a bibtex entry to [/assets/pubication.bib](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/assets/publications.bib). Use existing bibtex entry as references. 
+Edit [`assets/team.bib`](assets/team.bib). Add a `@member` entry using an existing entry as reference.
 
-*Note: there are a few special items added to bibtex entry that only this website recognizes, such as for thumbnail images, project website, github links, etc. Please see the [publication page](https://cisl.ucr.edu/publication/) and their corresponding bibtex entry for examples.*
+Key fields:
+- `title` — full name
+- `note` — department (e.g. `ECE`, `CSE`) and optionally `, co-advised with Dr. X`
+- `year` / `month` — start date (used for sorting)
+- `addendum` — end date: `pres.` for active members, or a date string like `Summer 2025` for alumni
+- `webtype` — controls which section the person appears in: `PI` / `PHD` / `MS` / `BS` / `Visitor`
+- `avatar`, `email`, `web`, `github`, `linkedin`, `gscholar` — optional profile fields
+- `next` — next position (alumni only)
 
-There is a git action that runs compilation script to update [/_data/pub_auto.yml](https://github.com/UCR-CISL/UCR-CISL.github.io/blob/main/_data/pub_auto.yml). 
-```python
-python3 ./assets/bib2yml.py --bibtex_fp ./assets/publications.bib
-```
-*Note: Do not edit pub_auto.yml directly as the compilation script will overwrite it.*
+On push, a GitHub Action runs [`assets/bib2yml_team.py`](assets/bib2yml_team.py) to regenerate `_data/team_auto.yml`. **Do not edit `team_auto.yml` directly.**
 
-Lastly, add a recent news entry to _data/news.yml to share the good news!
+## Adding a publication
 
-## Preview website
+Edit [`assets/publications.bib`](assets/publications.bib). Use an existing entry as reference.
+
+Special bibtex fields recognized by this site (thumbnail image, project page, GitHub link, etc.) are documented in the existing entries and on the [publications page](https://cisl.ucr.edu/publication/).
+
+On push, a GitHub Action runs [`assets/bib2yml.py`](assets/bib2yml.py) to regenerate `_data/pub_auto.yml`. **Do not edit `pub_auto.yml` directly.**
+
+After adding a publication, add a news entry to `_data/news.yml`.
+
+## Adding a teaching entry
+
+Edit [`assets/teaching.bib`](assets/teaching.bib). On push, a GitHub Action runs [`assets/bib2yml_teaching.py`](assets/bib2yml_teaching.py) to regenerate `_data/teaching_auto.yml`.
+
+## Preview locally
+
 ```shell
-bundle update 
+bundle update
 bundle exec jekyll serve
 ```
-## Publish website
-Commit and push changes to this repo. That's all!
+
+## GitHub Actions
+
+| Workflow | Trigger | Effect |
+|---|---|---|
+| `update_team.yml` | push to `assets/team.bib` | Regenerates `_data/team_auto.yml` |
+| `update_pub.yml` | push to `assets/publications.bib` | Regenerates `_data/pub_auto.yml` |
+| `update_teaching.yml` | push to `assets/teaching.bib` | Regenerates `_data/teaching_auto.yml` |
 
 Copyright CISL@UCR
-
-#### Git Actions
-- Upon push, convert publication.bib to pub_auto.yml automatically
