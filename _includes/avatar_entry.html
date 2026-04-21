@@ -1,6 +1,6 @@
 {% if people.avatar %}
 <div class="avatar">
-    <img src="{{ site.baseurl }}/assets/avatar/{{people.avatar}}" alt="Avatar" class="centeravatar">
+    <img src="{{ site.baseurl }}/assets/avatar/{{people.avatar}}" alt="{{people.name}}" class="centeravatar">
         <a href="{{people.web}}">{{people.name}}</a>
         {% if people.type == "PI" %}
         <br><em>PI, {{people.department}}</em>
@@ -20,12 +20,12 @@
         {% if people.coadvisor %}
         <br><em>(Co-advisor: {{people.coadvisor}})</em>
         {% endif %}
-        {% if people.email %}<br><a class="fa fa-envelope" href="mailto:{{people.email}}"></a>
-              {% if people.gscholar %} <a class="ai ai-google-scholar" href="{{people.gscholar}}"></a>{% endif %}
-              {% if people.github %}<a class="fa fa-github" href="{{people.github}}"></a>{% endif %}
-              {% if people.linkedin %}<a class="fa fa-linkedin" href="{{people.linkedin}}"></a>{% endif %}
-              {% if people.twitter %}<a class="fa fa-twitter" href="{{people.twitter}}"></a>{% endif %}
-              {% if people.facebook %}<a class="fa fa-facebook" href="{{people.facebook}}"></a>{% endif %}
+        {% if people.email %}<br><a class="fas fa-envelope" href="mailto:{{people.email}}" aria-label="Email"></a>
+              {% if people.gscholar %} <a class="ai ai-google-scholar" href="{{people.gscholar}}" aria-label="Google Scholar"></a>{% endif %}
+              {% if people.github %}<a class="fab fa-github" href="{{people.github}}" aria-label="GitHub"></a>{% endif %}
+              {% if people.linkedin %}<a class="fab fa-linkedin" href="{{people.linkedin}}" aria-label="LinkedIn"></a>{% endif %}
+              {% if people.twitter %}<a class="fab fa-twitter" href="{{people.twitter}}" aria-label="Twitter"></a>{% endif %}
+              {% if people.facebook %}<a class="fab fa-facebook" href="{{people.facebook}}" aria-label="Facebook"></a>{% endif %}
           {% endif %}
 </div>
 {% endif %}

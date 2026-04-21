@@ -15,12 +15,12 @@
     <div class="social-icons">
       <div class="social-icons-right">
         <div class="right">
-          <a class="ai ai-google-scholar" href="https://scholar.google.com/citations?user=9i_MgykAAAAJ&hl=en"></a>
-          <a class="fa fa-github" href="https://github.com/hangqiu"></a>
-          <a class="fa fa-twitter" href="https://twitter.com/hangqiu"></a>
-          <a class="fa fa-facebook" href="https://facebook.com/hang.qiu.1"></a>
-          <a class="fa fa-linkedin" href="https://www.linkedin.com/in/hang-qiu-a523128a"></a>
-          <a class="fa fa-envelope" href="mailto:hangq@ucr.edu"></a>
+          <a class="ai ai-google-scholar" href="https://scholar.google.com/citations?user=9i_MgykAAAAJ&hl=en" aria-label="Google Scholar"></a>
+          <a class="fab fa-github" href="https://github.com/hangqiu" aria-label="GitHub"></a>
+          <a class="fab fa-twitter" href="https://twitter.com/hangqiu" aria-label="Twitter"></a>
+          <a class="fab fa-facebook" href="https://facebook.com/hang.qiu.1" aria-label="Facebook"></a>
+          <a class="fab fa-linkedin" href="https://www.linkedin.com/in/hang-qiu-a523128a" aria-label="LinkedIn"></a>
+          <a class="fas fa-envelope" href="mailto:hangq@ucr.edu" aria-label="Email"></a>
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <form class="sidebar-search" action="/search/" method="get">
         <div class="search-input-wrap">
           <input type="text" name="q" placeholder="Search CISL..." autocomplete="off">
-          <button type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
+          <button type="submit" aria-label="Search"><i class="fas fa-search"></i></button>
         </div>
       </form>
 
@@ -42,29 +42,23 @@
       <nav class="sidebar-nav">
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
-        {% comment %}
-          The code below dynamically generates a sidebar nav of pages with
-          `layout: page` in the front-matter. See readme for usage.
-        {% endcomment %}
-
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
               {% unless node.exclude_from_nav %}
-              {% if node.title != "Join Us" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-              {% endif %}
+                {% if node.title != "Join Us" %}
+                  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+                {% endif %}
               {% endunless %}
             {% endif %}
           {% endif %}
         {% endfor %}
-
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
               {% if node.title == "Join Us" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+                <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
               {% endif %}
             {% endif %}
           {% endif %}

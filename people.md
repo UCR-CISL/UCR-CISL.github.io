@@ -62,7 +62,6 @@ title: People
 
 <div class="clearfix">
 <h2>Alumni</h2>
-<br>
 {% for people in alum %}
     {% if people.current == false and people.type != "Visitor" %}
         {% include alumni_entry.html %}        
@@ -70,9 +69,10 @@ title: People
 {% endfor %}
 </div>
 
+<br>
+
 <div class="clearfix">
 <h2>Past Visitors</h2>
-<br>
 {% for people in alum %}
     {% if people.current == false and people.type == "Visitor" %}
         {% include alumni_entry.html %}        
