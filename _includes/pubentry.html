@@ -1,6 +1,6 @@
 <div class="pubwraper">
     <div class="pubimg">
-        <img class="center" src="{{ site.baseurl }}/assets/imgs/{{pub.img}}">
+        <img class="center" src="{{ site.baseurl }}/assets/imgs/{{pub.img}}" alt="{{pub.title}} thumbnail">
     </div>
     <div class = "spacer"></div>
     <div class="pubentry">
@@ -13,39 +13,39 @@
             <br>
             <div style="display: flex; align-items: center;">
                 {% if pub.url %}
-                <a href={{pub.url}} target="_blank" role="button">
+                <a href={{pub.url}} target="_blank" rel="noopener noreferrer" role="button">
                 [Paper]
                 </a>
                 {% endif%}
                 {% if pub.talk %}
-                <a href={{pub.talk}} target="_blank" role="button">
+                <a href={{pub.talk}} target="_blank" rel="noopener noreferrer" role="button">
                 [Talk]
                 </a>
                 {% endif%}
                 {% if pub.demo %}
-                <a href={{pub.demo}} target="_blank" role="button">
+                <a href={{pub.demo}} target="_blank" rel="noopener noreferrer" role="button">
                 [Demo]
                 </a>
                 {% endif%}
                 {% if pub.data %}
-                <a href={{pub.data}} target="_blank" role="button">
+                <a href={{pub.data}} target="_blank" rel="noopener noreferrer" role="button">
                 [Data]
                 </a>
                 {% endif%}
                 {% if pub.web %}
-                <a href={{pub.web}} target="_blank" role="button">
+                <a href={{pub.web}} target="_blank" rel="noopener noreferrer" role="button">
                 [Project]
                 </a>
                 {% endif%}
                 {% if pub.code %}
-                <a href={{pub.code}} target="_blank" role="button">
+                <a href={{pub.code}} target="_blank" rel="noopener noreferrer" role="button">
                 [Code]
                 </a>
                 {% endif%}
                 {% if pub.star %}
                 <div style="position: relative; top: 0.2rem;">
                 <a class="github-button" href={{pub.star}} data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true">Star</a>
-                </div>  
+                </div>
                 {% endif%}
             </div>
         </div>
@@ -53,19 +53,19 @@
             {% if pub.mediaa %}
                 <div><span style="color:#FF6F61;"><em>Media: </em></span></div>
                 <div class="pubmedia">
-                 <a href={{pub.mediaaurl}} target="_blank" role="button">
-                <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediaa}}" height="110%"></a>
+                 <a href={{pub.mediaaurl}} target="_blank" rel="noopener noreferrer" role="button">
+                <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediaa}}" alt="Media coverage" height="110%"></a>
                 </div>
                 {% if pub.mediab %}
                     <div class="pubmedia">
-                     <a href={{pub.mediaburl}} target="_blank" role="button">
-                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediab}}" height="110%"></a>
+                     <a href={{pub.mediaburl}} target="_blank" rel="noopener noreferrer" role="button">
+                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediab}}" alt="Media coverage" height="110%"></a>
                     </div>
                 {% endif %}
                 {% if pub.mediac %}
                     <div class="pubmedia">
-                     <a href={{pub.mediacurl}} target="_blank" role="button">
-                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediac}}" height="110%"></a>
+                     <a href={{pub.mediacurl}} target="_blank" rel="noopener noreferrer" role="button">
+                    <img src="{{ site.baseurl }}/assets/imgs/{{pub.mediac}}" alt="Media coverage" height="110%"></a>
                     </div>
                 {% endif %}
             {% endif %}

@@ -1,5 +1,5 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -13,6 +13,18 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+  <!-- SEO -->
+  <meta name="description" content="Collaborative Intelligence Systems Lab at UC Riverside — research in autonomous vehicles, edge ML, and networked sensing.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
+  <meta property="og:description" content="Collaborative Intelligence Systems Lab at UC Riverside — research in autonomous vehicles, edge ML, and networked sensing.">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/avatar/cisl.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="Collaborative Intelligence Systems Lab at UC Riverside — research in autonomous vehicles, edge ML, and networked sensing.">
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
