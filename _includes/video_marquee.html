@@ -1,0 +1,24 @@
+<div class="video-marquee-wrapper">
+  <div class="video-marquee-track" id="video-marquee-track"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = {{ site.data.videos | jsonify }};
+  const wrapper = document.querySelector(".video-marquee-wrapper");
+  const track = document.getElementById("video-marquee-track");
+
+  const gap = 8;
+  const cardW = Math.floor((wrapper.offsetWidth - gap * 2) / 3);
+
+  track.innerHTML = videos.concat(videos).map(v => `
+    <div class="video-marquee-card" style="width:${cardW}px">
+      <video autoplay loop muted playsinline>
+        <source src="${v.file}" type="video/mp4">
+      </video>
+      <p class="caption">${v.caption}</p>
+    </div>`).join("");
+
+  track.style.animationDuration = (videos.length * 8) + "s";
+});
+</script>

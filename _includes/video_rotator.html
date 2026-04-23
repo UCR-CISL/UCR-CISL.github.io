@@ -1,20 +1,117 @@
+<div class="video-carousel-wrapper">
+  <div class="video-carousel-stage">
+    <div class="carousel-zone carousel-zone-prev" id="vid-prev">
+      <span class="carousel-arrow">&#8249;</span>
+    </div>
+    <div class="video-wall" id="video-grid"></div>
+    <div class="carousel-zone carousel-zone-next" id="vid-next">
+      <span class="carousel-arrow">&#8250;</span>
+    </div>
+  </div>
+  <div class="carousel-dots" id="vid-dots"></div>
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const videos = {{ site.data.videos | jsonify }};
-  const cards = document.querySelectorAll(".video-card");
+  const raw = {{ site.data.videos | jsonify }};
+  const videos = raw.slice();
+  for (let i = videos.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [videos[i], videos[j]] = [videos[j], videos[i]];
+  }
 
-  let offset = 0;
-  setInterval(() => {
-    cards.forEach((card, i) => {
-      const vid = videos[(offset + i) % videos.length];
-      card.innerHTML = `
-        <video autoplay loop muted playsinline>
-          <source src="${vid.file}" type="video/mp4">
-        </video>
-        <p class="caption">${vid.caption}</p>
-      `;
-    });
-    offset++;
-  }, 30000); // rotate every 10s
+  const PER_PAGE = 4;
+  const totalPages = Math.ceil(videos.length / PER_PAGE);
+  const dotsEl = document.getElementById("vid-dots");
+  const stage = document.querySelector(".video-carousel-stage");
+  let grid = document.getElementById("video-grid");
+  let page = 0;
+  let timer;
+  let busy = false;
+
+  for (let i = 0; i < totalPages; i++) {
+    const dot = document.createElement("span");
+    dot.className = "carousel-dot";
+    dot.addEventListener("click", () => goTo(i));
+    dotsEl.appendChild(dot);
+  }
+
+  function cardHTML(v) {
+    return `<div class="video-card">
+      <video autoplay loop muted playsinline>
+        <source src="${v.file}" type="video/mp4">
+      </video>
+      <p class="caption">${v.caption}</p>
+    </div>`;
+  }
+
+  function updateDots(p) {
+    dotsEl.querySelectorAll(".carousel-dot").forEach((d, i) => d.classList.toggle("active", i === p));
+  }
+
+  function renderPage(p, dir) {
+    if (busy) return;
+    const start = p * PER_PAGE;
+    const slice = Array.from({ length: PER_PAGE }, (_, i) => videos[(start + i) % videos.length]);
+
+    if (dir === undefined) {
+      grid.innerHTML = slice.map(cardHTML).join("");
+      updateDots(p);
+      page = p;
+      return;
+    }
+
+    busy = true;
+    const outX = dir > 0 ? "-100%" : "100%";
+    const inX  = dir > 0 ?  "100%" : "-100%";
+
+    const incoming = document.createElement("div");
+    incoming.className = "video-wall";
+    incoming.innerHTML = slice.map(cardHTML).join("");
+
+    const h = grid.offsetHeight;
+    stage.style.height     = h + "px";
+    grid.style.cssText     = `position:absolute;top:0;left:0;width:100%;z-index:1`;
+    incoming.style.cssText = `position:absolute;top:0;left:0;width:100%;z-index:2;transform:translateX(${inX})`;
+
+    stage.insertBefore(incoming, document.getElementById("vid-next"));
+
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      grid.style.cssText     += `;transition:transform 0.35s ease;transform:translateX(${outX})`;
+      incoming.style.cssText += `;transition:transform 0.35s ease;transform:translateX(0)`;
+    }));
+
+    setTimeout(() => {
+      grid.remove();
+      incoming.removeAttribute("style");
+      grid = incoming;
+      stage.style.height = "";
+      busy = false;
+      updateDots(p);
+      page = p;
+    }, 380);
+  }
+
+  function goTo(p, dir) {
+    if (p === page || busy) return;
+    clearInterval(timer);
+    renderPage(p, dir !== undefined ? dir : (p > page ? 1 : -1));
+    startTimer();
+  }
+
+  function startTimer() {
+    timer = setInterval(() => renderPage((page + 1) % totalPages, 1), 20000);
+  }
+
+  document.getElementById("vid-prev").addEventListener("click", () =>
+    goTo((page - 1 + totalPages) % totalPages, -1));
+  document.getElementById("vid-next").addEventListener("click", () =>
+    goTo((page + 1) % totalPages, 1));
+
+  stage.addEventListener("mouseenter", () => clearInterval(timer));
+  stage.addEventListener("mouseleave", () => startTimer());
+
+  renderPage(0);
+  startTimer();
 });
 </script>

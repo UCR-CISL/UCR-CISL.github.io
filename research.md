@@ -3,19 +3,8 @@ layout: page
 title: Research
 ---
 
+<!-- {% include video_marquee.html %} -->
 {% include video_rotator.html %}
-
-{% assign videos = site.data.videos | sample: 4 %}
-<div class="video-wall">
-  {% for vid in videos %}
-  <div class="video-card">
-    <video autoplay loop muted playsinline>
-      <source src="{{ vid.file }}" type="video/mp4">
-    </video>
-    <p class="caption">{{ vid.caption }}</p>
-  </div>
-  {% endfor %}
-</div>
 
 
 ### Select Media Coverage
