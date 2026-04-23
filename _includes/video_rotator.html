@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     [videos[i], videos[j]] = [videos[j], videos[i]];
   }
 
-  const PER_PAGE = 4;
+  const PER_PAGE = window.matchMedia("(max-width: 53.9em)").matches ? 1 : 4;
   const totalPages = Math.ceil(videos.length / PER_PAGE);
   const dotsEl = document.getElementById("vid-dots");
   const stage = document.querySelector(".video-carousel-stage");

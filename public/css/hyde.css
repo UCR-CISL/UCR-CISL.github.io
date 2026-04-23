@@ -101,10 +101,11 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  opacity: 0.75;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 /* Sticky sidebar

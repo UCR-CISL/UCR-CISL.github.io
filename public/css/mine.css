@@ -193,8 +193,14 @@
 .pubwraper{
     left: 0;
     right: 0;
-    overflow:auto;
+    overflow: visible;
     padding-bottom:1rem;
+}
+
+.pubwraper::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .clearfix::after {
@@ -244,6 +250,27 @@
     float: left;
     width: 35%;
     max-width: 14rem;
+    position: relative;
+    transition: transform 0.25s ease;
+}
+
+.pubimg img {
+    display: block;
+    width: 100%;
+}
+
+.pubimg:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.centeravatar {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.avatar:hover .centeravatar {
+    transform: scale(1.06);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
 }
 
 .pubmedia{
@@ -330,6 +357,10 @@
 }
 
 @media (max-width: 53.9em) {
+  .video-wall {
+    grid-template-columns: 1fr;
+  }
+
   /* Compact the sidebar header */
   .sidebar {
     padding: 0.75rem 1rem;
