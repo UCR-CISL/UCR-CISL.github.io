@@ -272,17 +272,29 @@
     margin-top: 0.5rem;
 }
 
-.medialogo{
-    width: 30%;
-    text-align: center;
+.media-entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
 }
-@media (min-width: 54em) and (min-height: 36em){
-    .medialogo{
-        float: right;
-        width: 25%;
-        max-width: 20rem;
-        margin-left: 1rem;
-    }
+
+.media-text {
+  flex: 1;
+}
+
+.medialogo {
+  width: 25%;
+  max-width: 20rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medialogo img {
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .labtitle {

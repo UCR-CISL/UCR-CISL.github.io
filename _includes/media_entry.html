@@ -1,24 +1,18 @@
-
-<div class="medialogo">
-    <a href="{{ media.url }}" target="_blank" rel="noopener noreferrer">
-    <img src="{{ media.logo }}" alt="{{ media.source }} logo">
-    </a>
-</div>
-
-
-<div>
+<div class="media-entry">
+  <div class="media-text">
     <strong>
-    <a href="{{ media.url }}" target="_blank" rel="noopener noreferrer">
+      <a href="{{ media.url }}" target="_blank" rel="noopener noreferrer">
         {{ media.title }}
-    </a>
+      </a>
     </strong>
+    <br>
+    <em>{{ media.source }}</em>
+    <div class="media-content">{{ media.content }}</div>
+  </div>
+  <div class="medialogo">
+    <a href="{{ media.url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ media.logo }}" alt="{{ media.source }} logo">
+    </a>
+  </div>
 </div>
-<em>{{ media.source }}</em>
-
-<div class="media-content">
-    {{ media.content }}
-</div>
-
-
-<div class="clearfix"></div>
 <hr>
