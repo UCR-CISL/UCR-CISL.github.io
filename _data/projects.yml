@@ -1,0 +1,14 @@
+- name: DRIVE-SAFE
+  avatar: drivesafe.jpeg
+  web: https://nsf-breaking-low-drive-safe.net/
+  description: NSF-funded project developing 5G/NextG-enabled remote and cooperative autonomous driving for safe operation in dynamic environments.
+
+- name: CARNATIONS
+  avatar: carnations.png
+  web: https://www.iitcarnations.org/
+  description: DOT University Transportation Center for resilient positioning, navigation, and timing systems across multimodal transportation infrastructure.
+
+- name: AASHI
+  avatar: aashi.png
+  web: https://aashi.center-of-excellence.ucr.edu/aashi
+  description: DOD Center of Excellence building autonomous, secure, self-organizing heterogeneous networked systems for dynamic tactical environments.

@@ -6,19 +6,6 @@ title: Research
 <!-- {% include video_marquee.html %} -->
 {% include video_rotator.html %}
 
-
-### Select Media Coverage
-
-<br>
-
-<div class="media-wrapper">
-{% for media in site.data.media %}
-  {% include media_entry.html media=media %}
-{% endfor %}
-</div>
-
-
-
 ### Cooperative Autonomy
 <div class="researchimg">
 <img class="center" src="{{ site.baseurl }}/assets/imgs/avr.png">
@@ -92,3 +79,28 @@ partially integrated into Azure Labeling Service. Our follow-up work [MCAL]({{ s
 further reducing data labeling cost for machine vision. 
 
 <div class="clearfix"></div>
+
+### Collaborative Projects
+
+<div class="project-grid">
+{% for proj in site.data.projects %}
+  <div class="project-card">
+    <a href="{{ proj.web }}" target="_blank">
+      <div class="project-card-img-wrap">
+        <img src="{{ site.baseurl }}/assets/projects/{{ proj.avatar }}" alt="{{ proj.name }}" class="project-card-img">
+      </div>
+      <div class="project-card-body">
+        <div class="project-card-title">{{ proj.name }}</div>
+        <div class="project-card-desc">{{ proj.description }}</div>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+### Select Media Coverage
+<div class="media-wrapper">
+{% for media in site.data.media %}
+  {% include media_entry.html media=media %}
+{% endfor %}
+</div>
