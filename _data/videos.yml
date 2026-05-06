@@ -12,3 +12,5 @@
   caption: "Autonomous Car and Closed-course Testing"
 - file: /assets/videos/F1Tenth.mp4
   caption: "F1Tenth Autonomous Racing"
+- file: /assets/videos/TeleOpF1Tenth.mp4
+  caption: "Teleoperation of F1Tenth Car"
