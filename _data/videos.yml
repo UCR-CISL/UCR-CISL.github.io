@@ -8,3 +8,7 @@
   caption: "SEE-V2X: C-V2X Communication Dataset"
 - file: /assets/videos/scene.mp4
   caption: "Cooperative Multi-Modal Perception"
+- file: /assets/videos/cert_lot.mp4
+  caption: "Autonomous Car and Closed-course Testing"
+- file: /assets/videos/F1Tenth.mp4
+  caption: "F1Tenth Autonomous Racing"
