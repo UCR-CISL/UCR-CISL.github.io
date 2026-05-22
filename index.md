@@ -4,16 +4,20 @@ title: Home
 ---
 
 {% include lab_title.html %}
+
+
+
+
 Welcome to [Collaborative Intelligence Systems Lab](https://cisl.ucr.edu/) (CISL) at the [University of California, Riverside](https://www.ucr.edu/)!
 
-Our lab invents collaborative intelligence in the networked cyber-physical systems. 
+Our lab invents collaborative intelligence in networked cyber-physical systems. 
 We build and deploy end-to-end cooperative autonomy that bridges robot/edge/cloud/human intelligence to achieve novel collective capabilities not previously demonstrated. 
 Our enthusiasm lies in tackling real-world problems across various domains ranging from autonomous vehicles, drones, home robots, AR/VR/XR devices, to generic edge ML systems, intelligent infrastructure.
 Our interdisciplinary innovation addresses the system challenges in networking, vision, robotics, machine learning, and edge computing. 
 
 *We are always looking for motivated talents to [join us](joinus).* 
 
-<hr>
+<!-- <hr>
 #### Hiring for Fall 2026:
 
 We are hiring from both **ECE** and **CSE** department, in the following areas.
@@ -21,7 +25,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 * ML Systems, Systems for ML
 
 
-<hr>
+<hr> -->
 
 
 
@@ -57,5 +61,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 </details>
 
 
+<hr>
+{% include video_rotator.html cols=3 %}
 <hr>
 {% include sponsor.html %}

@@ -28,7 +28,7 @@ then solves the network bottleneck to enable cooperative perception at scale, de
 * **Self-healing Map, Map-less Robots.**
 High-definition Map (HDMap) has been a crucial component for fine-grained localization. Collecting this map can be tedious and expensive. 
 What exacerbates the problem is its vulnerability to changes (*e.g.* construction, road closures) in safety-critical applications.
-Self-healing map aims to detect those changes and update the map in near-real time. 
+Self-healing maps aim to detect those changes and update the map in near-real time. 
 Map-less robots targets onboard mapping and navigation without any prior knowledge of the world. 
 Partnering with [General Motors](https://patents.google.com/patent/US11313696B2/en), our work [CarMap]({{ site.baseurl }}/publication/#:~:text=CarMap) takes a crowdsourcing approach, 
 and creates a lightweight map change representation for fast broadcasting, while being feature-rich for robust localization. 
@@ -58,8 +58,8 @@ which can be broadcasted to all nearby vehicles and swiftly transformed into dif
 Robot intelligence powered by Edge ML is the core component of collaborative intelligence. 
 Recent years have seen a shift of these models from serving on the cloud to being deployed on the actual edge devices, 
 to enable low-latency, low-power, privacy-sensitive applications (*e.g.* autonomous cars, personal assistants, ads recommendation).
-More often than not, however, the real-world performance can be below expectation, and there lacks the proper tooling to understand why.
-One key solution is to apply Machine Learning Operations (MLOps) to edge robots, developing a series of peripheral systems around deployment, monitoring, and model retrain and update.
+More often than not, however, the real-world performance can fall below expectations, and there lacks the proper tooling to understand why.
+One key solution is to apply Machine Learning Operations (MLOps) to edge robots, developing a series of peripheral systems around deployment, monitoring, and model retraining and updating.
 Collaborating with [Google](https://www.google.com/) and [New Relic](https://kubernetesonedgedayeu22.sched.com/event/zsA2/mlexray-observability-for-machine-learning-on-the-edge-michelle-nguyen-stanford), our award-winning work [ML-Exray]({{ site.baseurl }}/publication/#:~:text=ML%2D-,EXray) offers such a framework, provides visibility into layer-level details of edge ML execution, 
 enabling debugging, monitoring, and potential automated loop of retrain and deployment (CI/CD).
 
