@@ -202,6 +202,16 @@
   note: ECE
   type: MS
   year: 2024
+- avatar: jacob.jpg
+  current: true
+  department: CSE
+  email: jacob.mclaughlin@email.ucr.edu
+  github: https://github.com/BacoJaco
+  web: https://jacobmcl.dev/
+  linkedin: https://www.linkedin.com/in/jacob-mcl
+  name: Jacbo McLaughlin
+  note: CSE
+  type: BS
 - avatar: bryan.png
   current: true
   department: CSE
