@@ -6,6 +6,7 @@
   code: https://github.com/UCR-CISL/CooperScene
   conf: ECCV '26
   img: cooperscene.gif
+  month: September
   series: ECCV '26
   tag: CA
   title: 'CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication
@@ -20,6 +21,7 @@
   booktitle: Proceedings of The 20th European Conference on Computer Vision
   conf: ECCV '26
   img: swan.png
+  month: September
   series: ECCV '26
   tag: PAI
   title: 'SWAN: World-Aware Adaptive Multimodal Networks for Runtime Variations'
@@ -30,17 +32,16 @@
   author: Zehao Wang, Huaide Jiang, Shuaiwu Dong, Yuping Wang, Hang Qiu, Jiachen Li
   booktitle: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
     Recognition
-  code: ''
+  code: https://github.com/tasl-lab/DMW
   conf: CVPR '26
-  demo: ''
   img: dmw.png
   month: June
   series: CVPR '26
   tag: PAI
   title: 'Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized
     Driving'
-  url: https://openreview.net/forum?id=zGgkfUctOB
-  web: ''
+  url: https://arxiv.org/abs/2603.25740
+  web: https://dmw-cvpr.github.io/
   year: '2026'
 - ENTRYTYPE: inproceedings
   ID: CooperTrim
@@ -49,10 +50,11 @@
   code: https://github.com/UCR-CISL/CooperTrim
   conf: ICLR '26
   img: coopertrim.png
+  month: April
   series: ICLR '26
   tag: CA
   title: 'CooperTrim: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception'
-  url: https://openreview.net/forum?id=8NgKNuHRiH
+  url: https://arxiv.org/abs/2602.13287
   web: https://cisl.ucr.edu/CooperTrim/
   year: '2026'
 - ENTRYTYPE: inproceedings
