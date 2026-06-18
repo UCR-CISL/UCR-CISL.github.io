@@ -21,7 +21,7 @@
   <meta property="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
   <meta property="og:description" content="Collaborative Intelligence Systems Lab at UC Riverside — research in autonomous vehicles, edge ML, and networked sensing.">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/assets/avatar/cisl.png">
+  <meta property="og:image" content="{{ site.url | remove_last: '/' }}/assets/avatar/cisl.png">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
   <meta name="twitter:description" content="Collaborative Intelligence Systems Lab at UC Riverside — research in autonomous vehicles, edge ML, and networked sensing.">
