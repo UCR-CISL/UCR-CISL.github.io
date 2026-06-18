@@ -1,21 +1,20 @@
-{% assign sorted_pubs = site.data.pub_auto | sort: "year" %}
 <div class="clearfix">
 <div>
     <div class="pubimg"><strong><span style="color:#000080;">Cooperative Autonomy </span></strong></div>
     <div class="pubentry">
-    {% for pub in sorted_pubs %}
-        {% if pub.tag == "CA" %} 
+    {% for pub in site.data.pub_auto %}
+        {% if pub.tag == "CA" %}
             &#9679;&nbsp;<em>{{ pub.ID }}&nbsp;(<a href="{{ pub.url }}">{{ pub.series }}</a>) &nbsp; </em>
         {% endif %}
     {% endfor %}
     </div>
 </div>
-    
+
 <div>
     <div class="pubimg"><strong><span style="color:#000080;">Physical AI </span></strong></div>
     <div class="pubentry">
-    {% for pub in sorted_pubs %}
-        {% if pub.tag == "PAI" %} 
+    {% for pub in site.data.pub_auto %}
+        {% if pub.tag == "PAI" %}
             &#9679;&nbsp;<em>{{ pub.ID }}&nbsp;(<a href="{{ pub.url }}">{{ pub.series }}</a>) &nbsp;</em>
         {% endif %}
     {% endfor %}
@@ -25,13 +24,12 @@
 <div>
     <div class="pubimg"><strong><span style="color:#000080;">System for Edge ML </span></strong></div>
     <div class="pubentry">
-    {% for pub in sorted_pubs %}
-        {% if pub.tag == "mlsys" %} 
+    {% for pub in site.data.pub_auto %}
+        {% if pub.tag == "mlsys" %}
             &#9679;&nbsp;<em>{{ pub.ID }}&nbsp;(<a href="{{ pub.url }}">{{ pub.series }}</a>) &nbsp;</em>
         {% endif %}
     {% endfor %}
     </div>
 </div>
-
 
 </div>
