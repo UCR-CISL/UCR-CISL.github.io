@@ -7,6 +7,7 @@
   conf: ECCV '26
   img: cooperscene.gif
   series: ECCV '26
+  tag: CA
   title: 'CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication
     Characterization'
   url: ''
@@ -20,6 +21,7 @@
   conf: ECCV '26
   img: swan.png
   series: ECCV '26
+  tag: PAI
   title: 'SWAN: World-Aware Adaptive Multimodal Networks for Runtime Variations'
   url: https://arxiv.org/abs/2604.26181
   year: '2026'
