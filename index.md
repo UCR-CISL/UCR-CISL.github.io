@@ -28,7 +28,7 @@ We are hiring from both **ECE** and **CSE** department, in the following areas.
 <hr> -->
 
 
-
+<hr>
 #### Recent News:
 
 {% assign news = site.data.news | sort : "date" | reverse %}
