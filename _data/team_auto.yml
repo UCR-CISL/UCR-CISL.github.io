@@ -202,16 +202,16 @@
   note: ECE
   type: MS
   year: 2024
-- avatar: jacob.jpg
+- avatar: jacob.png
   current: true
   department: CSE
   email: jacob.mclaughlin@email.ucr.edu
   github: https://github.com/BacoJaco
-  web: https://jacobmcl.dev/
   linkedin: https://www.linkedin.com/in/jacob-mcl
-  name: Jacbo McLaughlin
+  name: Jacob McLaughlin
   note: CSE
   type: BS
+  web: https://jacobmcl.dev/
 - avatar: bryan.png
   current: true
   department: CSE
@@ -334,8 +334,10 @@
   github: http://jonathansetiabudi.com
   linkedin: https://www.linkedin.com/in/jonathansetiabudi
   name: Jonathan Setiabudi
+  next: MS @ UCI
   note: CE
   type: BS
+  year: 2026
 - avatar: alex.jpeg
   current: true
   department: ECE
@@ -352,8 +354,10 @@
   github: https://github.com/pilafnoodle
   linkedin: https://www.linkedin.com/in/amber-lin-632583264/
   name: Amber Lin
+  next: MS @ Northeastern University
   note: Robotics
   type: BS
+  year: 2026
 - avatar: anatulya.jpg
   current: false
   department: ECE
