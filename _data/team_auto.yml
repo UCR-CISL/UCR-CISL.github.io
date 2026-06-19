@@ -213,13 +213,15 @@
   type: BS
   web: https://jacobmcl.dev/
 - avatar: bryan.png
-  current: true
+  current: false
   department: CSE
   email: bdeng021@ucr.edu
   github: https://github.com/thelosttree
   name: Bryan Deng
+  next: Undergraduate @ UCSD
   note: CSE
   type: BS
+  year: 2026
 - avatar: stanley.jpg
   current: true
   department: CSE
@@ -302,7 +304,7 @@
   note: CSE
   type: BS
 - avatar: cristian.png
-  current: true
+  current: false
   department: CSE
   email: crobe042@ucr.edu
   github: https://github.com/crisapi
@@ -310,6 +312,7 @@
   name: Cristian Roberts
   note: CSE
   type: BS
+  year: 2026
 - avatar: dylan.png
   current: true
   department: CSE
@@ -339,7 +342,7 @@
   type: BS
   year: 2026
 - avatar: alex.jpeg
-  current: true
+  current: false
   department: ECE
   email: alex.totah@email.ucr.edu
   github: https://github.com/nander100
@@ -347,6 +350,7 @@
   name: Alex Totah
   note: ECE
   type: BS
+  year: 2026
 - avatar: amber.jpg
   current: false
   department: Robotics
