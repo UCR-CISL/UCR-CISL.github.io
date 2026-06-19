@@ -92,13 +92,14 @@
   note: Robotics
   type: MS
 - avatar: yuxia.png
-  current: true
+  current: false
   department: Robotics
   email: lee.xia@email.ucr.edu
   github: https://github.com/orangelee89
   name: Yu Xia
   note: Robotics
   type: MS
+  year: 2026
 - avatar: divyank.jpg
   current: false
   department: BS+MS, CSE
