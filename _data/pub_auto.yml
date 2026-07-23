@@ -1,7 +1,7 @@
 - ENTRYTYPE: inproceedings
   ID: CooperScene
-  author: Bo Wu, Ruoshen Mo, Justin Yue, Yanyu Zhang, Janice Nguyen, Guoyuan Wu, Amit
-    Roy-Chowdhury, Matthew J. Barth, Hang Qiu
+  author: Bo Wu*, Ruoshen Mo*, Justin Yue, Yanyu Zhang, Janice Nguyen, Guoyuan Wu,
+    Amit Roy-Chowdhury, Matthew J. Barth, Hang Qiu
   booktitle: Proceedings of The 19th European Conference on Computer Vision
   code: https://github.com/UCR-CISL/CooperScene
   conf: ECCV '26
