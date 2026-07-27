@@ -17,16 +17,12 @@ Our interdisciplinary innovation addresses the system challenges in networking, 
 
 *We are always looking for motivated talents to [join us](joinus).* 
 
-<!-- <hr>
-#### Hiring for Fall 2026:
+<hr>
+#### Hiring for Fall 2027:
 
 We are hiring from both **ECE** and **CSE** department, in the following areas.
-* Vehicular/Robotic Networks, Edge Computing
+* Vehicular Networks, C-V2X, O-RAN, Edge Computing
 * ML Systems, Systems for ML
-
-
-<hr> -->
-
 
 <hr>
 #### Recent News:
