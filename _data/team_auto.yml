@@ -288,7 +288,7 @@
   note: CSE
   type: BS
 - avatar: simoncun.png
-  current: true
+  current: false
   department: CSE
   email: simon.cun@email.ucr.edu
   github: https://github.com/Simon-Cun
@@ -296,6 +296,7 @@
   name: Simon Cun
   note: CSE
   type: BS
+  year: 2026
 - avatar: dennis.png
   current: true
   department: CSE
