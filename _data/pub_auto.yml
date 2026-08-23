@@ -7,7 +7,7 @@
   conf: ECCV '26
   img: cooperscene.gif
   month: September
-  note: Oral Presentation
+  note: Spotlight
   series: ECCV '26
   tag: CA
   title: 'CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication
@@ -20,6 +20,7 @@
   author: Jason Wu, Shir-Kang Scott Jin, Yuyang Yuan, Maggie Wigness, Lance M. Kaplan,
     Hang Qiu, Mani Srivastava
   booktitle: Proceedings of The 19th European Conference on Computer Vision
+  code: https://github.com/nesl/SWAN
   conf: ECCV '26
   img: swan.png
   month: September
