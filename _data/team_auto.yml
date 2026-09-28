@@ -458,12 +458,13 @@
   web: https://sites.google.com/view/shilpamukhopadhyay/home/
   year: 2025
 - avatar: feiyang.jpeg
-  current: true
+  current: false
   department: MS, UCSD
   email: f4ma@ucsd.edu
   name: Feiyang Ma
   note: MS, UCSD
   type: Visitor
+  year: 2026
 - avatar: shubham.jpg
   current: false
   department: MS, Robotics
