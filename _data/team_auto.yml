@@ -36,16 +36,6 @@
   note: CSE
   type: PHD
   web: https://jyue86.github.io/
-- avatar: ruoshen.jpg
-  coadvisor: Dr. Tan
-  current: true
-  department: CSE
-  email: rmo008@ucr.edu
-  github: https://github.com/MorrisHohoho
-  name: Ruoshen Mo
-  note: CSE, co-advised with Dr. Tan
-  type: PHD
-  web: https://morrishohoho.github.io/
 - avatar: jianpeng.jpeg
   current: true
   department: ECE
@@ -73,6 +63,25 @@
   note: ECE
   type: PHD
   web: https://yeepy3.github.io/
+- avatar: max.jpg
+  current: true
+  department: CSE
+  email: maxwell.steins@email.ucr.edu
+  github: https://github.com/MaxSteins36
+  name: Maxwell Steins
+  note: CSE
+  type: MS
+- avatar: ruoshen.jpg
+  coadvisor: Dr. Tan
+  current: false
+  department: CSE
+  email: rmo008@ucr.edu
+  github: https://github.com/MorrisHohoho
+  name: Ruoshen Mo
+  note: CSE, co-advised with Dr. Tan
+  type: MS
+  web: https://morrishohoho.github.io/
+  year: 2026
 - avatar: scott.jpeg
   current: false
   department: CSE
@@ -252,14 +261,6 @@
   note: CSE
   type: BS
   web: https://rishidave.vercel.app/
-- avatar: max.jpg
-  current: true
-  department: CSE
-  email: maxwell.steins@email.ucr.edu
-  github: https://github.com/MaxSteins36
-  name: Maxwell Steins
-  note: CSE
-  type: BS
 - avatar: pratheek.jpg
   current: true
   department: CSE
