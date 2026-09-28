@@ -8,7 +8,6 @@ No author/conference processing — all fields are passed through as-is.
 
 import argparse
 import bibtexparser
-from bibtexparser.bparser import BibTexParser
 import yaml
 
 OUTPUT_DIR = './_data/teaching_auto.yml'
@@ -18,15 +17,10 @@ MONTH_ORDER = {
     '7': 7, '8': 8, '9': 9, '10': 10, '11': 11, '12': 12,
 }
 
-bibparser = BibTexParser()
-bibparser.ignore_nonstandard_types = False
-
 
 def convert(bibtex_fp):
-    with open(bibtex_fp) as f:
-        db = bibtexparser.load(f, parser=bibparser)
-
-    entries = db.entries
+    library = bibtexparser.parse_file(bibtex_fp)
+    entries = [dict(entry.items()) for entry in library.entries]
 
     # Sort reverse-chronologically: year desc, then month desc
     def sort_key(e):

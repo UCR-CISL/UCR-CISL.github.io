@@ -1,6 +1,7 @@
 import os
 import argparse
 import bibtexparser
+from bibtexparser.middlewares import SeparateCoAuthors, SplitNameParts
 import yaml
 from tqdm import tqdm
 
@@ -50,15 +51,13 @@ def add_new_articles(bibdbs):
         bibdb['conf'] = conf
 
         # print(bibdb['author'])
-        bibdb = bibtexparser.customization.author(bibdb)
-        # print(bibdb['author'])
-        author_field = ""
-        prev_author_field = bibdb['author']
-        for j in range(len(prev_author_field)-1):
-            author = prev_author_field[j]
-            author_field += author.split(', ')[1] + " "  + author.split(',')[0] + ", "
-        author_field += prev_author_field[-1].split(', ')[1] + " " + prev_author_field[-1].split(',')[0]
-        bibdb['author'] = author_field
+        if 'author' in bibdb:
+            names = bibdb['author']
+            author_field = ", ".join(
+                " ".join(name.first) + " " + " ".join(name.von + name.last)
+                for name in names
+            )
+            bibdb['author'] = author_field
         # print(bibdb['author'])
         # output = yaml.dump(bibdb, default_flow_style=False)
         # print(output)
@@ -73,15 +72,15 @@ def add_new_articles(bibdbs):
 
 
 
+_PARSE_MIDDLEWARE = [SeparateCoAuthors(), SplitNameParts()]
+
 def add_new_articles_from_tex_file(tex_fp):
-    bibfile = open(tex_fp)
-    bibdb = bibtexparser.load(bibfile)
-    add_new_articles(bibdb.entries)
-    bibfile.close()
+    library = bibtexparser.parse_file(tex_fp, append_middleware=_PARSE_MIDDLEWARE)
+    add_new_articles([dict(entry.items()) for entry in library.entries])
 
 def add_new_articles_from_tex_string(tex_string):
-    bibdb = bibtexparser.loads(tex_string)
-    add_new_articles(bibdb.entries)
+    library = bibtexparser.parse_string(tex_string, append_middleware=_PARSE_MIDDLEWARE)
+    add_new_articles([dict(entry.items()) for entry in library.entries])
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -104,5 +103,5 @@ if __name__ == "__main__":
                  "booktitle={International Conference on Learning Representations}," \
                  "year={2018}," \
                  "url={https://openreview.net/forum?id=H1aIuk-RW},}"
-        bibdb = bibtexparser.loads(bibtex)
-        add_new_articles(bibdb.entries)
+        library = bibtexparser.parse_string(bibtex, append_middleware=_PARSE_MIDDLEWARE)
+        add_new_articles([dict(entry.items()) for entry in library.entries])

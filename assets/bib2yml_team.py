@@ -15,13 +15,9 @@ Department + co-advisor resolution (in priority order):
 import argparse
 import re
 import bibtexparser
-from bibtexparser.bparser import BibTexParser
 import yaml
 
 OUTPUT_PATH = './_data/team_auto.yml'
-
-bibparser = BibTexParser()
-bibparser.ignore_nonstandard_types = False
 
 _COADVISOR_RE = re.compile(r',\s*co-advised with (.+)$', re.IGNORECASE)
 _YEAR_IN_ADDENDUM = re.compile(r'\b(\d{4})\b')
@@ -37,11 +33,11 @@ def _parse_note(note):
 
 
 def convert(bibtex_fp):
-    with open(bibtex_fp) as f:
-        db = bibtexparser.load(f, parser=bibparser)
+    library = bibtexparser.parse_file(bibtex_fp)
+    entries = [dict(e.items()) for e in library.entries]
 
     people = []
-    for entry in db.entries:
+    for entry in entries:
         webtype = entry.get('webtype', '').strip()
         if not webtype:
             continue  # not a website entry
