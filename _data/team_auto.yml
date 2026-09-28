@@ -280,14 +280,16 @@
   note: CSE
   type: BS
 - avatar: MatthewChung.jpg
-  current: true
+  current: false
   department: CSE
   email: matthew.chung@email.ucr.edu
   github: https://github.com/matthewc2003
   linkedin: https://www.linkedin.com/in/matthew-chung-23763922a/
   name: Matthew Chung
+  next: MLE @ NVIDIA
   note: CSE
   type: BS
+  year: 2026
 - avatar: simoncun.png
   current: false
   department: CSE
