@@ -446,6 +446,14 @@
   note: ECE
   type: BS
   year: 2024
+- avatar: sabrina.jpg
+  current: true
+  department: Computer Science
+  email: spiaz003@ucr.edu
+  linkedin: www.linkedin.com/in/sabrina-piazza-compsci
+  name: Sabrina Piazza
+  note: Computer Science
+  type: BS
 - avatar: shilpa.JPG
   current: false
   department: GSR, CSE
