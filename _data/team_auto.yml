@@ -327,7 +327,7 @@
   note: CSE
   type: BS
 - avatar: joshua.jpg
-  current: true
+  current: false
   department: CSE
   email: jha066@ucr.edu
   github: https://joshuaha.vercel.app/index.html
@@ -335,6 +335,7 @@
   name: Joshua Ha
   note: CSE
   type: BS
+  year: 2026
 - avatar: jonathan2_cropped.jpg
   current: false
   department: CE
@@ -448,11 +449,11 @@
   year: 2024
 - avatar: sabrina.jpg
   current: true
-  department: Computer Science
+  department: CSE
   email: spiaz003@ucr.edu
   linkedin: www.linkedin.com/in/sabrina-piazza-compsci
   name: Sabrina Piazza
-  note: Computer Science
+  note: CSE
   type: BS
 - avatar: shilpa.JPG
   current: false
