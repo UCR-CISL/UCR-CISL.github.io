@@ -6,6 +6,6 @@
   {% if people.linkedin %}<a class="fab fa-linkedin" href="{{people.linkedin}}" aria-label="LinkedIn"></a>{% endif %}
   {% if people.twitter %}<a class="fab fa-twitter" href="{{people.twitter}}" aria-label="Twitter"></a>{% endif %}
   {% if people.facebook %}<a class="fab fa-facebook" href="{{people.facebook}}" aria-label="Facebook"></a>{% endif %}
-  &nbsp;·&nbsp;<em>{{people.note}}, {{people.year}}</em>
+  &nbsp;·&nbsp;<em>{% unless people.type == "Visitor" %}{{people.type}}, {% endunless %}{{people.department}}, {{people.year}}</em>
   {% if people.next %}&nbsp;→&nbsp;<em>{{people.next}}</em>{% endif %}
 </div>
