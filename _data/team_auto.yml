@@ -70,7 +70,7 @@
   github: https://github.com/MaxSteins36
   name: Maxwell Steins
   note: CSE
-  type: MS
+  type: BS+MS
 - avatar: ruoshen.jpg
   coadvisor: Dr. Tan
   current: false
@@ -111,14 +111,14 @@
   year: 2026
 - avatar: divyank.jpg
   current: false
-  department: BS+MS, CSE
+  department: CSE
   email: shahdivyank25@gmail.com
   github: https://github.com/shahdivyank
   linkedin: https://www.linkedin.com/in/divyank-shah
   name: Divyank Shah
   next: ex-Meta, Airplay Frameworks @ Apple
-  note: BS+MS, CSE
-  type: MS
+  note: CSE
+  type: BS+MS
   year: 2026
 - avatar: sudhanshu.jpeg
   current: false
@@ -380,13 +380,13 @@
   year: 2026
 - avatar: arya.png
   current: false
-  department: BS+MS, CSE
+  department: CSE
   email: atham011@ucr.edu
   github: https://github.com/atham011
   linkedin: https://www.linkedin.com/in/arya-thammanna/
   name: Arya Thammanna
-  note: BS+MS, CSE
-  type: MS
+  note: CSE
+  type: BS+MS
   year: 2025
 - avatar: athena.png
   current: false
