@@ -11,6 +11,9 @@
         {% if people.type == "MS" %}
         <br><em>MS Student, {{people.department}}</em>
         {% endif %}
+        {% if people.type == "BS+MS" %}
+        <br><em>BS+MS Student, {{people.department}}</em>
+        {% endif %}
         {% if people.type == "BS" %}
         <br><em>Undergraduate Student, {{people.department}}</em>
         {% endif %}

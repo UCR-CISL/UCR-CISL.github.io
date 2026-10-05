@@ -33,6 +33,11 @@ title: People
         {% include avatar_entry.html %}        
     {% endif %} 
 {% endfor %}
+{% for people in team %} 
+    {% if people.current and people.type == "BS+MS" %} 
+        {% include avatar_entry.html %}        
+    {% endif %} 
+{% endfor %}
 </div>
 
 <br>
