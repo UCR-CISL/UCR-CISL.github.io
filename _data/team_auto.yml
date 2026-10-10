@@ -455,6 +455,14 @@
   name: Sabrina Piazza
   note: CSE
   type: BS
+- avatar: nicky.jpg
+  current: true
+  department: Robotics
+  email: nshih009@ucr.edu
+  linkedin: www.linkedin.com/in/nicky-s-a44458382
+  name: Nicky Shih
+  note: Robotics
+  type: BS
 - avatar: shilpa.JPG
   current: false
   department: GSR, CSE
