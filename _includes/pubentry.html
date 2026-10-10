@@ -32,6 +32,11 @@
                 [Data]
                 </a>
                 {% endif%}
+                {% if pub.model %}
+                <a href={{pub.model}} target="_blank" rel="noopener noreferrer" role="button">
+                [Model]
+                </a>
+                {% endif%}
                 {% if pub.web %}
                 <a href={{pub.web}} target="_blank" rel="noopener noreferrer" role="button">
                 [Project]
