@@ -399,6 +399,36 @@
   url: https://ieeexplore.ieee.org/abstract/document/9795060
   volume: ''
   year: '2022'
+- ENTRYTYPE: software
+  ID: mlexray_git
+  conf: ''
+  title: ML-EXray Github
+  url: https://github.com/hangqiu/ML-EXray
+  year: '2022'
+- ENTRYTYPE: software
+  ID: coopernaut_git
+  conf: ''
+  title: Coopernaut Github
+  url: https://github.com/UT-Austin-RPL/Coopernaut
+  year: '2022'
+- ENTRYTYPE: software
+  ID: coopernaut_web_data
+  conf: ''
+  title: Coopernaut Website and Dataset
+  url: https://ut-austin-rpl.github.io/Coopernaut/
+  year: '2022'
+- ENTRYTYPE: software
+  ID: autocast_git
+  conf: ''
+  title: AutoCast Github
+  url: https://github.com/hangqiu/AutoCast
+  year: '2022'
+- ENTRYTYPE: software
+  ID: mlexray_pip
+  conf: ''
+  title: ML-EXray Python package
+  url: https://test.pypi.org/project/MLEXray/
+  year: '2021'
 - ENTRYTYPE: techreport
   ID: ghosh2020localizing
   author: Pradipta Ghosh, Xiaochen Liu, Hang Qiu, Marcos AM Vieira, Gaurav S Sukhatme,
@@ -457,6 +487,34 @@
   title: Optimal Resource Allocation for Crowdsourced Image Processing
   url: https://ieeexplore.ieee.org/abstract/document/9158417
   year: '2020'
+- ENTRYTYPE: patent
+  ID: carmap20
+  author: Fawad Ahmad, Hang Qiu, Ramesh Govindan, Donald K Grimm, Fan Bai
+  booktitle: US20200278217 / CN111638536 / DE102020102725
+  conf: US20200278217 / CN111638536 / DE102020102725
+  note: 'Worldwide Patent:'
+  title: Method and Apparatus for a Context-aware Crowd-sourced Sparse High Definition
+    Map
+  url: https://patents.google.com/patent/US20200278217A1/en
+  year: '2020'
+- ENTRYTYPE: software
+  ID: fourseasons_code
+  conf: ''
+  title: FourSeasons Dataset and Benchmark
+  url: https://trafficcamdataset.wordpress.com/
+  year: '2020'
+- ENTRYTYPE: software
+  ID: satyam_code
+  conf: ''
+  title: Satyam Github
+  url: https://github.com/satyamresearch/satyam
+  year: '2020'
+- ENTRYTYPE: software
+  ID: CarMap_code
+  conf: ''
+  title: CarMap Github
+  url: https://github.com/USC-NSL/CarMap
+  year: '2020'
 - ENTRYTYPE: inbook
   ID: avr_getmobile
   address: New York, NY, USA
@@ -475,6 +533,15 @@
   title: 'Augmented Vehicular Reality: Enabling Extended Vision for Future Automobiles'
   url: https://doi.org/10.1145/3325867.3325880
   volume: '22'
+  year: '2019'
+- ENTRYTYPE: patent
+  ID: hdmap19
+  author: Fawad Ahmad, Hang Qiu, Fan Bai, Ramesh Govindan
+  booktitle: US20190266748 / CN110186467 / DE102019104482
+  conf: US20190266748 / CN110186467 / DE102019104482
+  note: 'Worldwide Patent:'
+  title: Crowd-sensed Point Cloud Map
+  url: https://patents.google.com/patent/US10529089B2/en
   year: '2019'
 - ENTRYTYPE: inbook
   ID: ahmad2018quicksketch
@@ -538,6 +605,16 @@
     Access
   url: https://ieeexplore.ieee.org/abstract/document/8599773
   year: '2018'
+- ENTRYTYPE: patent
+  ID: avr18
+  author: Hang Qiu, Ramesh Govindan, Marco Gruteser, Fan Bai
+  booktitle: US20180261095 / CN108574929 / DE102018105293
+  conf: US20180261095 / CN108574929 / DE102018105293
+  note: 'Worldwide Patent:'
+  title: Method and Apparatus of Networked Scene Rendering and Augmentation in Vehicular
+    Environments in Autonomous Driving Systems
+  url: https://patents.google.com/patent/US10109198B2/en
+  year: '2018'
 - ENTRYTYPE: techreport
   ID: Satyam_arxiv
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
@@ -546,6 +623,12 @@
   note: Featured in Microsoft Ignite 2019
   title: 'Satyam: Democratizing Groundtruth for Machine Vision'
   url: https://arxiv.org/abs/1811.03621
+  year: '2018'
+- ENTRYTYPE: software
+  ID: AVR_code
+  conf: ''
+  title: AVR Github
+  url: https://github.com/hangqiu/AVR16
   year: '2018'
 - ENTRYTYPE: inproceedings
   ID: avr_hotmobile
@@ -694,3 +777,30 @@
   title: My Story with ICM
   url: https://www.comap.com/undergraduate/contests/stories/My_Story_with_ICM.pdf
   year: '2013'
+- ENTRYTYPE: patent
+  ID: mrmc
+  author: Hang Qiu, Xin Huang, Qi Shi, Xinbing Wang, Jun Tian
+  booktitle: 'Patent: CN103634846'
+  conf: 'Patent: CN103634846'
+  title: Greedy Channel-allocation in Multi-radio Multi-channel Multi-hop Wireless
+    Network
+  url: https://patents.google.com/patent/CN103634846B/ko
+  year: '2012'
+- ENTRYTYPE: patent
+  ID: xin12
+  author: Xin Huang, Xinxin Feng, Hang Qiu, Gaofei Sun, Xiaohua Tian, Feng Yang, Xinbing
+    Wang
+  booktitle: 'Patent: CN102905381'
+  conf: 'Patent: CN102905381'
+  title: Energy-efficient Cooperative Sensing Schedule for Heterogeneous Users in
+    Cognitive Radio Network
+  url: https://patents.google.com/patent/CN102905381B/tr
+  year: '2012'
+- ENTRYTYPE: patent
+  ID: wax_12
+  author: Hang Qiu, Xin Huang
+  booktitle: 'Patent: CN202458213'
+  conf: 'Patent: CN202458213'
+  title: Automatic Line-tracking Floor Waxing Machine
+  url: http://cisip.org.cn/portal/patentDetail/CN201220102332.7.html
+  year: '2011'
