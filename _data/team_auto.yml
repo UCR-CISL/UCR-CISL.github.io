@@ -459,10 +459,21 @@
   current: true
   department: Robotics
   email: nshih009@ucr.edu
+  github: https://github.com/Shadow090
   linkedin: www.linkedin.com/in/nicky-s-a44458382
   name: Nicky Shih
   note: Robotics
   type: BS
+- avatar: kesia.jpg
+  current: true
+  department: Robotics
+  email: kfern054@ucr.edu
+  github: https://github.com/kcafernandes
+  linkedin: https://www.linkedin.com/in/kesia-fernandes/
+  name: Kesia Fernandes
+  note: Robotics
+  type: BS
+  web: https://kesiafernandes.vercel.app/
 - avatar: shilpa.JPG
   current: false
   department: GSR, CSE
