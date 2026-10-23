@@ -1,3 +1,21 @@
+- ENTRYTYPE: misc
+  ID: EgoHand
+  archivePrefix: arXiv
+  author: Chao-Yeh Chen, Tiffany Chen, Lin Duan, Tianyi Hu, Yu-Hsiang Huang, Umar
+    Iqbal, Jiefeng Li, Edy Lim, Yanchen Liu, Yihan Pang, Hang Qiu, Jun Saito, Shao
+    Su, Qingsi Wang, Xiufeng Xie
+  code: https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost
+  conf: NVIDIA GTC Berlin
+  eprint: '2610.30293'
+  img: egohand.gif
+  model: https://huggingface.co/nvidia/EgoHand-v1
+  primaryClass: cs.CV
+  series: NVIDIA GTC Berlin
+  tag: PAI
+  title: 'EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video'
+  url: https://arxiv.org/abs/2610.30293
+  web: https://nvidia.github.io/IsaacCapture/main/ego_post_processing/egohand.html
+  year: '2026'
 - ENTRYTYPE: inproceedings
   ID: CooperScene
   author: Bo Wu*, Ruoshen Mo*, Justin Yue, Yanyu Zhang, Janice Nguyen, Guoyuan Wu,
