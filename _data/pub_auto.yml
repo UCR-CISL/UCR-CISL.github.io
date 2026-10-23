@@ -5,12 +5,13 @@
     Iqbal, Jiefeng Li, Edy Lim, Yanchen Liu, Yihan Pang, Hang Qiu, Jun Saito, Shao
     Su, Qingsi Wang, Xiufeng Xie
   code: https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost
-  conf: NVIDIA GTC Berlin
+  conf: NVIDIA GTC'26 Berlin
   eprint: '2610.30293'
   img: egohand.gif
   model: https://huggingface.co/nvidia/EgoHand-v1
+  month: October
   primaryClass: cs.CV
-  series: NVIDIA GTC Berlin
+  series: NVIDIA GTC'26 Berlin
   tag: PAI
   title: 'EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video'
   url: https://arxiv.org/abs/2610.30293
