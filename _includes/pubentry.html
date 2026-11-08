@@ -52,6 +52,11 @@
                 <a class="github-button" href={{pub.star}} data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true">Star</a>
                 </div>
                 {% endif%}
+                {% if pub.hfdl %}
+                <a class="hf-button" href="{{pub.hfdl}}" target="_blank" rel="noopener noreferrer" style="display: none;">
+                <span class="hf-label">&#129303; Downloads</span><span class="hf-count"></span>
+                </a>
+                {% endif%}
             </div>
         </div>
         <div class="pubmediacontainer">

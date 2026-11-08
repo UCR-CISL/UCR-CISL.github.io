@@ -638,3 +638,27 @@
   color: #666;
   margin-top: 0.2rem;
 }
+/* Hugging Face download badge (sized to match the GitHub star button) */
+.hf-button {
+  display: inline-flex;
+  align-items: stretch;
+  height: 20px;
+  margin-left: 0.4rem;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: #24292f !important;
+}
+.hf-button .hf-label {
+  padding: 0 6px;
+  background: #f6f8fa;
+  border-right: 1px solid #d0d7de;
+}
+.hf-button .hf-count {
+  padding: 0 6px;
+  background: #fff;
+}

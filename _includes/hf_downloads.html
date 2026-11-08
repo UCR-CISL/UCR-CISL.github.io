@@ -1,0 +1,34 @@
+<!-- Fills in Hugging Face download counts for publication entries with an `hfdl` field.
+     Uses the public Hugging Face API (no token). Badges stay hidden if the request fails. -->
+<script>
+(function () {
+  function fmt(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, '') + 'k';
+    return String(n);
+  }
+  function apiUrl(href) {
+    var m = href.match(/huggingface\.co\/(datasets\/|spaces\/)?([^\/?#]+\/[^\/?#]+)/);
+    if (!m || m[1] === 'spaces/') return null;
+    var kind = m[1] === 'datasets/' ? 'datasets' : 'models';
+    return 'https://huggingface.co/api/' + kind + '/' + m[2] +
+           '?expand[]=downloads&expand[]=downloadsAllTime';
+  }
+  function run() {
+    document.querySelectorAll('a.hf-button').forEach(function (el) {
+      var url = apiUrl(el.getAttribute('href') || '');
+      if (!url) return;
+      fetch(url).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+        if (!d) return;
+        var n = d.downloadsAllTime != null ? d.downloadsAllTime : d.downloads;
+        if (n == null) return;
+        el.querySelector('.hf-count').textContent = fmt(n);
+        el.title = n.toLocaleString() + ' downloads on Hugging Face';
+        el.style.display = 'inline-flex';
+      }).catch(function () {});
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+  else run();
+})();
+</script>
