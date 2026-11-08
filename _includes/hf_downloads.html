@@ -21,7 +21,7 @@
       fetch(url).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
         if (!d) return;
         var n = d.downloadsAllTime != null ? d.downloadsAllTime : d.downloads;
-        if (n == null) return;
+        if (!n) return;  // hide until the repo has recorded downloads
         el.querySelector('.hf-count').textContent = fmt(n);
         el.title = n.toLocaleString() + ' downloads on Hugging Face';
         el.style.display = 'inline-flex';
