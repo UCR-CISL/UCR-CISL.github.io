@@ -7,15 +7,29 @@
   code: https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost
   conf: NVIDIA GTC'26 Berlin
   eprint: '2610.30293'
+  hfdl: https://huggingface.co/nvidia/EgoHand-v1
   img: egohand.gif
   model: https://huggingface.co/nvidia/EgoHand-v1
-  month: October
+  month: '10'
   primaryClass: cs.CV
   series: NVIDIA GTC'26 Berlin
   tag: PAI
   title: 'EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video'
   url: https://arxiv.org/abs/2610.30293
   web: https://nvidia.github.io/IsaacCapture/main/ego_post_processing/egohand.html
+  year: '2026'
+- ENTRYTYPE: inproceedings
+  ID: yuan2026separating
+  address: Sydney, Australia
+  author: Yuyang Yuan, Jason Wu, Mohammadali Khodabandehlou, Jianpeng Yao, Hang Qiu,
+    Mani Srivastava
+  booktitle: Physical World Model (PhysWorldAI) Workshop at the Fortieth Annual Conference
+    on Neural Information Processing Systems (NeurIPS)
+  conf: Physical World Model (PhysWorldAI) Workshop at the Fortieth Annual Conference
+    on Neural Information Processing Systems (NeurIPS)
+  title: Separating Environment and Sensor Shift from Acquisition Protocol in Physical
+    Vision Benchmarks
+  url: https://neurips.cc/virtual/2026/workshop/137568
   year: '2026'
 - ENTRYTYPE: inproceedings
   ID: CooperScene
@@ -25,9 +39,10 @@
   code: https://github.com/UCR-CISL/CooperScene
   conf: ECCV '26
   data: https://data.ucr.edu/datasets/cooperscene/
+  hfdl: https://huggingface.co/cisl-hf/CooperScene
   img: cooperscene.gif
   model: https://huggingface.co/cisl-hf/CooperScene
-  month: September
+  month: 09
   note: Spotlight
   series: ECCV '26
   star: https://github.com/UCR-CISL/CooperScene
@@ -46,7 +61,7 @@
   code: https://github.com/nesl/SWAN
   conf: ECCV '26
   img: swan.png
-  month: September
+  month: 09
   series: ECCV '26
   tag: mlsys
   title: 'SWAN: World-Aware Adaptive Multimodal Networks for Runtime Variations'
@@ -60,7 +75,7 @@
   code: https://github.com/tasl-lab/DMW
   conf: CVPR '26
   img: dmw.png
-  month: June
+  month: '06'
   series: CVPR '26
   tag: PAI
   title: 'Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized
@@ -75,7 +90,7 @@
   code: https://github.com/UCR-CISL/CooperTrim
   conf: ICLR '26
   img: coopertrim.png
-  month: April
+  month: '04'
   series: ICLR '26
   tag: CA
   title: 'CooperTrim: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception'
@@ -88,6 +103,7 @@
     Cosman
   booktitle: 2026 International Conference on Computing, Networking and Communications
   conf: ICNC
+  month: '02'
   series: ICNC
   title: Can We Remove the Ground? Obstacle-aware Point Cloud Compression for Remote
     Object Detection
@@ -103,6 +119,7 @@
   conf: AAMAS '26
   demo: https://utexas.app.box.com/s/5pn2rfcprqv9p992m9lzyeaurq8irrhd
   img: talkingvehicles.png
+  month: '05'
   note: Oral Presentation
   series: AAMAS '26
   tag: CA
@@ -116,14 +133,15 @@
   author: Pragya Sharma, Hang Qiu, Mani Srivastava
   booktitle: 2025 34th International Conference on Computer Communications and Networks
     (ICCCN)
-  conf: 2025 34th International Conference on Computer Communications and Networks
-    (ICCCN)
+  conf: ICCCN '25
   doi: 10.1109/ICCCN65249.2025.11133852
   keywords: Cloud computing;Computer architecture;Throughput;Real-time systems;Delays;Safety;Sensors;Vehicle
     dynamics;Autonomous vehicles;Context modeling;real-time;cloud computing;autonomous
     vehicles
+  month: 08
   number: ''
   pages: 1-9
+  series: ICCCN '25
   title: 'Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed
     Real-Time Inference'
   volume: ''
@@ -136,6 +154,7 @@
   code: https://github.com/UCR-CISL/BEVCalib
   conf: CoRL '25
   img: bevcalib.png
+  month: 09
   series: CoRL '25
   star: https://github.com/UCR-CISL/BEVCalib
   tag: PAI
@@ -155,6 +174,7 @@
   keywords: Vehicle-to-everything;Tides;Privacy;Phantoms;Electronic mail;Denial-of-service
     attack;Delays;Training;Time factors;Scalability;Autonomous vehicles;connected
     vehicles;Internet of Vehicles;vehicle safety
+  month: '03'
   number: '7'
   pages: 10092-10108
   series: IEEE TVT
@@ -171,6 +191,7 @@
   conf: ACM SenSys '25
   data: https://drive.google.com/drive/u/1/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL
   img: see-v2x.png
+  month: '05'
   numpages: '7'
   pages: "305\u2013311"
   publisher: Association for Computing Machinery
@@ -194,6 +215,7 @@
     systems;Tracking;Predictive models;Laser radar;Transformers;Point cloud compression;Pipelines;Intelligent
     transportation systems;multi-robot systems;cooperating robots;cooperative prediction;connected
     and automated vehicles
+  month: '03'
   number: ''
   pages: 1-8
   publisher: IEEE
@@ -218,6 +240,7 @@
   isbn: '9798400704895'
   keywords: augemented reality, evaluation tools, visualization
   location: Washington D.C., DC, USA
+  month: '11'
   numpages: '7'
   pages: "2106\u20132112"
   publisher: Association for Computing Machinery
@@ -254,6 +277,7 @@
   isbn: '9798400706974'
   keywords: cooperative vehicular sensing, vehicular networks, autonomous cars, LiDAR
   location: Hangzhou, China
+  month: '11'
   numpages: '14'
   pages: "141\u2013154"
   publisher: Association for Computing Machinery
@@ -272,6 +296,7 @@
   conf: ECCV '24
   data: https://drive.google.com/drive/folders/1n4S0A4k8_9yDFIPIPWH_JLTUQ6yFc8ME?usp=sharing
   img: elm.png
+  month: 09
   series: ECCV '24
   star: https://github.com/OpenDriveLab/ELM
   tag: PAI
@@ -288,6 +313,7 @@
   keywords: Feature extraction;Sensors;Data mining;Three-dimensional displays;Shape;Bandwidth;Adaptive
     systems;Cooperative Perception;Transformer;Feature Filtering;3D Object Detection;Connected
     and Automated Vehicles
+  month: '04'
   number: ''
   pages: 1-1
   series: IOT-J
@@ -297,7 +323,7 @@
   year: '2024'
 - ENTRYTYPE: inproceedings
   ID: WOMD-LiDAR
-  author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Ai-Rfou, Charles R. Qi, Xuanyu Zhou,
+  author: Kan Chen, Runzhou Ge, Hang Qiu, Rami Al-Rfou, Charles R. Qi, Xuanyu Zhou,
     Zoey Yang, Scott Ettinger, Pei Sun, Zhaoqi Leng, Mustafa Mustafa, Ivan Bogun,
     Weiyue Wang, Mingxing Tan, Dragomir Anguelov
   booktitle: Proceedings of 2024 IEEE International Conference on Robotics and Automation
@@ -307,6 +333,7 @@
   img: womdlidar.png
   mediaa: waymo-logo.svg
   mediaaurl: https://waymo.com/blog/2023/03/driving-research-forward-waymo-open
+  month: '05'
   series: ICRA '24
   star: https://github.com/waymo-research/waymo-open-dataset
   tag: PAI
@@ -340,7 +367,7 @@
   issue_date: May 2022
   journal: ACM Transactions on Sensor Networks
   keywords: neural network, Localization, camera, mechanical turk, vanishing point
-  month: feb
+  month: '02'
   number: '2'
   numpages: '26'
   publisher: Association for Computing Machinery
@@ -358,7 +385,7 @@
   conf: CVPR '22
   demo: https://youtu.be/rwR8Q5nuKkc
   img: coopernaut.png
-  month: June
+  month: '06'
   series: CVPR '22
   star: https://github.com/UT-Austin-RPL/Coopernaut
   tag: CA
@@ -377,6 +404,7 @@
   conf: ACM MobiSys '22
   demo: https://www.youtube.com/watch?v=uBmdCRmZNIo
   img: autocast.png
+  month: '06'
   series: ACM MobiSys '22
   star: https://github.com/hangqiu/AutoCastSim
   tag: CA
@@ -396,6 +424,7 @@
   img: mlexray.png
   mediaa: embeddedcomputing.png
   mediaaurl: https://www.embeddedcomputing.com/technology/ai-machine-learning/ai-dev-tools-frameworks/ml-exray-a-cloud-to-edge-deployment-validation-framework
+  month: 08
   note: Outstanding Paper Award
   series: MLSys '22
   star: https://github.com/hangqiu/ML-EXray
@@ -404,13 +433,14 @@
   url: https://arxiv.org/abs/2111.04779
   year: '2022'
 - ENTRYTYPE: article
-  ID: TMC
+  ID: TMC22
   author: Kristina Sorensen Wheatman, Fidan Mehmeti, Mark Mahon, Hang Qiu, Kevin S.
     Chan, Thomas F. La Porta
   conf: IEEE TMC
   doi: 10.1109/TMC.2022.3182317
   img: secon20.png
   journal: IEEE Transactions on Mobile Computing
+  month: '06'
   number: ''
   pages: 1-15
   series: IEEE TMC
@@ -467,7 +497,7 @@
   demo: https://youtu.be/SlG4QGq5ypk
   img: carmap.png
   isbn: 978-1-939133-13-7
-  month: Feb
+  month: '02'
   pages: 1063--1081
   publisher: '{USENIX} Association'
   series: USENIX NSDI '20
@@ -485,6 +515,7 @@
   code: https://github.com/FedML-AI/FedML
   conf: NeurIPS, SpicyFL '20
   img: fedml.png
+  month: '12'
   note: Best Paper Award
   series: NeurIPS, SpicyFL '20
   star: https://github.com/FedML-AI/FedML
@@ -500,6 +531,7 @@
   booktitle: Proceedings of the 17th Annual IEEE International Conference on Sensing,
     Communication, and Networking
   conf: IEEE SECON '20
+  month: '06'
   organization: IEEE
   pages: 1--9
   series: IEEE SECON '20
@@ -543,7 +575,7 @@
   doi: 10.1145/3325867.3325880
   issn: 2375-0529
   issue_date: December 2018
-  month: may
+  month: '05'
   note: "Invited article (Best Paper runner-up of Mobisys\u201918)"
   number: '4'
   numpages: '5'
@@ -586,6 +618,7 @@
   isbn: '9781450357203'
   keywords: Collaborative Sensing, Autonomous Cars, Extended Vision
   location: Munich, Germany
+  month: '06'
   note: Best Paper Runner-up Award
   numpages: '15'
   pages: "81\u201395"
@@ -607,6 +640,7 @@
   data: https://drive.google.com/file/d/0Bz3GHg4Beq4Xd1ZjUzk2dG1ycEMyZ3FGaXNLV2FLN0RPeGNR/view?usp=sharing
   demo: https://youtu.be/vSO7mYUpEhs
   img: kestrel.png
+  month: '04'
   organization: IEEE
   pages: 48--59
   series: IEEE/ACM IoTDI '18
@@ -619,6 +653,7 @@
     Reginald Hobbs, Niranjan Suri, Will Dron
   booktitle: Proceedings of the 37th Military Communications Conference
   conf: MILCOM '18
+  month: '10'
   series: MILCOM '18
   title: On Tracking Realistic Targets in a Megacity with Contested Air and Spectrum
     Access
@@ -675,6 +710,7 @@
   isbn: '9781450349079'
   keywords: Extended Vision, Collaborative Sensing, Autonomous Cars, ADAS
   location: Sonoma, CA, USA
+  month: '02'
   numpages: '6'
   pages: "67\u201372"
   publisher: Association for Computing Machinery
@@ -690,6 +726,7 @@
   data: https://drive.google.com/file/d/16V731K8WYizVcZPywPjKLlGPhsJkW-l4/view?usp=sharing
   img: towards_tvt.png
   journal: IEEE Transactions on Vehicular Technology
+  month: '11'
   number: '3'
   pages: 1909--1922
   publisher: IEEE
