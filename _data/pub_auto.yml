@@ -9,6 +9,8 @@
   eprint: '2610.30293'
   hfdl: https://huggingface.co/nvidia/EgoHand-v1
   img: egohand.gif
+  mediaa: nvidia.png
+  mediaaurl: https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/
   model: https://huggingface.co/nvidia/EgoHand-v1
   month: '10'
   primaryClass: cs.CV
