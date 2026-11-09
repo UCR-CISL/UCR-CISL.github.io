@@ -155,7 +155,9 @@
   booktitle: 9th Annual Conference on Robot Learning
   code: https://github.com/UCR-CISL/BEVCalib
   conf: CoRL '25
+  hfdl: https://huggingface.co/cisl-hf/BEVCalib
   img: bevcalib.png
+  model: https://huggingface.co/cisl-hf/BEVCalib
   month: 09
   series: CoRL '25
   star: https://github.com/UCR-CISL/BEVCalib
