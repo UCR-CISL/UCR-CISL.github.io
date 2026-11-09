@@ -641,6 +641,8 @@
 /* Hugging Face download badge (sized to match the GitHub star button) */
 .hf-button {
   display: inline-flex;
+  flex-shrink: 0;       /* overflow:hidden would otherwise let flexbox squeeze it to 0 */
+  white-space: nowrap;
   align-items: stretch;
   height: 20px;
   margin-left: 0.4rem;
@@ -661,4 +663,12 @@
 .hf-button .hf-count {
   padding: 0 6px;
   background: #fff;
+}
+
+/* Publication link row: let buttons and badges wrap onto a new line on narrow screens */
+.publinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 0.3rem;
 }
