@@ -82,7 +82,7 @@ further reducing data labeling cost for machine vision.
 
 ### Collaborative Projects
 
-<div class="project-grid">
+{% capture project_cards %}
 {% for proj in site.data.projects %}
   <div class="project-card">
     <a href="{{ proj.web }}" target="_blank">
@@ -96,6 +96,14 @@ further reducing data labeling cost for machine vision.
     </a>
   </div>
 {% endfor %}
+{% endcapture %}
+
+<div class="project-marquee">
+<div class="project-track">
+  {{ project_cards | strip_newlines }}
+  <!-- Duplicate for infinite scroll -->
+  <div class="project-track-dup" aria-hidden="true">{{ project_cards | strip_newlines }}</div>
+</div>
 </div>
 
 ### Select Media Coverage
