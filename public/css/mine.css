@@ -207,6 +207,49 @@
   line-height: 1.4;
 }
 
+/* Collaborative projects: sliding gallery, same pattern as the sponsor marquee */
+.project-marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0.5rem 0 2rem;
+  padding: 6px 0 12px;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+
+.project-track,
+.project-track-dup {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.project-track {
+  width: max-content;
+  animation: project-scroll 45s linear infinite;
+}
+
+.project-marquee:hover .project-track {
+  animation-play-state: paused;
+}
+
+.project-track .project-card {
+  flex: 0 0 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes project-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-50% - 0.625rem)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-marquee { overflow-x: auto; }
+  .project-track { animation: none; }
+  .project-track-dup { display: none; }
+}
+
 @media (max-width: 53.9em) {
   .project-grid {
     grid-template-columns: 1fr;
