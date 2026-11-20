@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" font-family="Helvetica, Arial, sans-serif">
+  <title>SS4A Drones as First Responders</title>
+  <!-- quadcopter mark -->
+  <g transform="translate(100,100)">
+    <circle r="86" fill="#0B3D6B"/>
+    <g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none">
+      <line x1="-38" y1="-38" x2="38" y2="38"/>
+      <line x1="38" y1="-38" x2="-38" y2="38"/>
+    </g>
+    <g fill="none" stroke="#F2A900" stroke-width="5">
+      <ellipse cx="-42" cy="-42" rx="22" ry="7"/>
+      <ellipse cx="42" cy="-42" rx="22" ry="7"/>
+      <ellipse cx="-42" cy="42" rx="22" ry="7"/>
+      <ellipse cx="42" cy="42" rx="22" ry="7"/>
+    </g>
+    <rect x="-17" y="-17" width="34" height="34" rx="8" fill="#FFFFFF"/>
+    <path d="M-4 -10 h8 v6 h6 v8 h-6 v6 h-8 v-6 h-6 v-8 h6 z" fill="#D7263D"/>
+  </g>
+  <text x="208" y="108" font-size="84" font-weight="800" fill="#0B3D6B" letter-spacing="2">SS4A</text>
+  <text x="212" y="150" font-size="27" font-weight="600" fill="#D7263D">Drones as First Responders</text>
+</svg>
