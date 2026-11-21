@@ -214,8 +214,8 @@
   position: relative;
   margin: 0.5rem 0 2rem;
   padding: 6px 0 12px;
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
-          mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 92%, transparent);
+          mask-image: linear-gradient(to right, #000 0, #000 92%, transparent);
 }
 
 .project-track {

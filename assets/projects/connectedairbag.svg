@@ -16,6 +16,6 @@
     <rect x="-17" y="-17" width="34" height="34" rx="8" fill="#FFFFFF"/>
     <path d="M-4 -10 h8 v6 h6 v8 h-6 v6 h-8 v-6 h-6 v-8 h6 z" fill="#D7263D"/>
   </g>
-  <text x="208" y="112" font-size="74" font-weight="800" letter-spacing="0.5"><tspan fill="#0B3D6B">Connected</tspan><tspan fill="#D7263D">Airbag</tspan></text>
+  <text x="208" y="112" font-size="74" font-weight="800" textLength="600" lengthAdjust="spacingAndGlyphs"><tspan fill="#0B3D6B">Connected</tspan><tspan fill="#D7263D">Airbag</tspan></text>
   <text x="212" y="156" font-size="26" font-weight="600" fill="#52606d">Airbag-to-Drone Crash Response</text>
 </svg>
