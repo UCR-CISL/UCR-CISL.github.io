@@ -33,6 +33,16 @@
     marquee.classList.add("is-looping");
   }
 
+  // Pause on mouse hover only. Touch devices keep a sticky :hover after a
+  // tap, which used to freeze the gallery, so pointer type is checked here.
+  marquee.addEventListener("pointerenter", e => { if (e.pointerType === "mouse") marquee.classList.add("is-paused"); });
+  marquee.addEventListener("pointerleave", () => marquee.classList.remove("is-paused"));
+  // Clicking a card opens a new tab; resume when the visitor comes back.
+  const resume = () => marquee.classList.remove("is-paused");
+  marquee.addEventListener("click", resume);
+  window.addEventListener("focus", resume);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) resume(); });
+
   layout();
   window.addEventListener("load", layout);
   let t;

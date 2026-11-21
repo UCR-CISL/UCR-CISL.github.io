@@ -230,7 +230,9 @@
   animation: project-scroll var(--project-duration, 45s) linear infinite;
 }
 
-.project-marquee:hover .project-track {
+/* Paused only while a mouse pointer is over the gallery (set in
+   _includes/project_marquee.html); touch taps never pause it. */
+.project-marquee.is-paused .project-track {
   animation-play-state: paused;
 }
 
