@@ -218,15 +218,16 @@
           mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
 }
 
-.project-track,
-.project-track-dup {
+.project-track {
   display: flex;
   gap: 1.25rem;
+  width: max-content;
 }
 
-.project-track {
-  width: max-content;
-  animation: project-scroll 45s linear infinite;
+/* The loop distance (--project-shift) and duration are set in px by
+   _includes/project_marquee.html after it clones the cards. */
+.project-marquee.is-looping .project-track {
+  animation: project-scroll var(--project-duration, 45s) linear infinite;
 }
 
 .project-marquee:hover .project-track {
@@ -240,14 +241,14 @@
 }
 
 @keyframes project-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(calc(-50% - 0.625rem)); }
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(var(--project-shift, 0px), 0, 0); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .project-marquee { overflow-x: auto; }
-  .project-track { animation: none; }
-  .project-track-dup { display: none; }
+  .project-marquee.is-looping .project-track { animation: none; }
+  .project-track .project-clone { display: none; }
 }
 
 @media (max-width: 53.9em) {

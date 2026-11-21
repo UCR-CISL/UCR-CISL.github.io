@@ -1,0 +1,41 @@
+<script>
+/* Collaborative Projects loop: clone the cards and scroll exactly one set
+   width (in px), so the loop is seamless in every browser. */
+(function () {
+  const marquee = document.querySelector(".project-marquee");
+  if (!marquee) return;
+  const track = marquee.querySelector(".project-track");
+  const originals = Array.from(track.children).filter(el => el.classList.contains("project-card"));
+  if (!originals.length) return;
+  const SPEED = 35; // px per second
+
+  function addCopy() {
+    originals.forEach(card => {
+      const c = card.cloneNode(true);
+      c.classList.add("project-clone");
+      c.setAttribute("aria-hidden", "true");
+      c.querySelectorAll("a").forEach(a => a.setAttribute("tabindex", "-1"));
+      track.appendChild(c);
+    });
+  }
+
+  function layout() {
+    // Distance from the first card to its first copy = one full set incl. gap.
+    if (track.children.length === originals.length) addCopy();
+    const first = originals[0];
+    const copyStart = track.children[originals.length];
+    const setWidth = copyStart.offsetLeft - first.offsetLeft;
+    if (setWidth <= 0) return;
+    // Keep enough copies that the visible window never runs out of cards.
+    while (track.scrollWidth - setWidth < marquee.clientWidth + 1) addCopy();
+    track.style.setProperty("--project-shift", (-setWidth) + "px");
+    track.style.setProperty("--project-duration", (setWidth / SPEED) + "s");
+    marquee.classList.add("is-looping");
+  }
+
+  layout();
+  window.addEventListener("load", layout);
+  let t;
+  window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(layout, 150); });
+})();
+</script>
