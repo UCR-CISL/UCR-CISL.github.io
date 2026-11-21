@@ -101,10 +101,9 @@ further reducing data labeling cost for machine vision.
 <div class="project-marquee">
 <div class="project-track">
   {{ project_cards | strip_newlines }}
-  <!-- Duplicate for infinite scroll -->
-  <div class="project-track-dup" aria-hidden="true">{{ project_cards | strip_newlines }}</div>
 </div>
 </div>
+{% include project_marquee.html %}
 
 ### Select Media Coverage
 <div class="media-wrapper">
