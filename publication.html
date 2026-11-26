@@ -21,7 +21,7 @@ title: Publication
 
 <div>
 {% for pub in site.data.pub_auto %}
-    {% if pub.ENTRYTYPE == "misc" %}
+    {% if pub.ENTRYTYPE == "misc" or pub.ENTRYTYPE == "techreport" %}
         {% if pub.img %}
             {% include pubentry.html %}
         {% endif %}
