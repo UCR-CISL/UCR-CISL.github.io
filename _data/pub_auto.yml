@@ -31,6 +31,7 @@
     Multimodal Sensing (NeurIPS 2026)'
   conf: NeurIPS '26 Workshop on Physical World AI
   eprint: '2611.33507'
+  month: '12'
   primaryClass: cs.CV
   series: NeurIPS '26 Workshop on Physical World AI
   title: Separating Environment and Sensor Shift from Acquisition Protocol in Physical
@@ -58,6 +59,22 @@
     Characterization'
   url: https://arxiv.org/abs/2606.31219
   web: https://cisl.ucr.edu/CooperScene/
+  year: '2026'
+- ENTRYTYPE: inproceedings
+  ID: CooperSceneDemo
+  author: Bo Wu, Ruoshen Mo, Justin Yue, Yanyu Zhang, Janice Nguyen, Guoyuan Wu, Amit
+    Roy-Chowdhury, Matthew Barth, Hang Qiu
+  booktitle: Proceedings of the 32nd Annual International Conference on Mobile Computing
+    and Networking
+  conf: ACM MobiCom '26
+  doi: 10.1145/3795866.3848478
+  month: '10'
+  pages: "1762\u20131764"
+  publisher: ACM
+  series: ACM MobiCom '26
+  title: 'Demo: CooperScene: Multi-Modal Cooperative Autonomy Benchmark under C-V2X
+    Communication Constraints'
+  url: https://doi.org/10.1145/3795866.3848478
   year: '2026'
 - ENTRYTYPE: inproceedings
   ID: SWAN
@@ -114,6 +131,38 @@
   title: Can We Remove the Ground? Obstacle-aware Point Cloud Compression for Remote
     Object Detection
   url: https://arxiv.org/abs/2410.00582
+  year: '2026'
+- ENTRYTYPE: inproceedings
+  ID: EyesOnContext
+  author: Mehak Saleem, Siyan Li, Marco Miralles, Eunjeong Hyeon, Guoyuan Wu, Hang
+    Qiu, Matthew J. Barth
+  booktitle: 2026 IEEE Transportation Electrification Conference \& Expo (ITEC) \&
+    Electric Aircraft Technologies Symposium (EATS) (ITEC+EATS)
+  conf: IEEE ITEC+EATS '26
+  doi: 10.1109/iteceats66641.2026.11592901
+  month: '06'
+  pages: "1\u20136"
+  publisher: IEEE
+  series: IEEE ITEC+EATS '26
+  title: 'Eyes on Context: Intelligent Driver Monitoring System with Driving Scene
+    Awareness'
+  url: https://doi.org/10.1109/iteceats66641.2026.11592901
+  year: '2026'
+- ENTRYTYPE: inproceedings
+  ID: GNSSSpoofing
+  author: Mike Stas, Janice Nguyen, Ronald W. Snyder, Ruoshen Mo, Hang Qiu, Matthew
+    J. Barth
+  booktitle: Proceedings of the ION 2026 Pacific PNT Meeting
+  conf: ION Pacific PNT '26
+  doi: 10.33012/2026.20611
+  issn: 2331-6284
+  month: '05'
+  pages: "786\u2013800"
+  publisher: Institute of Navigation
+  series: ION Pacific PNT '26
+  title: Sensor- and Communication-Based GNSS Spoofing and Jamming Detection Framework
+    for Connected and Automated Vehicle Applications
+  url: https://doi.org/10.33012/2026.20611
   year: '2026'
 - ENTRYTYPE: inproceedings
   ID: CoopReflect
@@ -208,6 +257,33 @@
   title: 'SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach'
   url: https://doi.org/10.1145/3715014.3722077
   web: https://cisl.ucr.edu/SEE-V2X/
+  year: '2025'
+- ENTRYTYPE: inproceedings
+  ID: SEE-V2X-Poster
+  author: Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu
+  booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
+  conf: ACM SenSys '25
+  doi: 10.1145/3715014.3724026
+  month: '05'
+  pages: "598\u2013599"
+  publisher: ACM
+  series: ACM SenSys '25
+  title: 'Poster Abstract: SEE-V2X: Empirical Evaluation of C-V2X Direct Communication
+    in Real-World Scenarios'
+  url: https://doi.org/10.1145/3715014.3724026
+  year: '2025'
+- ENTRYTYPE: inproceedings
+  ID: CoopSensingDemo
+  author: Bo Wu, Jerry Li, Ruoshen Mo, Justin Yue, Dinesh Bharadia, Hang Qiu
+  booktitle: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
+  conf: ACM SenSys '25
+  doi: 10.1145/3715014.3724372
+  month: '05'
+  pages: "712\u2013713"
+  publisher: ACM
+  series: ACM SenSys '25
+  title: 'Demo Abstract: Cooperative Multi-modal Sensing'
+  url: https://doi.org/10.1145/3715014.3724372
   year: '2025'
 - ENTRYTYPE: article
   ID: CMP
@@ -349,6 +425,19 @@
   url: https://arxiv.org/abs/2304.03834
   web: https://waymo.com/research/womd-lidar/
   year: '2024'
+- ENTRYTYPE: techreport
+  ID: FluidML
+  archivePrefix: arXiv
+  author: Jinjie Liu, Hang Qiu
+  conf: ''
+  doi: 10.48550/arXiv.2411.09242
+  eprint: '2411.09242'
+  institution: arXiv
+  month: '11'
+  primaryClass: cs.LG
+  title: 'FluidML: Fast and Memory Efficient Inference Optimization'
+  url: https://arxiv.org/abs/2411.09242
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: MCAL
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
@@ -356,6 +445,7 @@
   code: https://github.com/hangqiu/MCAL
   conf: ICLR '23
   img: mcal.jpg
+  month: '05'
   series: ICLR '23
   tag: mlsys
   talk: https://iclr.cc/virtual/2023/poster/12195
@@ -480,6 +570,21 @@
   title: AutoCast Github
   url: https://github.com/hangqiu/AutoCast
   year: '2022'
+- ENTRYTYPE: techreport
+  ID: PFLDriver
+  archivePrefix: arXiv
+  author: Manabu Nakanoya, Junha Im, Hang Qiu, Sachin Katti, Marco Pavone, Sandeep
+    Chinchali
+  conf: ''
+  doi: 10.48550/arXiv.2112.00956
+  eprint: '2112.00956'
+  institution: arXiv
+  month: '12'
+  primaryClass: cs.LG
+  title: Personalized Federated Learning of Driver Prediction Models for Autonomous
+    Driving
+  url: https://arxiv.org/abs/2112.00956
+  year: '2021'
 - ENTRYTYPE: software
   ID: mlexray_pip
   conf: ''
@@ -492,6 +597,7 @@
     Ramesh Govindan
   conf: ''
   institution: ArXiv
+  month: '03'
   title: On Localizing a Camera from a Single Image
   url: https://arxiv.org/abs/2003.10664
   year: '2020'
@@ -551,6 +657,7 @@
   author: Fawad Ahmad, Hang Qiu, Ramesh Govindan, Donald K Grimm, Fan Bai
   booktitle: US20200278217 / CN111638536 / DE102020102725
   conf: US20200278217 / CN111638536 / DE102020102725
+  month: 09
   note: 'Worldwide Patent:'
   title: Method and Apparatus for a Context-aware Crowd-sourced Sparse High Definition
     Map
@@ -598,6 +705,7 @@
   author: Fawad Ahmad, Hang Qiu, Fan Bai, Ramesh Govindan
   booktitle: US20190266748 / CN110186467 / DE102019104482
   conf: US20190266748 / CN110186467 / DE102019104482
+  month: 08
   note: 'Worldwide Patent:'
   title: Crowd-sensed Point Cloud Map
   url: https://patents.google.com/patent/US10529089B2/en
@@ -672,6 +780,7 @@
   author: Hang Qiu, Ramesh Govindan, Marco Gruteser, Fan Bai
   booktitle: US20180261095 / CN108574929 / DE102018105293
   conf: US20180261095 / CN108574929 / DE102018105293
+  month: 09
   note: 'Worldwide Patent:'
   title: Method and Apparatus of Networked Scene Rendering and Augmentation in Vehicular
     Environments in Autonomous Driving Systems
@@ -682,6 +791,7 @@
   author: Hang Qiu, Krishna Chintalapudi, Ramesh Govindan
   conf: ''
   institution: Integrated into Microsoft Azure ML. Used by UCSB, USC, UIUC, ARL.
+  month: '11'
   note: Featured in Microsoft Ignite 2019
   title: 'Satyam: Democratizing Groundtruth for Machine Vision'
   url: https://arxiv.org/abs/1811.03621
@@ -758,6 +868,7 @@
   keywords: 802.11, cooperative transmission, access point coordination, WiFi access
     in crowded scenarios
   location: Paderborn, Germany
+  month: '07'
   numpages: '10'
   pages: "301\u2013310"
   publisher: Association for Computing Machinery
@@ -793,6 +904,7 @@
   isbn: '9781450336314'
   keywords: map, GPS, accuracy
   location: Seoul, South Korea
+  month: '11'
   numpages: '13'
   pages: "253\u2013265"
   publisher: Association for Computing Machinery
@@ -813,6 +925,7 @@
   isbn: '9781450331432'
   keywords: datalog, automotive, predicate acquisition, latency
   location: Memphis, Tennessee
+  month: '11'
   numpages: '15'
   pages: "221\u2013235"
   publisher: Association for Computing Machinery
@@ -846,6 +959,7 @@
   author: Hang Qiu, Xin Huang, Qi Shi, Xinbing Wang, Jun Tian
   booktitle: 'Patent: CN103634846'
   conf: 'Patent: CN103634846'
+  month: 08
   title: Greedy Channel-allocation in Multi-radio Multi-channel Multi-hop Wireless
     Network
   url: https://patents.google.com/patent/CN103634846B/ko
@@ -856,6 +970,7 @@
     Wang
   booktitle: 'Patent: CN102905381'
   conf: 'Patent: CN102905381'
+  month: 09
   title: Energy-efficient Cooperative Sensing Schedule for Heterogeneous Users in
     Cognitive Radio Network
   url: https://patents.google.com/patent/CN102905381B/tr
