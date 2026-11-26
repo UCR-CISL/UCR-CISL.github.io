@@ -715,6 +715,7 @@
   author: Fawad Ahmad, Hang Qiu, Xiaochen Liu, Fan Bai, Ramesh Govindan
   booktitle: 21st International Conference on Information Fusion (Fusion '18)
   conf: 21st International Conference on Information Fusion (Fusion '18)
+  month: '07'
   organization: IEEE
   pages: 2314--2321
   title: 'QuickSketch: Building 3D Representations in Unknown Environments using Crowdsourcing'
